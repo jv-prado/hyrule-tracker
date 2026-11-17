@@ -1,0 +1,247 @@
+// Live source: attaches (read-only) to a running game (Hookshot, Longshot, NX2navi or the
+// Fritchii emulator), keeps the progress tables located, and reports when tracked values
+// change. Falls back to nothing (the save files) whenever the game isn't running or isn't
+// in the same playthrough.
+import type { GameDataFile } from '../gamedata/parser.js';
+import { locate, readTables, buildLive, fingerprint, matchesReference, sweepRanges, LiveTables, Agreement } from '../gamedata/live.js';
+import { ProcessMemory, findProcesses, initMemoryAccess } from './procmem.js';
+import { NATIVE_EXES, EMULATOR_EXES } from '../gamedata/saves.js';
+import type { LiveInfo } from '../shared/types.js';
+import { PlayerReader, type LivePlayer } from '../gamedata/player.js';
+
+/**
+ * Programs that run the game. Hookshot and its fork Longshot run it as hookshot.exe;
+ * NX2navi builds it as Triforce.exe and Project ReLink as bin\relink-game.exe. They map the game
+ * at a fixed place. The Fritchii
+ * emulator (lichii.exe) puts it somewhere new every run, so it's found by sweeping.
+ */
+const GAMES = [...NATIVE_EXES.map(image => ({ image, emulator: false })),
+  ...EMULATOR_EXES.map(image => ({ image, emulator: true }))];
+const TICK_MS = 500;
+const FIND_EVERY_MS = 3000;
+/**
+ * Where the tables were in Hookshot v2.1.0, Longshot v1.0.0, and NX2navi's Triforce v0.4.0 and
+ * Project ReLink (the same address) (host addresses). Only starting points.
+ */
+const DEFAULT_HINTS = [0x1010_99f4_f418n, 0x1010_7eea_f418n, 0x1010_8bda_f418n];
+/** The game's heap: guest 0x10_0000_0000, ~7 GB, mapped at host base 0x1000_0000_0000. */
+const HEAP_LO = 0x1010_0000_0000n, HEAP_HI = 0x1011_c000_0000n;
+const SWEEP_WINDOW = 64 << 20; // locate() reads twice this per step
+/** Steps overlap a little, so tables lying across two windows are still found whole. */
+const SWEEP_STEP = BigInt(SWEEP_WINDOW * 2 - (8 << 20));
+
+export interface LiveOptions {
+  /** Table addresses found before (hex), newest first. */
+  hints: string[];
+  onHint(hex: string): void;
+  /** A game was attached to: the full path of its exe, if Windows gave it. */
+  onGame?(exe: string | undefined): Promise<void>;
+  onChange(): void;
+  onStatus(): void;
+  /** Link moved (or changed scene). Read it with player(). */
+  onPlayer?(): void;
+}
+
+export class LiveSource {
+  info: LiveInfo = { status: 'off' };
+  private mem?: ProcessMemory;
+  private tables?: LiveTables;
+  private ref?: GameDataFile;
+  private timer?: NodeJS.Timeout;
+  private lastFind = 0;
+  private lastPrint?: string;
+  private snapshot?: { data: GameDataFile; atMs: number; resettable: Set<bigint> };
+  private emulator = false;
+  /** Where the sweep is: ranges to search (host [lo, hi)), the current one and the next window's centre. */
+  private sweep?: { ranges: [bigint, bigint][]; i: number; at: bigint };
+  private sweepPausedUntil = 0;
+  private inFlight?: Promise<void>;
+  private playerReader?: PlayerReader;
+  private playerNow?: LivePlayer & { atMs: number };
+  watchInts = new Set<number>();
+
+  constructor(private opts: LiveOptions) {}
+
+  async start() {
+    if (!(await initMemoryAccess())) return this.set({ status: 'unavailable', detail: 'Reading game memory is not available on this system.' });
+    this.set({ status: 'no-game' });
+    this.timer = setInterval(() => void this.tick(), TICK_MS);
+    void this.tick();
+  }
+
+  stop() {
+    if (this.timer) clearInterval(this.timer);
+    this.timer = undefined;
+    this.detach();
+    this.set({ status: 'off' });
+  }
+
+  /** The latest save: tells types apart and confirms we're looking at the same playthrough. */
+  setReference(ref: GameDataFile | undefined) {
+    if (this.ref === ref) return;
+    this.ref = ref;
+    this.lastPrint = undefined;
+    if (!ref) this.snapshot = undefined;
+  }
+
+  /** Link's latest live position, while a game is attached and it could be read. */
+  player() { return this.mem ? this.playerNow : undefined; }
+
+  /** Live data, only while it matches the reference save. */
+  current() { return this.info.status === 'live' ? this.snapshot : undefined; }
+  get gamePid() { return this.current() ? this.mem?.pid : undefined; }
+
+  refreshNow() {
+    if (!this.timer) return;
+    this.lastFind = 0;
+    this.sweepPausedUntil = 0;
+    return this.tick();
+  }
+
+  private set(info: LiveInfo) {
+    const changed = info.status !== this.info.status || info.detail !== this.info.detail ||
+      JSON.stringify(info.detailValues) !== JSON.stringify(this.info.detailValues);
+    this.info = info;
+    if (changed) { console.log('[live]', info.status, info.detail ?? ''); this.opts.onStatus(); }
+  }
+
+  private detach() {
+    this.mem?.close();
+    this.mem = undefined;
+    this.tables = undefined;
+    this.snapshot = undefined;
+    this.lastPrint = undefined;
+    this.sweep = undefined;
+    this.sweepPausedUntil = 0;
+    this.playerReader = undefined;
+    if (this.playerNow) { this.playerNow = undefined; this.opts.onPlayer?.(); }
+  }
+
+  private tick() {
+    this.inFlight ??= this.step().catch(e => {
+      console.error('live', e);
+      this.detach();
+      this.set({ status: 'no-game', detail: String((e as Error).message ?? e) });
+    }).finally(() => {
+      this.inFlight = undefined;
+    });
+    return this.inFlight;
+  }
+
+  private async step() {
+    if (this.mem && !this.mem.alive()) { this.detach(); this.set({ status: 'no-game' }); }
+    if (!this.mem) {
+      if (Date.now() - this.lastFind < FIND_EVERY_MS) return;
+      this.lastFind = Date.now();
+      const game = await findGame();
+      if (!this.timer) return;
+      if (!game) return this.set({ status: 'no-game' });
+      this.mem = new ProcessMemory(game.pid);
+      this.emulator = !!game.emulator;
+      // Link's position: only where guest memory sits at the fixed base (not in emulators).
+      if (!this.emulator) { const mem = this.mem; this.playerReader = new PlayerReader(mem, () => mem.regions()); }
+      await this.opts.onGame?.(this.mem.imagePath());
+    }
+    if (!this.mem) return;
+    this.readPlayer();
+    if (!this.ref) return this.set({ status: 'searching', detail: 'Waiting for a save to compare with.' });
+    if (!this.tables && !this.find()) return;
+    const raw = readTables(this.mem, this.tables!);
+    if (!raw) { this.tables = undefined; this.lastPrint = undefined; return this.set({ status: 'searching' }); }
+    const print = fingerprint(this.tables!, raw, this.watchInts);
+    // Nothing tracked changed: skip rebuilding (most ticks).
+    if (print === this.lastPrint && this.info.status === 'live') return;
+    const live = buildLive(this.tables!, raw, this.ref);
+    if (!matchesReference(live.agreement)) {
+      this.snapshot = undefined;
+      this.lastPrint = undefined;
+      return this.set({ status: 'waiting', ...describeMismatch(live.agreement) });
+    }
+    const wasLive = this.info.status === 'live';
+    this.set({ status: 'live' });
+    if (print !== this.lastPrint || !wasLive) {
+      this.lastPrint = print;
+      this.snapshot = { data: live.data, atMs: Date.now(), resettable: live.resettable };
+      this.opts.onChange();
+    }
+  }
+
+  private readPlayer() {
+    const p = this.playerReader?.read();
+    if (!p) return;
+    const prev = this.playerNow;
+    const moved = !prev || prev.scene !== p.scene || Math.abs(prev.pos.x - p.pos.x) > 0.05 ||
+      Math.abs(prev.pos.y - p.pos.y) > 0.05 || Math.abs(prev.pos.z - p.pos.z) > 0.05 || Math.abs(prev.pos.yaw - p.pos.yaw) > 2;
+    if (!moved) return;
+    this.playerNow = { ...p, atMs: Date.now() };
+    this.opts.onPlayer?.();
+  }
+
+  /**
+   * Try the saved hints, then the defaults, then sweep one window per tick: the recomps'
+   * heap, or an emulator's mapped memory (biggest blocks first).
+   */
+  private find(): boolean {
+    const mem = this.mem!, ref = this.ref!;
+    if (Date.now() < this.sweepPausedUntil) return false;
+    if (this.sweep === undefined) {
+      // After a full sweep found nothing, stay "waiting" rather than flicker back.
+      if (this.info.status !== 'waiting') this.set({ status: 'searching' });
+      const hints = [...new Set([...this.opts.hints.map(h => BigInt('0x' + h)), ...DEFAULT_HINTS])];
+      // Exact spots first (cheap), then a wider window around each. An emulator's memory
+      // moves every run, so only a tracker restart during the same run hits a hint there.
+      for (const h of hints) { const t = locate(mem, ref, h, 4 << 20); if (t) return this.found(t); }
+      if (!this.emulator) for (const h of hints.slice(0, 2)) {
+        const t = locate(mem, ref, h, SWEEP_WINDOW);
+        if (t) return this.found(t);
+      }
+      const ranges: [bigint, bigint][] = this.emulator
+        ? sweepRanges(mem.regions())
+        : [[HEAP_LO, HEAP_HI], ...sweepRanges(mem.regions()).filter(([lo, hi]) => hi <= HEAP_LO || lo >= HEAP_HI)];
+      this.sweep = { ranges, i: 0, at: (ranges[0]?.[0] ?? 0n) + BigInt(SWEEP_WINDOW) };
+    }
+    const s = this.sweep;
+    const range = s.ranges[s.i];
+    if (range) {
+      const t = locate(mem, ref, s.at, SWEEP_WINDOW);
+      if (t) return this.found(t);
+      s.at += SWEEP_STEP;
+      if (s.at - BigInt(SWEEP_WINDOW) >= range[1] && s.ranges[++s.i]) s.at = s.ranges[s.i][0] + BigInt(SWEEP_WINDOW);
+    }
+    if (!s.ranges[s.i]) {
+      // Not found anywhere (e.g. still at the title screen). Try again in a bit.
+      this.sweep = undefined;
+      this.sweepPausedUntil = Date.now() + 10_000;
+      this.set({ status: 'waiting', detail: "Couldn't find the progress tables yet. Load your file in the game." });
+    }
+    return false;
+  }
+
+  private found(t: LiveTables): boolean {
+    this.tables = t;
+    this.sweep = undefined;
+    const hint = t.records[0].start.toString(16);
+    if (hint !== this.opts.hints[0]) { this.opts.hints = [hint, ...this.opts.hints.filter(h => h !== hint)].slice(0, 4); this.opts.onHint(hint); }
+    return true;
+  }
+}
+
+/** The first running game, in the order of GAMES. */
+async function findGame(): Promise<{ pid: number; emulator?: boolean } | undefined> {
+  for (const g of GAMES) {
+    const [pid] = await findProcesses(g.image);
+    if (pid) return { pid, emulator: g.emulator };
+  }
+  return undefined;
+}
+
+/** A translatable key (source text) plus its values; the window translates it. */
+function describeMismatch(a: Agreement[]): Pick<LiveInfo, 'detail' | 'detailValues'> {
+  const b = a.find(x => x.type === 'Bool');
+  const k = a.find(x => x.type === 'Bool64bitKey');
+  const kept = b?.refTrue ? Math.round((100 * b.liveTrueOfRefTrue!) / b.refTrue) : 100;
+  return {
+    detail: "The game is running, but its progress doesn't match your latest save ({percent}% of flags, {missing} collected objects missing). On the title screen, or a different file?",
+    detailValues: { percent: kept, missing: k ? k.checked - k.agree : 0 },
+  };
+}

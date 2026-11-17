@@ -1,0 +1,236 @@
+// Types shared by the main process and the UI. No imports from Electron or Node.
+
+export type ItemState = 'yes' | 'no' | 'unknown' | 'unmapped';
+
+export interface TrackedItem {
+  id: string;
+  number: number;
+  name: string;
+  chapter?: string;
+  region?: string;
+  requirement?: string;
+  details?: Record<string, string>;
+  newInRemake?: boolean;
+  iconId: string;
+  /** Where to find it, in a sentence or two (data/descriptions.json). */
+  where?: string;
+  /** What the save says (unmapped = no rule yet). */
+  state: ItemState;
+  /** Ticked by hand in the tracker (saved per slot). */
+  manual: boolean;
+  /** Collected, by save or by hand. */
+  done: boolean;
+  confidence?: 'confirmed' | 'likely' | 'guess';
+  evidence?: string;
+  /** Became collected in the latest save. */
+  justCollected?: boolean;
+  /** "Can get now" logic, if the row has a logic entry */
+  logic?: ItemLogic;
+}
+
+export interface ItemLogic {
+  ages: ('child' | 'adult')[]; // empty = not yet
+  region: string;
+  needs?: string;
+  night?: boolean;
+  unsure?: boolean;
+  note?: string;
+  missing: string[];
+}
+
+export interface AvailableEntry {
+  id: string;
+  categoryId: string;
+  categoryLabel: string;
+  number: number;
+  name: string;
+  region: string;
+  ages: ('child' | 'adult')[];
+  night?: boolean;
+  unsure?: boolean;
+  here: boolean; // in the area you last saved in
+}
+
+export interface TrackedCategory {
+  id: string;
+  label: string;
+  part: 'A' | 'B' | 'C';
+  countsToward100: boolean;
+  kind: 'list' | 'counter';
+  note?: string;
+  /** e.g. "Your save has 3 pieces; 0 matched to a location yet" */
+  hint?: string;
+  /** Values for the hint's {placeholders} (translate with message(hint, hintValues)) */
+  hintValues?: Record<string, string | number>;
+  items: TrackedItem[];
+  done: number;
+  total: number;
+  /** For counters */
+  value?: number | null;
+  max?: number;
+  counterConfidence?: string;
+}
+
+export interface SlotSummary {
+  name: string; // slot_03
+  mtimeMs: number;
+  area?: string;
+}
+
+export interface Activity {
+  ms: number;
+  source: 'live' | 'save';
+  area?: string;
+  entries: string[];
+  hearts?: number;
+  pieces?: number;
+  enemies?: number;
+  rupees?: number;
+  screenshot?: string;
+}
+
+export interface Summary {
+  hearts: number | null;
+  maxHeartsPossible: number;
+  heartPiecesHeld: number | null;
+  tokens: number | null;
+  nextReward: { tokens: number; reward: string } | null;
+  /** Rewards whose token count is reached but not yet collected at the House of Skulltula */
+  claimable: { tokens: number; reward: string }[];
+  percent: number; // 0–100, Part A only
+  doneA: number;
+  totalA: number;
+  area?: string;
+  lastSavedMs?: number;
+}
+
+export interface ChangeRow {
+  key: string; // "0x1234ABCD" or "b64:0x..."
+  name?: string;
+  type: string;
+  old: string;
+  new: string;
+  /** Checklist entries whose rules read this key */
+  entries?: string[];
+}
+
+export interface ChangeReport {
+  atMs: number;
+  slot: string;
+  known: ChangeRow[]; // keys used by the mapping
+  unknown: ChangeRow[]; // other keys (noise filtered)
+  hiddenNoise: number;
+}
+
+export interface Toast { id: number; text: string; values?: Record<string, string | number> }
+
+/** Where Link is on the atlas maps: live from the game, or from the latest save. */
+export interface PlayerState {
+  source: 'live' | 'save';
+  /** Atlas place id ('kokiri', 'fuego'...), its map (floor / era) and 0..1 coordinates on it. */
+  placeId: string;
+  mapId: string | null;
+  at: { x: number; y: number } | null;
+  /** 0..1 coordinates on the Hyrule world map. */
+  world: { x: number; y: number };
+  /** Facing, degrees clockwise from north (map up). */
+  yaw: number;
+  pos: { x: number; y: number; z: number };
+  scene?: string;
+}
+
+export interface AppState {
+  status: 'ok' | 'no-folder' | 'no-slots' | 'error' | 'loading';
+  /** Link on the map (live while the game is attached, else the save's position). */
+  player?: PlayerState;
+  saveReadError?: boolean;
+  message?: string;
+  /** Values for the message's {placeholders} (translate with message(message, messageValues)) */
+  messageValues?: Record<string, string | number>;
+  saveDir?: string;
+  sourceLabel?: string;
+  companion?: import('../core/companion.js').CompanionProgress;
+  placements?: Record<string, import('../core/companion.js').ChestPlacement[]>;
+  atlasStatus?: Record<string, import('../core/atlas.js').AtlasStatus>;
+  activity?: Activity[];
+  saveImage?: string;
+  captureActivity?: boolean;
+  slots: SlotSummary[];
+  slotMode: 'recent' | 'manual';
+  activeSlot?: string;
+  summary?: Summary;
+  categories: TrackedCategory[];
+  lastChanges?: ChangeReport;
+  snapshots: { file: string; label: string }[];
+  snapshotDiff?: { from: string; to: string; rows: ChangeRow[] };
+  toasts: Toast[];
+  devPanel: boolean;
+  version: string;
+  /** Checklist regions matching the save's current area (for the overlay) */
+  areaRegions: string[];
+  /** 100% entries obtainable right now (logic), current area first */
+  available: AvailableEntry[];
+  /** Whether time travel is unlocked (adult entries possible) */
+  canBeAdult: boolean;
+  /** Open "which one was this?" questions, oldest first */
+  identify: IdentifyRequest[];
+  /** How many spots the user has identified so far */
+  learnedCount: number;
+  overlay: OverlayState;
+  hotkeys: { toggleOverlay: string; lockOverlay: string; errors: string[] };
+  /** Reading progress straight from the running game (read-only) */
+  live: LiveInfo & { using: boolean };
+  /** Local log of tracked changes */
+  changeLog: { enabled: boolean; dir: string };
+}
+
+/**
+ * off: turned off · unavailable: can't read memory on this system · no-game: no supported game is
+ * running · searching: looking for the progress tables · waiting: found the game, but it
+ * doesn't match the latest save (title screen, other file) · live: in use
+ */
+export interface LiveInfo {
+  status: 'off' | 'unavailable' | 'no-game' | 'searching' | 'waiting' | 'live';
+  detail?: string;
+  /** Values for the detail's {placeholders} */
+  detailValues?: Record<string, string | number>;
+}
+
+/** "Which one was this?" question shown after collecting an unplaced Skulltula/heart piece. */
+export interface IdentifyRequest {
+  id: string; // stable: sorted new flags
+  categoryLabel: string;
+  area: string;
+  flags: string[]; // newly set, unidentified
+  pick: number; // how many rows to choose
+  candidates: { id: string; number: number; name: string }[];
+  /** Rows of the same group in other areas (the question was narrowed to where you were) */
+  others?: { id: string; number: number; name: string }[];
+  at?: string;
+}
+
+export type OverlayMode = 'counters' | 'remaining' | 'available';
+
+export interface OverlayState {
+  visible: boolean;
+  locked: boolean;
+  opacity: number; // 0.2–1
+  mode: OverlayMode;
+}
+
+export interface UiPrefs {
+  hideCollected: boolean;
+  hiddenCategories: string[];
+  /** Categories shown as header only */
+  collapsed: string[];
+  showParts: { B: boolean; C: boolean };
+  /** Height of the "Can get now" panel in pixels (user-resized) */
+}
+
+/** Auto-update progress, shown in the update dialog. `notes` is the plain-text changelog of the new version. */
+export interface UpdateState {
+  status: 'idle' | 'available' | 'downloading' | 'ready' | 'error';
+  version?: string;
+  percent?: number;
+  notes?: string;
+}

@@ -1,0 +1,5005 @@
+{
+  "map": {
+    "image": "images/atlas/hyrule-full.webp",
+    "width": 6000,
+    "height": 4364
+  },
+  "places": [
+    {
+      "id": "kokiri",
+      "name": "Kokiri Forest",
+      "kind": "zone",
+      "pin": {
+        "x": 0.5913,
+        "y": 0.674
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/7e802ffa8684f3cd.svg",
+          "aspect": 1.8072,
+          "vb": {
+            "vx": -28,
+            "vy": -35,
+            "vw": 900,
+            "vh": 498
+          }
+        }
+      ]
+    },
+    {
+      "id": "perdido",
+      "name": "Lost Woods",
+      "kind": "zone",
+      "pin": {
+        "x": 0.6947,
+        "y": 0.6392
+      },
+      "startMap": null,
+      "maps": []
+    },
+    {
+      "id": "prado",
+      "name": "Sacred Forest Meadow",
+      "kind": "zone",
+      "pin": {
+        "x": 0.7774,
+        "y": 0.6745
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/30559071ebb5f020.svg",
+          "aspect": 0.2702,
+          "vb": {
+            "vx": 190,
+            "vy": -8,
+            "vw": 492,
+            "vh": 1821
+          }
+        }
+      ]
+    },
+    {
+      "id": "llanura",
+      "name": "Hyrule Field",
+      "kind": "zone",
+      "pin": {
+        "x": 0.4475,
+        "y": 0.6267
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/2cca33a54d435cd8.svg",
+          "aspect": 1.2855,
+          "vb": {
+            "vx": -50,
+            "vy": -49,
+            "vw": 950,
+            "vh": 739
+          }
+        }
+      ]
+    },
+    {
+      "id": "lonlon",
+      "name": "Lon Lon Ranch",
+      "kind": "zone",
+      "pin": {
+        "x": 0.3816,
+        "y": 0.573
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/ca027ad410e8d247.svg",
+          "aspect": 1.0897,
+          "vb": {
+            "vx": -34,
+            "vy": -43,
+            "vw": 923,
+            "vh": 847
+          }
+        }
+      ]
+    },
+    {
+      "id": "ciudadela",
+      "name": "Hyrule Castle Town",
+      "kind": "zone",
+      "pin": {
+        "x": 0.4333,
+        "y": 0.385
+      },
+      "startMap": "nino",
+      "maps": [
+        {
+          "id": "nino",
+          "label": "Child",
+          "image": "images/atlas/44d0923e6fd7b7bc.svg",
+          "aspect": 1.1157,
+          "vb": {
+            "vx": -34,
+            "vy": -38,
+            "vw": 887,
+            "vh": 795
+          }
+        },
+        {
+          "id": "adulto",
+          "label": "Adult",
+          "image": "images/atlas/0565ce9e3947134f.svg",
+          "aspect": 0.7374,
+          "vb": {
+            "vx": -35,
+            "vy": -42,
+            "vw": 890,
+            "vh": 1207
+          }
+        }
+      ]
+    },
+    {
+      "id": "castillo",
+      "name": "Hyrule Castle",
+      "kind": "zone",
+      "pin": {
+        "x": 0.4259,
+        "y": 0.3128
+      },
+      "startMap": "nino",
+      "maps": [
+        {
+          "id": "nino",
+          "label": "Child",
+          "image": "images/atlas/f8d68c05a87801ca.svg",
+          "aspect": 0.6863,
+          "vb": {
+            "vx": -52,
+            "vy": -35,
+            "vw": 954,
+            "vh": 1390
+          }
+        },
+        {
+          "id": "adulto",
+          "label": "Adult",
+          "image": "images/atlas/a30a638cbcac739f.svg",
+          "aspect": 0.8719,
+          "vb": {
+            "vx": 15,
+            "vy": -12,
+            "vw": 844,
+            "vh": 968
+          }
+        }
+      ]
+    },
+    {
+      "id": "kakariko",
+      "name": "Kakariko Village",
+      "kind": "zone",
+      "pin": {
+        "x": 0.5815,
+        "y": 0.4426
+      },
+      "startMap": "nino",
+      "maps": [
+        {
+          "id": "nino",
+          "label": "Child",
+          "image": "images/atlas/ec8d8a9fcf46a7b5.svg",
+          "aspect": 1.0687,
+          "vb": {
+            "vx": -48,
+            "vy": -46,
+            "vw": 949,
+            "vh": 888
+          }
+        },
+        {
+          "id": "adulto",
+          "label": "Adult",
+          "image": "images/atlas/a2991a3861d98c73.svg",
+          "aspect": 1.0665,
+          "vb": {
+            "vx": -47,
+            "vy": -45,
+            "vw": 946,
+            "vh": 887
+          }
+        }
+      ]
+    },
+    {
+      "id": "cementerio",
+      "name": "Graveyard",
+      "kind": "zone",
+      "pin": {
+        "x": 0.7398,
+        "y": 0.3872
+      },
+      "startMap": "nino",
+      "maps": [
+        {
+          "id": "nino",
+          "label": "Child",
+          "image": "images/atlas/fad753b7a0f64d86.svg",
+          "aspect": 2.3465,
+          "vb": {
+            "vx": -45,
+            "vy": -36,
+            "vw": 894,
+            "vh": 381
+          }
+        },
+        {
+          "id": "adulto",
+          "label": "Adult",
+          "image": "images/atlas/48cc191d6b543eda.svg",
+          "aspect": 2.3421,
+          "vb": {
+            "vx": -44,
+            "vy": -33,
+            "vw": 890,
+            "vh": 380
+          }
+        }
+      ]
+    },
+    {
+      "id": "sendero",
+      "name": "Death Mountain Trail",
+      "kind": "zone",
+      "pin": {
+        "x": 0.5774,
+        "y": 0.3015
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/db76ca2b05165069.svg",
+          "aspect": 0.4057,
+          "vb": {
+            "vx": -23,
+            "vy": -98,
+            "vw": 901,
+            "vh": 2221
+          }
+        }
+      ]
+    },
+    {
+      "id": "goron",
+      "name": "Goron City",
+      "kind": "zone",
+      "pin": {
+        "x": 0.6998,
+        "y": 0.3015
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/bd62600104b51d5d.svg",
+          "aspect": 0.9345,
+          "vb": {
+            "vx": -46,
+            "vy": -48,
+            "vw": 942,
+            "vh": 1008
+          }
+        }
+      ]
+    },
+    {
+      "id": "crater",
+      "name": "Death Mountain Crater",
+      "kind": "zone",
+      "pin": {
+        "x": 0.6556,
+        "y": 0.1237
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/c1ab4bbdc1927767.svg",
+          "aspect": 0.9541,
+          "vb": {
+            "vx": -44,
+            "vy": -39,
+            "vw": 935,
+            "vh": 980
+          }
+        }
+      ]
+    },
+    {
+      "id": "rio",
+      "name": "Zora's River",
+      "kind": "zone",
+      "pin": {
+        "x": 0.5803,
+        "y": 0.5244
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/9da62a4f11abba11.svg",
+          "aspect": 2.1419,
+          "vb": {
+            "vx": -48,
+            "vy": -40,
+            "vw": 951,
+            "vh": 444
+          }
+        }
+      ]
+    },
+    {
+      "id": "dominio",
+      "name": "Zora's Domain",
+      "kind": "zone",
+      "pin": {
+        "x": 0.6859,
+        "y": 0.4747
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/b95e0d63a7da7501.svg",
+          "aspect": 1.5523,
+          "vb": {
+            "vx": -47,
+            "vy": -47,
+            "vw": 950,
+            "vh": 612
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuente",
+      "name": "Zora's Fountain",
+      "kind": "zone",
+      "pin": {
+        "x": 0.803,
+        "y": 0.5223
+      },
+      "startMap": "nino",
+      "maps": [
+        {
+          "id": "nino",
+          "label": "Child",
+          "image": "images/atlas/ef682defc525b7c8.svg",
+          "aspect": 1.0729,
+          "vb": {
+            "vx": -44,
+            "vy": -33,
+            "vw": 927,
+            "vh": 864
+          }
+        },
+        {
+          "id": "adulto",
+          "label": "Adult",
+          "image": "images/atlas/7caf49666efec47d.svg",
+          "aspect": 1.041,
+          "vb": {
+            "vx": -45,
+            "vy": 10,
+            "vw": 939,
+            "vh": 902
+          }
+        }
+      ]
+    },
+    {
+      "id": "lago",
+      "name": "Lake Hylia",
+      "kind": "zone",
+      "pin": {
+        "x": 0.4268,
+        "y": 0.7706
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/81029fed8441b630.svg",
+          "aspect": 1.2534,
+          "vb": {
+            "vx": -37,
+            "vy": -29,
+            "vw": 930,
+            "vh": 742
+          }
+        }
+      ]
+    },
+    {
+      "id": "valle",
+      "name": "Gerudo Valley",
+      "kind": "zone",
+      "pin": {
+        "x": 0.2228,
+        "y": 0.562
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/254d68e697b8bf52.svg",
+          "aspect": 0.9905,
+          "vb": {
+            "vx": -46,
+            "vy": -44,
+            "vw": 942,
+            "vh": 951
+          }
+        }
+      ]
+    },
+    {
+      "id": "fortaleza",
+      "name": "Gerudo's Fortress",
+      "kind": "zone",
+      "pin": {
+        "x": 0.2067,
+        "y": 0.4079
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/9070082489c25351.svg",
+          "aspect": 1.2083,
+          "vb": {
+            "vx": -34,
+            "vy": -17,
+            "vw": 928,
+            "vh": 768
+          }
+        }
+      ]
+    },
+    {
+      "id": "desierto",
+      "name": "Haunted Wasteland",
+      "kind": "zone",
+      "pin": {
+        "x": 0.1554,
+        "y": 0.3466
+      },
+      "startMap": null,
+      "maps": []
+    },
+    {
+      "id": "coloso",
+      "name": "Desert Colossus",
+      "kind": "zone",
+      "pin": {
+        "x": 0.231,
+        "y": 0.2873
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/b96a8e67771eb6a9.svg",
+          "aspect": 1.2068,
+          "vb": {
+            "vx": 3,
+            "vy": -35,
+            "vw": 893,
+            "vh": 740
+          }
+        }
+      ]
+    },
+    {
+      "id": "deku",
+      "name": "Inside the Deku Tree",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.6835,
+        "y": 0.7656
+      },
+      "startMap": "1F",
+      "maps": [
+        {
+          "id": "3F",
+          "label": "3F",
+          "image": "images/atlas/7131d6d95fc34dc1.svg",
+          "aspect": 2.3183,
+          "vb": {
+            "vx": 113,
+            "vy": -34,
+            "vw": 772,
+            "vh": 333
+          }
+        },
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/96a996b80bff76a7.svg",
+          "aspect": 1.8693,
+          "vb": {
+            "vx": 173,
+            "vy": -10,
+            "vw": 701,
+            "vh": 375
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/c684d6513a4111b0.svg",
+          "aspect": 0.6824,
+          "vb": {
+            "vx": 629,
+            "vy": -6,
+            "vw": 232,
+            "vh": 340
+          }
+        },
+        {
+          "id": "S1",
+          "label": "B1",
+          "image": "images/atlas/f997dee7cf0824c3.svg",
+          "aspect": 1.3116,
+          "vb": {
+            "vx": -37,
+            "vy": -32,
+            "vw": 863,
+            "vh": 658
+          }
+        },
+        {
+          "id": "S2",
+          "label": "B2",
+          "image": "images/atlas/70efa8003bf43468.svg",
+          "aspect": 0.5458,
+          "vb": {
+            "vx": 344,
+            "vy": 74,
+            "vw": 268,
+            "vh": 491
+          }
+        }
+      ]
+    },
+    {
+      "id": "dodongos",
+      "name": "Dodongo's Cavern",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.525,
+        "y": 0.2207
+      },
+      "startMap": "1F",
+      "maps": [
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/4193834d6b36cf47.svg",
+          "aspect": 2.07,
+          "vb": {
+            "vx": -35,
+            "vy": 149,
+            "vw": 917,
+            "vh": 443
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/9df7f3e24787a2e6.svg",
+          "aspect": 1.0659,
+          "vb": {
+            "vx": -21,
+            "vy": -24,
+            "vw": 857,
+            "vh": 804
+          }
+        }
+      ]
+    },
+    {
+      "id": "jabu",
+      "name": "Inside Jabu-Jabu's Belly",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.7673,
+        "y": 0.451
+      },
+      "startMap": "1F",
+      "maps": [
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/d7e133bbf52b3120.svg",
+          "aspect": 1.2901,
+          "vb": {
+            "vx": 31,
+            "vy": 754,
+            "vw": 805,
+            "vh": 624
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/73fc5a3cfaf19cd9.svg",
+          "aspect": 0.463,
+          "vb": {
+            "vx": -24,
+            "vy": -58,
+            "vw": 844,
+            "vh": 1823
+          }
+        },
+        {
+          "id": "S1",
+          "label": "B1",
+          "image": "images/atlas/2296f73815cc3936.svg",
+          "aspect": 1.138,
+          "vb": {
+            "vx": 37,
+            "vy": 760,
+            "vw": 668,
+            "vh": 587
+          }
+        }
+      ]
+    },
+    {
+      "id": "bosque",
+      "name": "Forest Temple",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.8656,
+        "y": 0.6039
+      },
+      "startMap": "1F",
+      "maps": [
+        {
+          "id": "3F",
+          "label": "3F",
+          "image": "images/atlas/4ae5a5642885668f.svg",
+          "aspect": 1.5453,
+          "vb": {
+            "vx": -35,
+            "vy": -19,
+            "vw": 904,
+            "vh": 585
+          }
+        },
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/79bf55e5fd3ac9ba.svg",
+          "aspect": 0.9515,
+          "vb": {
+            "vx": -37,
+            "vy": -36,
+            "vw": 903,
+            "vh": 949
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/dd87dda0d106bc26.svg",
+          "aspect": 0.9559,
+          "vb": {
+            "vx": -39,
+            "vy": -27,
+            "vw": 931,
+            "vh": 974
+          }
+        },
+        {
+          "id": "S1",
+          "label": "B1",
+          "image": "images/atlas/6cbf450c90cd3ed5.svg",
+          "aspect": 1,
+          "vb": {
+            "vx": 238,
+            "vy": 142,
+            "vw": 345,
+            "vh": 345
+          }
+        },
+        {
+          "id": "S2",
+          "label": "B2",
+          "image": "images/atlas/3f1bf57ae45da9a1.svg",
+          "aspect": 0.7696,
+          "vb": {
+            "vx": 323,
+            "vy": 157,
+            "vw": 304,
+            "vh": 395
+          }
+        }
+      ]
+    },
+    {
+      "id": "fuego",
+      "name": "Fire Temple",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.6251,
+        "y": 0.1952
+      },
+      "startMap": "1F",
+      "maps": [
+        {
+          "id": "5F",
+          "label": "5F",
+          "image": "images/atlas/1f1900c6bda81846.svg",
+          "aspect": 2.4109,
+          "vb": {
+            "vx": 24,
+            "vy": 90,
+            "vw": 622,
+            "vh": 258
+          }
+        },
+        {
+          "id": "4F",
+          "label": "4F",
+          "image": "images/atlas/7d16228fa66665c3.svg",
+          "aspect": 1.9161,
+          "vb": {
+            "vx": 18,
+            "vy": 41,
+            "vw": 548,
+            "vh": 286
+          }
+        },
+        {
+          "id": "3F",
+          "label": "3F",
+          "image": "images/atlas/6b4577c27123e03d.svg",
+          "aspect": 1.7411,
+          "vb": {
+            "vx": -24,
+            "vy": -13,
+            "vw": 780,
+            "vh": 448
+          }
+        },
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/61e73d8ecb54aa8a.svg",
+          "aspect": 2.7397,
+          "vb": {
+            "vx": 163,
+            "vy": 97,
+            "vw": 663,
+            "vh": 242
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/3f16cb7f3303f228.svg",
+          "aspect": 1.4249,
+          "vb": {
+            "vx": 141,
+            "vy": -30,
+            "vw": 721,
+            "vh": 506
+          }
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "name": "Water Temple",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.4045,
+        "y": 0.9097
+      },
+      "startMap": "3F",
+      "maps": [
+        {
+          "id": "3F",
+          "label": "3F",
+          "image": "images/atlas/091eed0c6c8fcc7e.svg",
+          "aspect": 0.8058,
+          "vb": {
+            "vx": -42,
+            "vy": -51,
+            "vw": 830,
+            "vh": 1030
+          }
+        },
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/2b63f4367c0d4722.svg",
+          "aspect": 1.0841,
+          "vb": {
+            "vx": -13,
+            "vy": -19,
+            "vw": 877,
+            "vh": 809
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/07612eaffa38f40c.svg",
+          "aspect": 0.8095,
+          "vb": {
+            "vx": 132,
+            "vy": -28,
+            "vw": 697,
+            "vh": 861
+          }
+        },
+        {
+          "id": "S1",
+          "label": "B1",
+          "image": "images/atlas/748961d436e3d908.svg",
+          "aspect": 1.1098,
+          "vb": {
+            "vx": 154,
+            "vy": 401,
+            "vw": 455,
+            "vh": 410
+          }
+        }
+      ]
+    },
+    {
+      "id": "sombra",
+      "name": "Shadow Temple",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.8012,
+        "y": 0.3182
+      },
+      "startMap": "S1",
+      "maps": [
+        {
+          "id": "S1",
+          "label": "B1",
+          "image": "images/atlas/31084ef4a53b848a.svg",
+          "aspect": 1.4048,
+          "vb": {
+            "vx": 285,
+            "vy": 179,
+            "vw": 354,
+            "vh": 252
+          }
+        },
+        {
+          "id": "S2",
+          "label": "B2",
+          "image": "images/atlas/1706f580e2ba0f5f.svg",
+          "aspect": 0.7581,
+          "vb": {
+            "vx": 571,
+            "vy": 152,
+            "vw": 163,
+            "vh": 215
+          }
+        },
+        {
+          "id": "S3",
+          "label": "B3",
+          "image": "images/atlas/1e8a9e584a5012aa.svg",
+          "aspect": 1.1437,
+          "vb": {
+            "vx": 439,
+            "vy": 144,
+            "vw": 406,
+            "vh": 355
+          }
+        },
+        {
+          "id": "S4",
+          "label": "B4",
+          "image": "images/atlas/a551de4d49cb4a18.svg",
+          "aspect": 2.3822,
+          "vb": {
+            "vx": -35,
+            "vy": -35,
+            "vw": 910,
+            "vh": 382
+          }
+        }
+      ]
+    },
+    {
+      "id": "espiritu",
+      "name": "Spirit Temple",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.1562,
+        "y": 0.2396
+      },
+      "startMap": "1F",
+      "maps": [
+        {
+          "id": "4F",
+          "label": "4F",
+          "image": "images/atlas/9c0b60900300576f.svg",
+          "aspect": 0.8035,
+          "vb": {
+            "vx": 209,
+            "vy": 18,
+            "vw": 417,
+            "vh": 519
+          }
+        },
+        {
+          "id": "3F",
+          "label": "3F",
+          "image": "images/atlas/a73b491afd39f076.svg",
+          "aspect": 1.0588,
+          "vb": {
+            "vx": -21,
+            "vy": 63,
+            "vw": 883,
+            "vh": 834
+          }
+        },
+        {
+          "id": "2F",
+          "label": "2F",
+          "image": "images/atlas/ff599955dbdf9fe3.svg",
+          "aspect": 1.8969,
+          "vb": {
+            "vx": 127,
+            "vy": 110,
+            "vw": 607,
+            "vh": 320
+          }
+        },
+        {
+          "id": "1F",
+          "label": "1F",
+          "image": "images/atlas/6d90d5af6d3d0218.svg",
+          "aspect": 1.0616,
+          "vb": {
+            "vx": 16,
+            "vy": -29,
+            "vw": 810,
+            "vh": 763
+          }
+        }
+      ]
+    },
+    {
+      "id": "pozo",
+      "name": "Bottom of the Well",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.661,
+        "y": 0.3741
+      },
+      "startMap": "S1",
+      "maps": [
+        {
+          "id": "S1",
+          "label": "B1",
+          "image": "images/atlas/b68501c771ee8c19.svg",
+          "aspect": 0.6683,
+          "vb": {
+            "vx": -61,
+            "vy": 24,
+            "vw": 967,
+            "vh": 1447
+          }
+        },
+        {
+          "id": "S2",
+          "label": "B2",
+          "image": "images/atlas/4235409bd4f77a4b.svg",
+          "aspect": 0.5913,
+          "vb": {
+            "vx": 237,
+            "vy": -35,
+            "vw": 651,
+            "vh": 1101
+          }
+        }
+      ]
+    },
+    {
+      "id": "hielo",
+      "name": "Ice Cavern",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.8637,
+        "y": 0.454
+      },
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/1ec8568fd796ef74.svg",
+          "aspect": 0.8032,
+          "vb": {
+            "vx": -51,
+            "vy": -50,
+            "vw": 947,
+            "vh": 1179
+          }
+        }
+      ]
+    },
+    {
+      "id": "gerudo",
+      "name": "Gerudo Training Ground",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.2614,
+        "y": 0.4397
+      },
+      "startMap": null,
+      "maps": []
+    },
+    {
+      "id": "ganon",
+      "name": "Ganon's Castle",
+      "kind": "dungeon",
+      "pin": {
+        "x": 0.4092,
+        "y": 0.2333
+      },
+      "startMap": null,
+      "maps": []
+    }
+  ],
+  "items": [
+    {
+      "id": "kokiri-gs-01",
+      "place": "kokiri",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.2378,
+        "y": 0.502
+      },
+      "name": "Behind the House of the Know-It-All Brothers",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/b86b4a05218eb27f.webp",
+        "images/atlas/c900c0a69758d864.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xecdc46b409ed7d38",
+        "0xecdc46b409ed7d3a"
+      ]
+    },
+    {
+      "id": "kokiri-gs-02",
+      "place": "kokiri",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5367,
+        "y": 0.4217
+      },
+      "name": "Bugs in the soft soil by the shop",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/d47a7cff2873afce.webp",
+        "images/atlas/13cb134199e03cec.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x858f5000ad57b2cc",
+        "0x858f5000ad57b2ce"
+      ]
+    },
+    {
+      "id": "kokiri-gs-03",
+      "place": "kokiri",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5639,
+        "y": 0.6737
+      },
+      "name": "Back of the House of the Twins",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/350029614dfc277b.webp",
+        "images/atlas/a6ba4db1d8a4a37d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x62c340f0b876c195",
+        "0x62c340f0b876c197"
+      ]
+    },
+    {
+      "id": "kokiri-bean-01",
+      "place": "kokiri",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.5333,
+        "y": 0.4558
+      },
+      "name": "Soft soil behind the shop",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/f9298a285f83cf6d.webp"
+      ],
+      "hex32": [
+        3042626269
+      ],
+      "hex64": []
+    },
+    {
+      "id": "perdido-heart-01",
+      "place": "perdido",
+      "cat": "heart",
+      "at": null,
+      "name": "Saria's Song for the Skull Kid",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/6b0eddcd7f5addd9.webp",
+        "images/atlas/8759a1801c144867.webp"
+      ],
+      "hex32": [
+        1610066480
+      ],
+      "hex64": []
+    },
+    {
+      "id": "perdido-heart-02",
+      "place": "perdido",
+      "cat": "heart",
+      "at": null,
+      "name": "Memory game with the Ocarina",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/ce76628476a812f6.webp",
+        "images/atlas/a2b7689a2698dac3.webp"
+      ],
+      "hex32": [
+        374855640
+      ],
+      "hex64": []
+    },
+    {
+      "id": "perdido-gs-01",
+      "place": "perdido",
+      "cat": "gs",
+      "at": null,
+      "name": "Bugs in the soft soil by the bridge",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/18480e36f74c145d.webp",
+        "images/atlas/899749aa79c2a85a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8186bcb07d6c2cf9",
+        "0x8186bcb07d6c2cfb"
+      ]
+    },
+    {
+      "id": "perdido-gs-02",
+      "place": "perdido",
+      "cat": "gs",
+      "at": null,
+      "name": "Bugs in the soft soil of the lone-tree clearing",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/a6d563c50a457a46.webp",
+        "images/atlas/76f63d669fcdcb4f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf6fa6ef0ca152948",
+        "0xf6fa6ef0ca15294a"
+      ]
+    },
+    {
+      "id": "perdido-gs-03",
+      "place": "perdido",
+      "cat": "gs",
+      "at": null,
+      "name": "Ledge by the Forest Stage",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/afcc9da4e82515d7.webp",
+        "images/atlas/c9293e82dd40a60a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x3c2b585ac5c0443e",
+        "0x3c2b585ac5c0443c"
+      ]
+    },
+    {
+      "id": "perdido-bean-01",
+      "place": "perdido",
+      "cat": "bean",
+      "at": null,
+      "name": "Soft soil by the bridge",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/5db58e2501b721c8.webp"
+      ],
+      "hex32": [
+        1589607563
+      ],
+      "hex64": []
+    },
+    {
+      "id": "perdido-bean-02",
+      "place": "perdido",
+      "cat": "bean",
+      "at": null,
+      "name": "Soft soil by the two Scrubs",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/419b39da96a57b0d.webp"
+      ],
+      "hex32": [
+        1628352828
+      ],
+      "hex64": []
+    },
+    {
+      "id": "prado-gs-01",
+      "place": "prado",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.7012,
+        "y": 0.6326
+      },
+      "name": "Right-hand wall before the stairs",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/1561b1266f8d07af.webp",
+        "images/atlas/cba5d0058e101bb9.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xc8db3346f78ea31b",
+        "0xc8db3346f78ea319"
+      ]
+    },
+    {
+      "id": "llanura-heart-01",
+      "place": "llanura",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.6974,
+        "y": 0.1171
+      },
+      "name": "Business Scrub by the moat",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/7cb0646fa5503893.webp",
+        "images/atlas/8a790875dc5e5edf.webp"
+      ],
+      "hex32": [
+        3827176855
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-heart-02",
+      "place": "llanura",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.1842,
+        "y": 0.3667
+      },
+      "name": "Paradox of the chest from the past",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/34c70292d11802e6.webp",
+        "images/atlas/2ffc65f3faf2fd9e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x292e3ed6acacbe44"
+      ]
+    },
+    {
+      "id": "llanura-gs-01",
+      "place": "llanura",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.6926,
+        "y": 0.6157
+      },
+      "name": "Lone pine in the east",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/0d54a1b7ffd3bf64.webp",
+        "images/atlas/37c78aad6c36adbc.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x1e38e8d23596eecf",
+        "0x1e38e8d23596eecd"
+      ]
+    },
+    {
+      "id": "llanura-gs-02",
+      "place": "llanura",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.3337,
+        "y": 0.7605
+      },
+      "name": "Stone circle grotto by the ranch",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/8f58d8ada7704ea0.webp",
+        "images/atlas/a2493208533c3ed5.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xa6a4e87da18fa678",
+        "0xa6a4e87da18fa67a"
+      ]
+    },
+    {
+      "id": "lonlon-heart-01",
+      "place": "lonlon",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.0661,
+        "y": 0.691
+      },
+      "name": "Stone tower at the back",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/a4aafec6f2dc38fa.webp",
+        "images/atlas/cd2c586b95bd21fe.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x88358af5b5300aa9"
+      ]
+    },
+    {
+      "id": "lonlon-gs-01",
+      "place": "lonlon",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.7952,
+        "y": 0.2538
+      },
+      "name": "Tree on the way to the corral",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/91642ad57803f8af.webp",
+        "images/atlas/0d8179dccf8080b2.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x04be4a8ff29f2099",
+        "0x04be4a8ff29f209b"
+      ]
+    },
+    {
+      "id": "lonlon-gs-02",
+      "place": "lonlon",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.1398,
+        "y": 0.7037
+      },
+      "name": "Crate in the grotto south of the ranch",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/673da5482d8fd1a7.webp",
+        "images/atlas/2a06203474fe7cf5.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x25e6072d4df023b3",
+        "0x25e6072d4df023b1"
+      ]
+    },
+    {
+      "id": "lonlon-gs-03",
+      "place": "lonlon",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.6497,
+        "y": 0.3192
+      },
+      "name": "Window of the house",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/44cf8b1e46ec28ec.webp",
+        "images/atlas/9c8d64cba936ca81.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xdc8113831c56b194",
+        "0xdc8113831c56b196"
+      ]
+    },
+    {
+      "id": "lonlon-gs-04",
+      "place": "lonlon",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.1419,
+        "y": 0.7071
+      },
+      "name": "Inside the stone tower",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/6cb92aefcecb8989.webp",
+        "images/atlas/94f49d248c5e53ea.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x7d8ec14bdd1f6341",
+        "0x7d8ec14bdd1f6343"
+      ]
+    },
+    {
+      "id": "ciudadela-heart-01",
+      "place": "ciudadela",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.1398,
+        "y": 0.4843
+      },
+      "name": "Treasure Chest Shop",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/91ad776301ec6a80.webp",
+        "images/atlas/20b7cb24be3cc86d.webp"
+      ],
+      "hex32": [
+        3046747885
+      ],
+      "hex64": []
+    },
+    {
+      "id": "ciudadela-heart-02",
+      "place": "ciudadela",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.5275,
+        "y": 0.6138
+      },
+      "name": "The lost puppy",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/6bcb2553b2880932.webp",
+        "images/atlas/50fe0326580bbb9a.webp"
+      ],
+      "hex32": [
+        4076516624
+      ],
+      "hex64": []
+    },
+    {
+      "id": "ciudadela-heart-03",
+      "place": "ciudadela",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.3878,
+        "y": 0.4591
+      },
+      "name": "Bombchu Bowling Alley",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/fd8475d976ffa0cd.webp",
+        "images/atlas/a672d9c2e2c97110.webp"
+      ],
+      "hex32": [
+        1640987553
+      ],
+      "hex64": []
+    },
+    {
+      "id": "ciudadela-gs-01",
+      "place": "ciudadela",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.6234,
+        "y": 0.8377
+      },
+      "name": "Guard House",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/157e65f2d1759191.webp",
+        "images/atlas/1d0ac4ac6aa1c13b.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x7c1a05315f83c34d",
+        "0x7c1a05315f83c34f"
+      ]
+    },
+    {
+      "id": "castillo-gs-01",
+      "place": "castillo",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.2497,
+        "y": 0.4038
+      },
+      "name": "Tree in the hedge garden",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/1a2730b6efd43b42.webp",
+        "images/atlas/b616f3e67390ea75.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x22c0f7dff5ebb86d",
+        "0x22c0f7dff5ebb86f"
+      ]
+    },
+    {
+      "id": "castillo-gs-02",
+      "place": "castillo",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.6539,
+        "y": 0.3285
+      },
+      "name": "Song of Storms grotto",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/a3212e11b97dc115.webp",
+        "images/atlas/c1f2fa4b9c6a60b8.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x7f28485fa5d3688f",
+        "0x7f28485fa5d3688d"
+      ]
+    },
+    {
+      "id": "castillo-fairy-01",
+      "place": "castillo",
+      "cat": "fairy",
+      "at": {
+        "map": "nino",
+        "x": 0.9146,
+        "y": 0.6046
+      },
+      "name": "Great Fairy: Spin Attack",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/52c40e7d24376a87.webp",
+        "images/atlas/e0eb19b5886bdee8.webp"
+      ],
+      "hex32": [
+        2409783438
+      ],
+      "hex64": []
+    },
+    {
+      "id": "kakariko-heart-01",
+      "place": "kakariko",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.5395,
+        "y": 0.8998
+      },
+      "name": "Small roof behind Impa's House",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/fb3f847e2ae7abe8.webp",
+        "images/atlas/1e9d9873ea9a9fe8.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf8c7601da7dd887e"
+      ]
+    },
+    {
+      "id": "kakariko-heart-02",
+      "place": "kakariko",
+      "cat": "heart",
+      "at": {
+        "map": "adulto",
+        "x": 0.7812,
+        "y": 0.4769
+      },
+      "name": "Windmill",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/5d523106fc48a8ee.webp",
+        "images/atlas/bf7ffe2458bdad04.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xb9d0070b468f26d2"
+      ]
+    },
+    {
+      "id": "kakariko-heart-03",
+      "place": "kakariko",
+      "cat": "heart",
+      "at": {
+        "map": "adulto",
+        "x": 0.5835,
+        "y": 0.425
+      },
+      "name": "The man on the roof",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/da95819214f58d65.webp",
+        "images/atlas/529dff81a78665c7.webp"
+      ],
+      "hex32": [
+        2791750312
+      ],
+      "hex64": []
+    },
+    {
+      "id": "kakariko-gs-01",
+      "place": "kakariko",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.4489,
+        "y": 0.6036
+      },
+      "name": "House under construction",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/8e6fadcfdf24712d.webp",
+        "images/atlas/2e39c6aa90df3489.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xc3c68d0ac4b85831",
+        "0xc3c68d0ac4b85833"
+      ]
+    },
+    {
+      "id": "kakariko-gs-02",
+      "place": "kakariko",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.3799,
+        "y": 0.5124
+      },
+      "name": "Tree at the entrance",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/14cb80f119534ec5.webp",
+        "images/atlas/d90744226be6e93b.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x6a8d9b2373d08fcb",
+        "0x6a8d9b2373d08fc9"
+      ]
+    },
+    {
+      "id": "kakariko-gs-03",
+      "place": "kakariko",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.5153,
+        "y": 0.3682
+      },
+      "name": "Watchtower",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/d71743258f4a02d6.webp",
+        "images/atlas/4f972c8458e852e4.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd1cef51cf294fb86",
+        "0xd1cef51cf294fb84"
+      ]
+    },
+    {
+      "id": "kakariko-gs-04",
+      "place": "kakariko",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.373,
+        "y": 0.277
+      },
+      "name": "House by the mountain gate",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/948a053132daacd0.webp",
+        "images/atlas/b009bf5dbd0b17ed.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xa1632e322c612b97",
+        "0xa1632e322c612b95"
+      ]
+    },
+    {
+      "id": "kakariko-gs-05",
+      "place": "kakariko",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.6185,
+        "y": 0.6081
+      },
+      "name": "House of Skulltula",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/4caa5f446bb110bb.webp",
+        "images/atlas/3c234817681afda4.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd4883a16973b1d06",
+        "0xd4883a16973b1d04"
+      ]
+    },
+    {
+      "id": "kakariko-gs-06",
+      "place": "kakariko",
+      "cat": "gs",
+      "at": {
+        "map": "adulto",
+        "x": 0.5429,
+        "y": 0.9238
+      },
+      "name": "Above Impa's House",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/0a97962d0428623f.webp",
+        "images/atlas/f1cc75ff8e43d631.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x2df265292516bdf0",
+        "0x2df265292516bdf2"
+      ]
+    },
+    {
+      "id": "cementerio-heart-01",
+      "place": "cementerio",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.3546,
+        "y": 0.3438
+      },
+      "name": "Gravedigging tour with Dampé",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/d7c9d1e96f6b2f07.webp",
+        "images/atlas/3682f9b0406d4786.webp"
+      ],
+      "hex32": [
+        3037888117
+      ],
+      "hex64": []
+    },
+    {
+      "id": "cementerio-heart-02",
+      "place": "cementerio",
+      "cat": "heart",
+      "at": {
+        "map": "adulto",
+        "x": 0.3678,
+        "y": 0.2472
+      },
+      "name": "Race against Dampé",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/43ce58ae7b199f74.webp",
+        "images/atlas/a644453d98832dcf.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x4ccffbd5778b67e2"
+      ]
+    },
+    {
+      "id": "cementerio-heart-03",
+      "place": "cementerio",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.5206,
+        "y": 0.6784
+      },
+      "name": "Grave near the Royal Family's Tomb",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/4ca3431af1fa5f93.webp",
+        "images/atlas/292e67bd2f0552d4.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8588aaeeac14eed7"
+      ]
+    },
+    {
+      "id": "cementerio-heart-04",
+      "place": "cementerio",
+      "cat": "heart",
+      "at": {
+        "map": "adulto",
+        "x": 0.2517,
+        "y": 0.2816
+      },
+      "name": "Ledge on the wall",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/d7938473f6fcfc09.webp",
+        "images/atlas/3a3aacfcf476d70d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x1df0dbf50c1732b7"
+      ]
+    },
+    {
+      "id": "cementerio-gs-01",
+      "place": "cementerio",
+      "cat": "gs",
+      "at": {
+        "map": "adulto",
+        "x": 0.222,
+        "y": 0.8534
+      },
+      "name": "Graveyard wall",
+      "age": "both",
+      "night": true,
+      "images": [
+        "images/atlas/75783fe5554b67ff.webp",
+        "images/atlas/1d3a8dbe7447cb81.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x032f42f523be6425",
+        "0x032f42f523be6427"
+      ]
+    },
+    {
+      "id": "cementerio-gs-02",
+      "place": "cementerio",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.2834,
+        "y": 0.2108
+      },
+      "name": "Bugs in the soft soil",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/d46c59ae5fe5087f.webp",
+        "images/atlas/5adab1e0f9185ee6.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xe91f6be796358ffc",
+        "0xe91f6be796358ffe"
+      ]
+    },
+    {
+      "id": "cementerio-bean-01",
+      "place": "cementerio",
+      "cat": "bean",
+      "at": {
+        "map": "nino",
+        "x": 0.2846,
+        "y": 0.2931
+      },
+      "name": "Graveyard soft soil",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/40c6c17844340650.webp"
+      ],
+      "hex32": [
+        659258941
+      ],
+      "hex64": []
+    },
+    {
+      "id": "sendero-heart-01",
+      "place": "sendero",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.389,
+        "y": 0.5594
+      },
+      "name": "Ledge above Dodongo's Cavern",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/ba10dfc354f2b04c.webp",
+        "images/atlas/005a01118925f43b.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x09ecb6a0150fee97"
+      ]
+    },
+    {
+      "id": "sendero-gs-01",
+      "place": "sendero",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.3585,
+        "y": 0.5754
+      },
+      "name": "Bugs in the soft soil by the cavern",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/c90a06d525bd049f.webp",
+        "images/atlas/a612bec3f7602efa.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf1d32c06612da232",
+        "0xf1d32c06612da230"
+      ]
+    },
+    {
+      "id": "sendero-gs-02",
+      "place": "sendero",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.3163,
+        "y": 0.742
+      },
+      "name": "Cracked wall near Kakariko",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/2590a2d84b1562e0.webp",
+        "images/atlas/e24c5f4735f8ff90.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x04e03ac27985e328",
+        "0x04e03ac27985e32a"
+      ]
+    },
+    {
+      "id": "sendero-gs-03",
+      "place": "sendero",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.4773,
+        "y": 0.5896
+      },
+      "name": "Above Dodongo's Cavern",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/f4d873bcaf39d682.webp",
+        "images/atlas/a38b11832b42fded.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf5359b24fc86ac22",
+        "0xf5359b24fc86ac20"
+      ]
+    },
+    {
+      "id": "sendero-gs-04",
+      "place": "sendero",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.7689,
+        "y": 0.2451
+      },
+      "name": "Falling-rocks path",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/7e3d1e2551e9d8c5.webp",
+        "images/atlas/d35343915be30560.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x0b8e43abfa0b5f86",
+        "0x0b8e43abfa0b5f84"
+      ]
+    },
+    {
+      "id": "sendero-bean-01",
+      "place": "sendero",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.3579,
+        "y": 0.594
+      },
+      "name": "Soft soil at Dodongo's Cavern",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/f54cfb2a853eea9e.webp"
+      ],
+      "hex32": [
+        4073634450
+      ],
+      "hex64": []
+    },
+    {
+      "id": "sendero-fairy-01",
+      "place": "sendero",
+      "cat": "fairy",
+      "at": {
+        "map": "principal",
+        "x": 0.6354,
+        "y": 0.1551
+      },
+      "name": "Great Fairy: magic",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/29468ae8814f59d2.webp",
+        "images/atlas/22dd3f7e8a498ae6.webp"
+      ],
+      "hex32": [
+        1829053411
+      ],
+      "hex64": []
+    },
+    {
+      "id": "goron-heart-01",
+      "place": "goron",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.5412,
+        "y": 0.5751
+      },
+      "name": "Spinning pot",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/70f65ff0d0f7842e.webp",
+        "images/atlas/76d7ec1c4f83f3ca.webp"
+      ],
+      "hex32": [
+        488084457
+      ],
+      "hex64": []
+    },
+    {
+      "id": "goron-gs-01",
+      "place": "goron",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.0815,
+        "y": 0.4926
+      },
+      "name": "Boulder maze",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/d00068bd3ee118e2.webp",
+        "images/atlas/81c92a8e6a2355a2.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x07e6e21142cc54db",
+        "0x07e6e21142cc54d9"
+      ]
+    },
+    {
+      "id": "goron-gs-02",
+      "place": "goron",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5456,
+        "y": 0.5357
+      },
+      "name": "Rock overhang on the ceiling",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/f2876ebeb18a8c94.webp",
+        "images/atlas/df69261c034633b3.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xfbbc2d490276c68e",
+        "0xfbbc2d490276c68c"
+      ]
+    },
+    {
+      "id": "crater-heart-01",
+      "place": "crater",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.6064,
+        "y": 0.641
+      },
+      "name": "Hole in the Crater wall",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/db42d04fb15d706b.webp",
+        "images/atlas/cc072400189b115d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8f5f3d3321aeb7cd"
+      ]
+    },
+    {
+      "id": "crater-heart-02",
+      "place": "crater",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.4663,
+        "y": 0.4469
+      },
+      "name": "Domed rock in the Crater",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/6b2ecd0a4ff9c8c9.webp",
+        "images/atlas/ad67d8f52f283c02.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x0a564328faf93c71"
+      ]
+    },
+    {
+      "id": "crater-gs-01",
+      "place": "crater",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5953,
+        "y": 0.7854
+      },
+      "name": "Crate at the summit entrance",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/1f5bcc12a4cd61ee.webp",
+        "images/atlas/0a0910cae81c6791.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xfcd7f04dcf755e8e",
+        "0xfcd7f04dcf755e8c"
+      ]
+    },
+    {
+      "id": "crater-gs-02",
+      "place": "crater",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.6189,
+        "y": 0.4104
+      },
+      "name": "Bugs in the soft soil by the Bolero platform",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/e514da2f85f8b497.webp",
+        "images/atlas/f5da4b41dace7c2b.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x58c75badf059ca54",
+        "0x58c75badf059ca56"
+      ]
+    },
+    {
+      "id": "crater-bean-01",
+      "place": "crater",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.6565,
+        "y": 0.4084
+      },
+      "name": "Soft soil in the Crater",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/977b426037509626.webp"
+      ],
+      "hex32": [
+        1445964662
+      ],
+      "hex64": []
+    },
+    {
+      "id": "crater-fairy-01",
+      "place": "crater",
+      "cat": "fairy",
+      "at": {
+        "map": "principal",
+        "x": 0.3326,
+        "y": 0.602
+      },
+      "name": "Great Fairy: double magic",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/363b9688e7b518fe.webp",
+        "images/atlas/75a1c95ab6293c0c.webp"
+      ],
+      "hex32": [
+        3815195855
+      ],
+      "hex64": []
+    },
+    {
+      "id": "rio-heart-01",
+      "place": "rio",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.409,
+        "y": 0.3266
+      },
+      "name": "Pillar in the middle of the river",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/e370dc822af6b4bd.webp",
+        "images/atlas/ee0d4916fd4db374.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x9efabd5b0516c341"
+      ]
+    },
+    {
+      "id": "rio-heart-02",
+      "place": "rio",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.7655,
+        "y": 0.1284
+      },
+      "name": "Ledge by the waterfall",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/f318953b178bdcd4.webp",
+        "images/atlas/8f94294ba875789e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x3a23b59eaedc0510"
+      ]
+    },
+    {
+      "id": "rio-heart-03",
+      "place": "rio",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.4313,
+        "y": 0.1613
+      },
+      "name": "Frog game",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/ca4375713cf61670.webp",
+        "images/atlas/1f2c1869377b970d.webp"
+      ],
+      "hex32": [
+        2415839079
+      ],
+      "hex64": []
+    },
+    {
+      "id": "rio-heart-04",
+      "place": "rio",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.4857,
+        "y": 0.1597
+      },
+      "name": "The frogs in the rain",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/c4c14c2a949f7ad3.webp",
+        "images/atlas/5872535cfc35237e.webp"
+      ],
+      "hex32": [
+        3581468565
+      ],
+      "hex64": []
+    },
+    {
+      "id": "rio-gs-01",
+      "place": "rio",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.2356,
+        "y": 0.484
+      },
+      "name": "Bugs in the soft soil by the Bean Seller",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/63c1b50d6cbbfa7c.webp",
+        "images/atlas/725640b42f1fb7a7.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xabad0e9f0d471156",
+        "0xabad0e9f0d471154"
+      ]
+    },
+    {
+      "id": "rio-gs-02",
+      "place": "rio",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.8705,
+        "y": 0.2472
+      },
+      "name": "Wall by the waterfall",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/ce9b8a4956dcaa89.webp",
+        "images/atlas/6f77d2e8700c1836.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x78ae4fd90b3cfaaa",
+        "0x78ae4fd90b3cfaa8"
+      ]
+    },
+    {
+      "id": "rio-gs-03",
+      "place": "rio",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.2662,
+        "y": 0.6477
+      },
+      "name": "Above the raised grottos",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/dbda80b38c472c13.webp",
+        "images/atlas/df2229d2abf2f537.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x97824c2ffeaa877c",
+        "0x97824c2ffeaa877e"
+      ]
+    },
+    {
+      "id": "rio-gs-04",
+      "place": "rio",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.6981,
+        "y": 0.1866
+      },
+      "name": "Above the bridge",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/8dd8c11a61e7c62f.webp",
+        "images/atlas/9fa1d5c06ae40ced.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8325fea55edfbe97",
+        "0x8325fea55edfbe95"
+      ]
+    },
+    {
+      "id": "rio-bean-01",
+      "place": "rio",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.2153,
+        "y": 0.537
+      },
+      "name": "Soft soil by the Bean Seller",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/216e6f6e3c615087.webp"
+      ],
+      "hex32": [
+        1592410278
+      ],
+      "hex64": []
+    },
+    {
+      "id": "dominio-gs-01",
+      "place": "dominio",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.4516,
+        "y": 0.6209
+      },
+      "name": "Frozen waterfall",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/532dd5c6729880f1.webp",
+        "images/atlas/7a1c6f0fc2c1ee83.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x853b892663c0215d",
+        "0x853b892663c0215f"
+      ]
+    },
+    {
+      "id": "fuente-heart-01",
+      "place": "fuente",
+      "cat": "heart",
+      "at": {
+        "map": "adulto",
+        "x": 0.9052,
+        "y": 0.2916
+      },
+      "name": "Farthest ice floe",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/b6ccef48d89d5593.webp",
+        "images/atlas/01d741ca7f27db10.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xac2e26b5ec7da3a2"
+      ]
+    },
+    {
+      "id": "fuente-heart-02",
+      "place": "fuente",
+      "cat": "heart",
+      "at": {
+        "map": "adulto",
+        "x": 0.6901,
+        "y": 0.3492
+      },
+      "name": "Bottom of the fountain",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/80f0738c399adc1c.webp",
+        "images/atlas/d6f8525303970981.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x6f736fc80f7b0aca"
+      ]
+    },
+    {
+      "id": "fuente-gs-01",
+      "place": "fuente",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.3592,
+        "y": 0.7465
+      },
+      "name": "Wall above the sunken arch",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/95b586c184aa2384.webp",
+        "images/atlas/c76c57bea82ce32d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x63446d12663daa83",
+        "0x63446d12663daa81"
+      ]
+    },
+    {
+      "id": "fuente-gs-02",
+      "place": "fuente",
+      "cat": "gs",
+      "at": {
+        "map": "nino",
+        "x": 0.6332,
+        "y": 0.8206
+      },
+      "name": "Pine tree in the southeast corner",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/a1c39ea357ca9039.webp",
+        "images/atlas/d8da4924077716db.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf0dac245e2fc448e",
+        "0xf0dac245e2fc448c"
+      ]
+    },
+    {
+      "id": "fuente-gs-03",
+      "place": "fuente",
+      "cat": "gs",
+      "at": {
+        "map": "adulto",
+        "x": 0.8009,
+        "y": 0.6098
+      },
+      "name": "Cave behind the Zora-marked blocks",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/768980480a461cb9.webp",
+        "images/atlas/2424aeada0ecde83.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x845ba51dc18c855e",
+        "0x845ba51dc18c855c"
+      ]
+    },
+    {
+      "id": "fuente-fairy-01",
+      "place": "fuente",
+      "cat": "fairy",
+      "at": {
+        "map": "nino",
+        "x": 0.719,
+        "y": 0.93
+      },
+      "name": "Great Fairy: Farore's Wind",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/f899818518ec032a.webp",
+        "images/atlas/605236ce25a0eba3.webp"
+      ],
+      "hex32": [
+        3392277520
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lago-heart-01",
+      "place": "lago",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.5537,
+        "y": 0.2122
+      },
+      "name": "Diving in the laboratory",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/d5dbbd9a135e4978.webp",
+        "images/atlas/e1ede33d91636e18.webp"
+      ],
+      "hex32": [
+        2910462414
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lago-heart-02",
+      "place": "lago",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.5148,
+        "y": 0.2296
+      },
+      "name": "Laboratory roof",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/3b36c9a09d21fd21.webp",
+        "images/atlas/02bae355d291f5a6.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xbaec91d6ed8dd96b"
+      ]
+    },
+    {
+      "id": "lago-heart-03",
+      "place": "lago",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.7759,
+        "y": 0.5081
+      },
+      "name": "Fishing as a child",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/2e6dab3d42989a66.webp",
+        "images/atlas/ecd868a12c7ba043.webp"
+      ],
+      "hex32": [
+        4052295534
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lago-gs-01",
+      "place": "lago",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5573,
+        "y": 0.1684
+      },
+      "name": "Bugs in the soft soil by the laboratory",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/42eb4bdadac02511.webp",
+        "images/atlas/1c782dc8d4c39052.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x61576befd16c499a",
+        "0x61576befd16c4998"
+      ]
+    },
+    {
+      "id": "lago-gs-02",
+      "place": "lago",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5314,
+        "y": 0.2627
+      },
+      "name": "Laboratory wall",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/e965d2811159ee26.webp",
+        "images/atlas/30cbfe2d60eb0d85.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xc1858a4fcd84a28e",
+        "0xc1858a4fcd84a28c"
+      ]
+    },
+    {
+      "id": "lago-gs-03",
+      "place": "lago",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.1759,
+        "y": 0.8408
+      },
+      "name": "Cave on the west shore",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/295c86caf4b49b6e.webp",
+        "images/atlas/c666e54204895b2d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x781e0de8eed42373",
+        "0x781e0de8eed42371"
+      ]
+    },
+    {
+      "id": "lago-gs-04",
+      "place": "lago",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5348,
+        "y": 0.2101
+      },
+      "name": "Crate at the bottom of the laboratory pool",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/171fe489afe67ad7.webp",
+        "images/atlas/8edf20e99c51123f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x6689bdebc95368eb",
+        "0x6689bdebc95368e9"
+      ]
+    },
+    {
+      "id": "lago-gs-05",
+      "place": "lago",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.4774,
+        "y": 0.6024
+      },
+      "name": "Tree on the big island",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/f99fc21a0f79e3f5.webp",
+        "images/atlas/81bea6fb13464f0a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x0af4d6f063d3ae9f",
+        "0x0af4d6f063d3ae9d"
+      ]
+    },
+    {
+      "id": "lago-bean-01",
+      "place": "lago",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.576,
+        "y": 0.1839
+      },
+      "name": "Soft soil by the laboratory",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/4b3fe9f28d962574.webp"
+      ],
+      "hex32": [
+        2956424759
+      ],
+      "hex64": []
+    },
+    {
+      "id": "valle-heart-01",
+      "place": "valle",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.5053,
+        "y": 0.1146
+      },
+      "name": "Behind the waterfall",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/475e8c7957474a8f.webp",
+        "images/atlas/9753c20ee5498c13.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xdfd66c63357cdea7"
+      ]
+    },
+    {
+      "id": "valle-heart-02",
+      "place": "valle",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.4225,
+        "y": 0.7518
+      },
+      "name": "Chest on the canyon ledge",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/5e6592a7228bc8ab.webp",
+        "images/atlas/9a85161cd0ba472e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xdc0cbd0ac9f0b18a"
+      ]
+    },
+    {
+      "id": "valle-gs-01",
+      "place": "valle",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.7813,
+        "y": 0.5882
+      },
+      "name": "Waterspout by the footbridge",
+      "age": "child",
+      "night": true,
+      "images": [
+        "images/atlas/258ac59fe4b8868a.webp",
+        "images/atlas/4b7df06e7dfa914f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd3d86d3d6988ed8c",
+        "0xd3d86d3d6988ed8e"
+      ]
+    },
+    {
+      "id": "valle-gs-02",
+      "place": "valle",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.4203,
+        "y": 0.6243
+      },
+      "name": "Bugs in the soft soil by the cow",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/4a1ad4ea74e03542.webp",
+        "images/atlas/ccdea06ecae600c1.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x738f5746cc517702",
+        "0x738f5746cc517700"
+      ]
+    },
+    {
+      "id": "valle-gs-03",
+      "place": "valle",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.2166,
+        "y": 0.3565
+      },
+      "name": "Behind the tent",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/828ec28d9fc42447.webp",
+        "images/atlas/d1b39caeb5a8375f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xbc85efca2b222cd9",
+        "0xbc85efca2b222cdb"
+      ]
+    },
+    {
+      "id": "valle-gs-04",
+      "place": "valle",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.2818,
+        "y": 0.6151
+      },
+      "name": "Rock arch across from the tent",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/f332bea07aefd160.webp",
+        "images/atlas/1cd90b5a54521cbc.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xa017ce09904c2dce",
+        "0xa017ce09904c2dcc"
+      ]
+    },
+    {
+      "id": "valle-bean-01",
+      "place": "valle",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.4251,
+        "y": 0.6119
+      },
+      "name": "Soft soil in the Gerudo canyon",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/5c780160dcfa13e7.webp"
+      ],
+      "hex32": [
+        1352759134
+      ],
+      "hex64": []
+    },
+    {
+      "id": "fortaleza-heart-01",
+      "place": "fortaleza",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.5054,
+        "y": 0.7148
+      },
+      "name": "Horseback archery - 1,000 points",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/8c89f2081b0ed0f4.webp",
+        "images/atlas/902e679ca926440d.webp"
+      ],
+      "hex32": [
+        1061364827
+      ],
+      "hex64": []
+    },
+    {
+      "id": "fortaleza-gs-01",
+      "place": "fortaleza",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.847,
+        "y": 0.2188
+      },
+      "name": "Archery range target",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/0d57534c7b226a04.webp",
+        "images/atlas/ee9104031b068520.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xb4ece769e6f3a206",
+        "0xb4ece769e6f3a204"
+      ]
+    },
+    {
+      "id": "fortaleza-gs-02",
+      "place": "fortaleza",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.4235,
+        "y": 0.293
+      },
+      "name": "Upper rooftop",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/3268d37fe1f377cc.webp",
+        "images/atlas/85b6e09ba3e79c5a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x81ed4ed76699e3d8",
+        "0x81ed4ed76699e3da"
+      ]
+    },
+    {
+      "id": "desierto-gs-01",
+      "place": "desierto",
+      "cat": "gs",
+      "at": null,
+      "name": "Inside the monument",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/d77c310b8b567ad3.webp",
+        "images/atlas/835b207b80144c9f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xceed596f17934971",
+        "0xceed596f17934973"
+      ]
+    },
+    {
+      "id": "coloso-heart-01",
+      "place": "coloso",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.2766,
+        "y": 0.4824
+      },
+      "name": "Stone arch by the temple",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/d952fcf7e227f3cf.webp",
+        "images/atlas/580f2caf1773fd36.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x92feab9a9810c619"
+      ]
+    },
+    {
+      "id": "coloso-gs-01",
+      "place": "coloso",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.1953,
+        "y": 0.5168
+      },
+      "name": "Bugs in the soft soil by the temple",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/13114341bbebc7db.webp",
+        "images/atlas/d645c4319a10d8a9.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x0341f2c03598c861",
+        "0x0341f2c03598c863"
+      ]
+    },
+    {
+      "id": "coloso-gs-02",
+      "place": "coloso",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.5618,
+        "y": 0.3987
+      },
+      "name": "Top of the big rock",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/7b7f897910882490.webp",
+        "images/atlas/3f3bcdae431dee48.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x9ae3d0ac392e6cda",
+        "0x9ae3d0ac392e6cd8"
+      ]
+    },
+    {
+      "id": "coloso-gs-03",
+      "place": "coloso",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.1471,
+        "y": 0.1621
+      },
+      "name": "Rock wall beside the temple",
+      "age": "adult",
+      "night": true,
+      "images": [
+        "images/atlas/c49c23b1f6d679be.webp",
+        "images/atlas/26ee36619551d92d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd0f7e5ffa76ba288",
+        "0xd0f7e5ffa76ba28a"
+      ]
+    },
+    {
+      "id": "coloso-bean-01",
+      "place": "coloso",
+      "cat": "bean",
+      "at": {
+        "map": "principal",
+        "x": 0.1976,
+        "y": 0.52
+      },
+      "name": "Soft soil by the temple",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/d9782f28122d8f0e.webp"
+      ],
+      "hex32": [
+        706500814
+      ],
+      "hex64": []
+    },
+    {
+      "id": "coloso-fairy-01",
+      "place": "coloso",
+      "cat": "fairy",
+      "at": {
+        "map": "principal",
+        "x": 0.6747,
+        "y": 0.2791
+      },
+      "name": "Great Fairy: Nayru's Love",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/a526bcea10c8c17f.webp",
+        "images/atlas/8c7ae17f53e77f10.webp"
+      ],
+      "hex32": [
+        1974923271
+      ],
+      "hex64": []
+    },
+    {
+      "id": "deku-gs-01",
+      "place": "deku",
+      "cat": "gs",
+      "at": {
+        "map": "3F",
+        "x": 0.4676,
+        "y": 0.8318
+      },
+      "name": "Compass room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/db3a521949806ea8.webp",
+        "images/atlas/133fbddd3a05b4cf.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xbce05898ce61f1c0",
+        "0xbce05898ce61f1c2"
+      ]
+    },
+    {
+      "id": "deku-gs-02",
+      "place": "deku",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.9235,
+        "y": 0.2705
+      },
+      "name": "Basement vines",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/007dfbd483e37f4c.webp",
+        "images/atlas/b28b95b5d15c3a6b.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xdf73f3739cef466b",
+        "0xdf73f3739cef4669"
+      ]
+    },
+    {
+      "id": "deku-gs-03",
+      "place": "deku",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.7081,
+        "y": 0.0804
+      },
+      "name": "Basement gate",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/0e97276c54d43219.webp",
+        "images/atlas/86b90769a8c2e6c1.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xfad8931a0011e1d4",
+        "0xfad8931a0011e1d6"
+      ]
+    },
+    {
+      "id": "deku-gs-04",
+      "place": "deku",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.0707,
+        "y": 0.1611
+      },
+      "name": "Back room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/a9440457056875fd.webp",
+        "images/atlas/fbcd0fe7a6760f62.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf2e27d6a27026acf",
+        "0xf2e27d6a27026acd"
+      ]
+    },
+    {
+      "id": "deku-heart-01",
+      "place": "deku",
+      "cat": "container",
+      "at": {
+        "map": "S2",
+        "x": 0.4888,
+        "y": 0.7658
+      },
+      "name": "Heart Container - Gohma",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/6f8a6a2945802b7b.webp",
+        "images/atlas/4fc874005e1a6483.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf914fa367471a3e3"
+      ]
+    },
+    {
+      "id": "dodongos-gs-01",
+      "place": "dodongos",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.682,
+        "y": 0.76
+      },
+      "name": "Behind the Baby Dodongos' wall",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/5163696cba9539ce.webp",
+        "images/atlas/89f12ba33c484f55.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x10434342a3917ebd",
+        "0x10434342a3917ebf"
+      ]
+    },
+    {
+      "id": "dodongos-gs-02",
+      "place": "dodongos",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.1189,
+        "y": 0.4334
+      },
+      "name": "Vines on the big staircase",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/212bd74587788529.webp",
+        "images/atlas/b57d2b1ad9628198.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x758ce7b4868447fb",
+        "0x758ce7b4868447f9"
+      ]
+    },
+    {
+      "id": "dodongos-gs-03",
+      "place": "dodongos",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.4504,
+        "y": 0.2799
+      },
+      "name": "Pillar surrounded by Dodongos",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/ea8161479a374bf6.webp",
+        "images/atlas/0661577b99afeaa2.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x3f5b150f16d84603",
+        "0x3f5b150f16d84601"
+      ]
+    },
+    {
+      "id": "dodongos-gs-04",
+      "place": "dodongos",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.1109,
+        "y": 0.1082
+      },
+      "name": "Armos room past the mouth",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/9f33ac62b198399b.webp",
+        "images/atlas/68a7edc0a2b3eddd.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xbdfe13c37f356829",
+        "0xbdfe13c37f35682b"
+      ]
+    },
+    {
+      "id": "dodongos-gs-05",
+      "place": "dodongos",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.6488,
+        "y": 0.5721
+      },
+      "name": "Scarecrow's ledge",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/0000af2e0feffeef.webp",
+        "images/atlas/d8aa195c163c329e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x0d53e429a1ef383d",
+        "0x0d53e429a1ef383f"
+      ]
+    },
+    {
+      "id": "dodongos-heart-01",
+      "place": "dodongos",
+      "cat": "container",
+      "at": {
+        "map": "1F",
+        "x": 0.4042,
+        "y": 0.2487
+      },
+      "name": "Heart Container - King Dodongo",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/b97f25f1865ae019.webp",
+        "images/atlas/6229b05e5a866513.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x5262cea56c53554d"
+      ]
+    },
+    {
+      "id": "jabu-gs-01",
+      "place": "jabu",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.729,
+        "y": 0.6303
+      },
+      "name": "Water switch room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/cfa0683ff00b72c8.webp",
+        "images/atlas/09285b7b9b7e84ff.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x9fc92497f014dbd5",
+        "0x9fc92497f014dbd7"
+      ]
+    },
+    {
+      "id": "jabu-gs-02",
+      "place": "jabu",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.3563,
+        "y": 0.3152
+      },
+      "name": "Basement of the big room, lower one",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/edac8b3987572d88.webp",
+        "images/atlas/dae07e1242338e5d.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x9c95fd41b89c058a",
+        "0x9c95fd41b89c0588"
+      ]
+    },
+    {
+      "id": "jabu-gs-03",
+      "place": "jabu",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.509,
+        "y": 0.1738
+      },
+      "name": "Basement of the big room, upper one",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/cc216a0bfb7c0863.webp",
+        "images/atlas/8b4f57c24c4f0dc7.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xc03f282ff60942b6",
+        "0xc03f282ff60942b4"
+      ]
+    },
+    {
+      "id": "jabu-gs-04",
+      "place": "jabu",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.8025,
+        "y": 0.726
+      },
+      "name": "Vines before the boss",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/493415fdc9379cf4.webp",
+        "images/atlas/e08f2aac29e0bad2.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xddd260afb6f2989a",
+        "0xddd260afb6f29898"
+      ]
+    },
+    {
+      "id": "jabu-heart-01",
+      "place": "jabu",
+      "cat": "container",
+      "at": {
+        "map": "2F",
+        "x": 0.8528,
+        "y": 0.2218
+      },
+      "name": "Heart Container - Barinade",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/e3b3f7ceb1f060c2.webp",
+        "images/atlas/1d11bdcf5f449e8c.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf45f5319d88e7ac7"
+      ]
+    },
+    {
+      "id": "bosque-gs-01",
+      "place": "bosque",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.6213,
+        "y": 0.8472
+      },
+      "name": "Entrance vines",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/8510400eb81fdf0c.webp",
+        "images/atlas/8565576d25b9bd36.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x99ca89963485df11",
+        "0x99ca89963485df13"
+      ]
+    },
+    {
+      "id": "bosque-gs-02",
+      "place": "bosque",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.5886,
+        "y": 0.3049
+      },
+      "name": "Central hall",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/6ebe037d037acd04.webp",
+        "images/atlas/1ada9fcb97f1047e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf46b1710ed0620d1",
+        "0xf46b1710ed0620d3"
+      ]
+    },
+    {
+      "id": "bosque-gs-03",
+      "place": "bosque",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.8045,
+        "y": 0.23
+      },
+      "name": "Balcony above the stained-glass door",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/b290b1db5986180b.webp",
+        "images/atlas/b969960d3a28f4b1.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x1bf5f0176ef03bda",
+        "0x1bf5f0176ef03bd8"
+      ]
+    },
+    {
+      "id": "bosque-gs-04",
+      "place": "bosque",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.3104,
+        "y": 0.4148
+      },
+      "name": "West courtyard ledge",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/fbe0f70b27cd7851.webp",
+        "images/atlas/198a90df41cbce61.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x984021bc20419ebe",
+        "0x984021bc20419ebc"
+      ]
+    },
+    {
+      "id": "bosque-gs-05",
+      "place": "bosque",
+      "cat": "gs",
+      "at": {
+        "map": "S2",
+        "x": 0.4046,
+        "y": 0.8835
+      },
+      "name": "Rotating room in the basement",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/4ed844ce801ac271.webp",
+        "images/atlas/2aa81d8a3653c18a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x2aa39f00aaa2d331",
+        "0x2aa39f00aaa2d333"
+      ]
+    },
+    {
+      "id": "bosque-heart-01",
+      "place": "bosque",
+      "cat": "container",
+      "at": {
+        "map": "S2",
+        "x": 0.4572,
+        "y": 0.1063
+      },
+      "name": "Heart Container - Phantom Ganon",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/15f7b43c5acc8367.webp",
+        "images/atlas/0bd4bd7666036f34.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xff11593a22778e7e"
+      ]
+    },
+    {
+      "id": "fuego-gs-01",
+      "place": "fuego",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.6644,
+        "y": 0.1206
+      },
+      "name": "Time Block room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/1da52d01ff92b0e5.webp",
+        "images/atlas/8dc09dd6dc032335.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x5e3ae6a7cf3ac292",
+        "0x5e3ae6a7cf3ac290"
+      ]
+    },
+    {
+      "id": "fuego-gs-02",
+      "place": "fuego",
+      "cat": "gs",
+      "at": {
+        "map": "3F",
+        "x": 0.7878,
+        "y": 0.2489
+      },
+      "name": "Wall in the boulder maze",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/018e6ba5780f8a29.webp",
+        "images/atlas/ae8a0705898a9b31.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xb0f77b17cfb37458",
+        "0xb0f77b17cfb3745a"
+      ]
+    },
+    {
+      "id": "fuego-gs-03",
+      "place": "fuego",
+      "cat": "gs",
+      "at": {
+        "map": "5F",
+        "x": 0.7653,
+        "y": 0.4186
+      },
+      "name": "Grate behind the Scarecrow",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/c760a48376395a2e.webp",
+        "images/atlas/d9e28fd18aaf9ef9.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x7f498ada1c2e9c7a",
+        "0x7f498ada1c2e9c78"
+      ]
+    },
+    {
+      "id": "fuego-gs-04",
+      "place": "fuego",
+      "cat": "gs",
+      "at": {
+        "map": "5F",
+        "x": 0.7878,
+        "y": 0.1938
+      },
+      "name": "Octagonal room at the top",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/bd59c82be0e7c34b.webp",
+        "images/atlas/88f1bdfb9517356c.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x4d1b7e35ca0c6484",
+        "0x4d1b7e35ca0c6486"
+      ]
+    },
+    {
+      "id": "fuego-gs-05",
+      "place": "fuego",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.3558,
+        "y": 0.1551
+      },
+      "name": "Behind the entrance hall statue",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/a3ec27dfca1d5d3d.webp",
+        "images/atlas/ad9197cc6b0c230e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xcc175a90e0014905",
+        "0xcc175a90e0014907"
+      ]
+    },
+    {
+      "id": "fuego-heart-01",
+      "place": "fuego",
+      "cat": "container",
+      "at": {
+        "map": "1F",
+        "x": 0.0842,
+        "y": 0.4863
+      },
+      "name": "Heart Container - Volvagia",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/99b70f8da4f8cfc0.webp",
+        "images/atlas/2ab7f2e6212ab7b8.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8389cafb1277d318"
+      ]
+    },
+    {
+      "id": "agua-gs-01",
+      "place": "agua",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.8286,
+        "y": 0.6293
+      },
+      "name": "Next to the basement grate",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/27f2bd1c195b32fe.webp",
+        "images/atlas/48368d4205613e57.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xe03a2965df9f7b30",
+        "0xe03a2965df9f7b32"
+      ]
+    },
+    {
+      "id": "agua-gs-02",
+      "place": "agua",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.3056,
+        "y": 0.4771
+      },
+      "name": "Whirlpool river",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/c4648f47b96fc9a7.webp",
+        "images/atlas/90ec95c323f9316f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd731ea6a04d0fd01",
+        "0xd731ea6a04d0fd03"
+      ]
+    },
+    {
+      "id": "agua-gs-03",
+      "place": "agua",
+      "cat": "gs",
+      "at": {
+        "map": "3F",
+        "x": 0.6747,
+        "y": 0.6485
+      },
+      "name": "Inside the central pillar",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/35f1631b3b8810fc.webp",
+        "images/atlas/e323545a0df80a8a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xa0973706f6415ecd",
+        "0xa0973706f6415ecf"
+      ]
+    },
+    {
+      "id": "agua-gs-04",
+      "place": "agua",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.6944,
+        "y": 0.4181
+      },
+      "name": "Rolling boulder waterfall",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/20f073588ad7a7d9.webp",
+        "images/atlas/fb8b8add045d4911.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x02974596f92cf377",
+        "0x02974596f92cf375"
+      ]
+    },
+    {
+      "id": "agua-gs-05",
+      "place": "agua",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.8141,
+        "y": 0.775
+      },
+      "name": "Behind the cracked wall underwater",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/57fd68510dd526ff.webp",
+        "images/atlas/ee8feb75e587d12a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x3d0de5adaeb73cc9",
+        "0x3d0de5adaeb73ccb"
+      ]
+    },
+    {
+      "id": "agua-heart-01",
+      "place": "agua",
+      "cat": "container",
+      "at": {
+        "map": "3F",
+        "x": 0.6569,
+        "y": 0.3509
+      },
+      "name": "Heart Container - Morpha",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/5d29af0fe39d2fd3.webp",
+        "images/atlas/7a94ef0d0369487b.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xc835e1d03656bf46"
+      ]
+    },
+    {
+      "id": "sombra-gs-01",
+      "place": "sombra",
+      "cat": "gs",
+      "at": {
+        "map": "S3",
+        "x": 0.2291,
+        "y": 0.8014
+      },
+      "name": "Invisible scythe room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/7071f75c0caac948.webp",
+        "images/atlas/89c5d10b7407d648.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd23a7a2c9eced9ce",
+        "0xd23a7a2c9eced9cc"
+      ]
+    },
+    {
+      "id": "sombra-gs-02",
+      "place": "sombra",
+      "cat": "gs",
+      "at": {
+        "map": "S3",
+        "x": 0.436,
+        "y": 0.362
+      },
+      "name": "Wall of the cell corridor",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/51835922b75f0e2a.webp",
+        "images/atlas/a415985dd827b85f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xd7ffbe169189e50d",
+        "0xd7ffbe169189e50f"
+      ]
+    },
+    {
+      "id": "sombra-gs-03",
+      "place": "sombra",
+      "cat": "gs",
+      "at": {
+        "map": "S3",
+        "x": 0.936,
+        "y": 0.8563
+      },
+      "name": "Pit in the fan corridor",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/8d56fd5c12a93916.webp",
+        "images/atlas/152af4106769ab9c.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xeafe60e592e9a3fb",
+        "0xeafe60e592e9a3f9"
+      ]
+    },
+    {
+      "id": "sombra-gs-04",
+      "place": "sombra",
+      "cat": "gs",
+      "at": {
+        "map": "S4",
+        "x": 0.7769,
+        "y": 0.5628
+      },
+      "name": "High ledge in the boat room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/a93f27991c0bcac4.webp",
+        "images/atlas/a354c545ce16d252.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x7a74bc651f9fe024",
+        "0x7a74bc651f9fe026"
+      ]
+    },
+    {
+      "id": "sombra-gs-05",
+      "place": "sombra",
+      "cat": "gs",
+      "at": {
+        "map": "S4",
+        "x": 0.0934,
+        "y": 0.5524
+      },
+      "name": "Inside the giant skulls",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/32da4f5ea49dcb4f.webp",
+        "images/atlas/0823b5e134419603.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8e87908cb035e950",
+        "0x8e87908cb035e952"
+      ]
+    },
+    {
+      "id": "sombra-heart-01",
+      "place": "sombra",
+      "cat": "container",
+      "at": {
+        "map": "S4",
+        "x": 0.2542,
+        "y": 0.852
+      },
+      "name": "Heart Container - Bongo Bongo",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/831d867e80f56391.webp",
+        "images/atlas/e8d541b320791745.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xf43ccb260f5576dc"
+      ]
+    },
+    {
+      "id": "espiritu-gs-01",
+      "place": "espiritu",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.4247,
+        "y": 0.3381
+      },
+      "name": "Metal fence in the Keese room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/e6fec2857c58bfc1.webp",
+        "images/atlas/2bebfe3c4b5f9d3e.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x9222e742b73d3d2c",
+        "0x9222e742b73d3d2e"
+      ]
+    },
+    {
+      "id": "espiritu-gs-02",
+      "place": "espiritu",
+      "cat": "gs",
+      "at": {
+        "map": "2F",
+        "x": 0.6277,
+        "y": 0.1531
+      },
+      "name": "Floor of the big statue room",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/844e8a6d9d17060b.webp",
+        "images/atlas/3bea4ab8ef0ee9f7.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xb3d9f353599eea51",
+        "0xb3d9f353599eea53"
+      ]
+    },
+    {
+      "id": "espiritu-gs-03",
+      "place": "espiritu",
+      "cat": "gs",
+      "at": {
+        "map": "3F",
+        "x": 0.1155,
+        "y": 0.5671
+      },
+      "name": "Above the staircase door",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/22a33018c16bf620.webp",
+        "images/atlas/12adad459e811d34.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x8c8bb95471d20d00",
+        "0x8c8bb95471d20d02"
+      ]
+    },
+    {
+      "id": "espiritu-gs-04",
+      "place": "espiritu",
+      "cat": "gs",
+      "at": {
+        "map": "1F",
+        "x": 0.7988,
+        "y": 0.2936
+      },
+      "name": "Behind the Time Block in the rolling boulder room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/ae101f9712843337.webp",
+        "images/atlas/d84d5c21d30d9c8a.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x70b0fca66ca48088",
+        "0x70b0fca66ca4808a"
+      ]
+    },
+    {
+      "id": "espiritu-gs-05",
+      "place": "espiritu",
+      "cat": "gs",
+      "at": {
+        "map": "3F",
+        "x": 0.3613,
+        "y": 0.1259
+      },
+      "name": "Northwest ledge of the statue room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/646265b4a2f06963.webp",
+        "images/atlas/c2a56f05974659af.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x4696b2730de0516c",
+        "0x4696b2730de0516e"
+      ]
+    },
+    {
+      "id": "espiritu-heart-01",
+      "place": "espiritu",
+      "cat": "container",
+      "at": {
+        "map": "2F",
+        "x": 0.4806,
+        "y": 0.1146
+      },
+      "name": "Heart Container - Twinrova",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/f538577715c39c96.webp",
+        "images/atlas/f4ec7383efdb6056.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x41811f125b1eedd5"
+      ]
+    },
+    {
+      "id": "pozo-gs-01",
+      "place": "pozo",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.5481,
+        "y": 0.4589
+      },
+      "name": "Left room off the central area",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/4a3a528aecdf510f.webp",
+        "images/atlas/6335a82a92eb4479.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x6789388e9fb9c92c",
+        "0x6789388e9fb9c92e"
+      ]
+    },
+    {
+      "id": "pozo-gs-02",
+      "place": "pozo",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.6391,
+        "y": 0.4637
+      },
+      "name": "High corner of the pit room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/6c492c5d4e61b2f5.webp",
+        "images/atlas/44680f78dfc7ad3f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xa8d6182a5c956e16",
+        "0xa8d6182a5c956e14"
+      ]
+    },
+    {
+      "id": "pozo-gs-03",
+      "place": "pozo",
+      "cat": "gs",
+      "at": {
+        "map": "S1",
+        "x": 0.8821,
+        "y": 0.5529
+      },
+      "name": "Like Like room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/0c0c777a49013036.webp",
+        "images/atlas/0f522323e71bb24f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x35fb354fac262d36",
+        "0x35fb354fac262d34"
+      ]
+    },
+    {
+      "id": "hielo-gs-01",
+      "place": "hielo",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.4055,
+        "y": 0.4088
+      },
+      "name": "Spinning blade room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/0fc9f3e25475a5ad.webp",
+        "images/atlas/8dacd1d83264ebdf.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x63701a2cf70b201c",
+        "0x63701a2cf70b201e"
+      ]
+    },
+    {
+      "id": "hielo-gs-02",
+      "place": "hielo",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.3073,
+        "y": 0.369
+      },
+      "name": "Compass room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/d44502b47139cfdc.webp",
+        "images/atlas/641633199749e1e2.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xcdb49f5d0a67fcf6",
+        "0xcdb49f5d0a67fcf4"
+      ]
+    },
+    {
+      "id": "hielo-gs-03",
+      "place": "hielo",
+      "cat": "gs",
+      "at": {
+        "map": "principal",
+        "x": 0.8775,
+        "y": 0.4411
+      },
+      "name": "Ice block room",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/c81f66a9e6a5ed99.webp",
+        "images/atlas/cece15ba4515a039.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x165fc0bc0aca1f6c",
+        "0x165fc0bc0aca1f6e"
+      ]
+    },
+    {
+      "id": "castillo-fairy-02",
+      "place": "castillo",
+      "cat": "fairy",
+      "at": {
+        "map": "adulto",
+        "x": 0.7921,
+        "y": 0.5987
+      },
+      "name": "Great Fairy: Double Defense",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/ff540cf2bc2dab62.webp",
+        "images/atlas/ec6b9cf2f98dfd8b.webp"
+      ],
+      "hex32": [
+        321954387
+      ],
+      "hex64": []
+    },
+    {
+      "id": "kakariko-bottle-01",
+      "place": "kakariko",
+      "cat": "bottle",
+      "at": {
+        "map": "nino",
+        "x": 0.4053,
+        "y": 0.7015
+      },
+      "name": "The seven lost Cuccos",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/32371cf3d46b87d6.webp",
+        "images/atlas/90365bab91072b84.webp"
+      ],
+      "hex32": [
+        2054775235
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lonlon-bottle-01",
+      "place": "lonlon",
+      "cat": "bottle",
+      "at": {
+        "map": "principal",
+        "x": 0.6942,
+        "y": 0.2314
+      },
+      "name": "Talon's Super Cuccos",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/729b0497ffd7a71d.webp"
+      ],
+      "hex32": [
+        139307071
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lago-bottle-01",
+      "place": "lago",
+      "cat": "bottle",
+      "at": {
+        "map": "principal",
+        "x": 0.6537,
+        "y": 0.3412
+      },
+      "name": "Ruto's letter",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/9baaebeef0db7296.webp",
+        "images/atlas/60e325fb1d480c56.webp"
+      ],
+      "hex32": [
+        2010907784
+      ],
+      "hex64": []
+    },
+    {
+      "id": "ciudadela-bottle-01",
+      "place": "ciudadela",
+      "cat": "bottle",
+      "at": {
+        "map": "adulto",
+        "x": 0.4085,
+        "y": 0.8104
+      },
+      "name": "The Poe Collector",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/e846976dc71e6d76.webp",
+        "images/atlas/9adfb1fa9523a735.webp"
+      ],
+      "hex32": [],
+      "hex64": []
+    },
+    {
+      "id": "ciudadela-bottle-02",
+      "place": "ciudadela",
+      "cat": "bottle",
+      "at": {
+        "map": "nino",
+        "x": 0.6414,
+        "y": 0.4764
+      },
+      "name": "The potion shopkeeper's bug",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/8b2ecbec3efd3a51.webp",
+        "images/atlas/35e709e8a2d7c98f.webp"
+      ],
+      "hex32": [
+        1298325109
+      ],
+      "hex64": []
+    },
+    {
+      "id": "dominio-heart-01",
+      "place": "dominio",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.4453,
+        "y": 0.5254
+      },
+      "name": "Torch chest",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/792ef1b513a4051e.webp",
+        "images/atlas/4bcb26337655b56f.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x2b702a67d25f1421"
+      ]
+    },
+    {
+      "id": "fortaleza-heart-02",
+      "place": "fortaleza",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.3341,
+        "y": 0.1953
+      },
+      "name": "Rooftop chest",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/cbf27ba12bae18ea.webp",
+        "images/atlas/7284a23c9f66a1f9.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0xab4dd26b0113ac53"
+      ]
+    },
+    {
+      "id": "kakariko-heart-04",
+      "place": "kakariko",
+      "cat": "heart",
+      "at": {
+        "map": "nino",
+        "x": 0.6639,
+        "y": 0.6622
+      },
+      "name": "Reward for 50 Skulltulas",
+      "age": "both",
+      "night": false,
+      "images": [
+        "images/atlas/fb00629ce599c547.webp",
+        "images/atlas/726a244f4bb55d22.webp"
+      ],
+      "hex32": [
+        2245529914
+      ],
+      "hex64": []
+    },
+    {
+      "id": "castillo-gs-03",
+      "place": "castillo",
+      "cat": "gs",
+      "at": {
+        "map": "adulto",
+        "x": 0.7334,
+        "y": 0.6746
+      },
+      "name": "Ruined archway",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/e014a30cce203670.webp",
+        "images/atlas/74ce10ccd1415e88.webp"
+      ],
+      "hex32": [],
+      "hex64": [
+        "0x4e13cc311cd04df4",
+        "0x4e13cc311cd04df6"
+      ]
+    },
+    {
+      "id": "cementerio-thought-01",
+      "place": "cementerio",
+      "cat": "thought",
+      "at": {
+        "map": "nino",
+        "x": 0.679,
+        "y": 0.474
+      },
+      "name": "Broken pedestal in the Royal Family's Tomb",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/8994c3b20216af02.webp",
+        "images/atlas/6a92e81e5151272a.webp"
+      ],
+      "hex32": [
+        782041802
+      ],
+      "hex64": []
+    },
+    {
+      "id": "coloso-thought-01",
+      "place": "coloso",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.1819,
+        "y": 0.4866
+      },
+      "name": "Spirit Temple stairway",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/a0490fd324d7230d.webp",
+        "images/atlas/836ffff6aa095781.webp"
+      ],
+      "hex32": [
+        3145274054
+      ],
+      "hex64": []
+    },
+    {
+      "id": "hielo-thought-01",
+      "place": "hielo",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.8472,
+        "y": 0.4262
+      },
+      "name": "Ice tunnel next to the Compass room",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/5d5aca890925b786.webp",
+        "images/atlas/61765684b145e028.webp"
+      ],
+      "hex32": [
+        810305992
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lago-thought-01",
+      "place": "lago",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.1676,
+        "y": 0.7677
+      },
+      "name": "Pot alcove on the west shore",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/f43f74bd983e427a.webp",
+        "images/atlas/0ae45d7ead54c1fd.webp"
+      ],
+      "hex32": [
+        2341419572
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-01",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.6905,
+        "y": 0.1746
+      },
+      "name": "Ruins by the drawbridge",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/1c63d5b9d34a5f57.webp",
+        "images/atlas/92f5035903865f0a.webp"
+      ],
+      "hex32": [
+        3931244337
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-02",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.1579,
+        "y": 0.3667
+      },
+      "name": "Chest cave by Gerudo Valley",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/15e79fef941c18a9.webp",
+        "images/atlas/ce378afbbcdc60eb.webp"
+      ],
+      "hex32": [
+        1720574920
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-03",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.6442,
+        "y": 0.7754
+      },
+      "name": "Gossip Stone grotto south of the ranch",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/f4cf47c3b94aaa81.webp",
+        "images/atlas/16b9dbaae5b7082b.webp"
+      ],
+      "hex32": [
+        1961930775
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-04",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.6632,
+        "y": 0.1137
+      },
+      "name": "Tree by the Business Scrub's hole",
+      "age": "adult",
+      "night": false,
+      "images": [
+        "images/atlas/d271195ee12940ce.webp",
+        "images/atlas/8df671bcc0acee88.webp"
+      ],
+      "hex32": [
+        2391751397
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-05",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.3474,
+        "y": 0.6211
+      },
+      "name": "Ruins by the ranch fence",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/354c3af2cdf635da.webp",
+        "images/atlas/769678a0b0ace7a1.webp"
+      ],
+      "hex32": [
+        16062239
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-06",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.3768,
+        "y": 0.1637
+      },
+      "name": "Rock nook in northwest Hyrule Field",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/711b4d73babd5c4d.webp"
+      ],
+      "hex32": [
+        354343297
+      ],
+      "hex64": []
+    },
+    {
+      "id": "lonlon-thought-01",
+      "place": "lonlon",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.4831,
+        "y": 0.2799
+      },
+      "name": "Wall of the ranch garden",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/d62e488ec159b9ae.webp",
+        "images/atlas/2c609c7e75675600.webp"
+      ],
+      "hex32": [
+        1229779628
+      ],
+      "hex64": []
+    },
+    {
+      "id": "pozo-thought-01",
+      "place": "pozo",
+      "cat": "thought",
+      "at": {
+        "map": "S1",
+        "x": 0.1597,
+        "y": 0.4924
+      },
+      "name": "Coffin in the Gibdo room",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/9bafccf5b373e2d5.webp",
+        "images/atlas/27a16f9a7595d46b.webp"
+      ],
+      "hex32": [
+        3611854014
+      ],
+      "hex64": []
+    },
+    {
+      "id": "sendero-thought-01",
+      "place": "sendero",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.7009,
+        "y": 0.5667
+      },
+      "name": "Leaf circle near Goron City",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/49ca127fcd64c7a6.webp",
+        "images/atlas/6401604417006e0a.webp"
+      ],
+      "hex32": [
+        965238119
+      ],
+      "hex64": []
+    },
+    {
+      "id": "sombra-thought-01",
+      "place": "sombra",
+      "cat": "thought",
+      "at": {
+        "map": "S3",
+        "x": 0.1931,
+        "y": 0.803
+      },
+      "name": "Wall of the ceiling spike room",
+      "age": null,
+      "night": false,
+      "images": [
+        "images/atlas/93a328d0f8c8cad1.webp",
+        "images/atlas/9b7dd92bfa8ea60c.webp"
+      ],
+      "hex32": [
+        2730984485
+      ],
+      "hex64": []
+    },
+    {
+      "id": "crater-heart-03",
+      "place": "crater",
+      "cat": "heart",
+      "at": {
+        "map": "principal",
+        "x": 0.4053,
+        "y": 0.6673
+      },
+      "name": "Business Scrub in the Crater",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/dec27f0d603bc72e.webp",
+        "images/atlas/49c11349de70aa44.webp"
+      ],
+      "hex32": [
+        1804584785
+      ],
+      "hex64": []
+    },
+    {
+      "id": "cementerio-thought-02",
+      "place": "cementerio",
+      "cat": "thought",
+      "at": {
+        "map": "nino",
+        "x": 0.7284,
+        "y": 0.5202
+      },
+      "name": "Ruins at the Royal Family's Tomb entrance",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/ccdbfbe374aff738.webp",
+        "images/atlas/ba3ec1d1b86988bb.webp"
+      ],
+      "hex32": [
+        1145067482
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-07",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.565,
+        "y": 0.885
+      },
+      "name": "Ruins by the exit to Lake Hylia",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/53c66707f63b4b27.webp",
+        "images/atlas/f13cfc9fb2cfd059.webp"
+      ],
+      "hex32": [
+        3977918637
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-08",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.86,
+        "y": 0.46
+      },
+      "name": "Rock nook by the entrance to Zora's River",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/3ca215211f99644d.webp",
+        "images/atlas/6f877b03ec197539.webp"
+      ],
+      "hex32": [
+        1254586769
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-09",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.49,
+        "y": 0.11
+      },
+      "name": "Rocks by the moat west of the drawbridge",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/aad48463b6472fbb.webp",
+        "images/atlas/bb99ab34c1c67d47.webp"
+      ],
+      "hex32": [
+        2274455897
+      ],
+      "hex64": []
+    },
+    {
+      "id": "llanura-thought-10",
+      "place": "llanura",
+      "cat": "thought",
+      "at": {
+        "map": "principal",
+        "x": 0.82,
+        "y": 0.125
+      },
+      "name": "Cart by the vegetable patch near Kakariko",
+      "age": "child",
+      "night": false,
+      "images": [
+        "images/atlas/22117f62e230aad2.webp",
+        "images/atlas/dee27f5f61044949.webp"
+      ],
+      "hex32": [
+        2162162301
+      ],
+      "hex64": []
+    }
+  ]
+}

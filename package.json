@@ -1,0 +1,93 @@
+{
+  "name": "hyrule-tracker",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Ocarina of Time remake companion for Windows.",
+  "author": "João Victor Prado",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "sav": "tsx src/cli/sav.ts",
+    "build-checklist": "tsx scripts/build-checklist.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "dev": "node scripts/dev.mjs",
+    "build": "vite build && node scripts/build-electron.mjs",
+    "start": "npm run build && node scripts/start.mjs",
+    "dist": "npm run build && electron-builder --win nsis",
+    "dist:publish": "node scripts/ensure-release.mjs && npm run build && electron-builder --win nsis --publish always"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "electron": "^45.3.0",
+    "electron-builder": "^26.18.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.8",
+    "vitest": "^3.2.7"
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.11",
+    "koffi": "3.3.7",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "main": "dist-electron/main.cjs",
+  "productName": "Hyrule Tracker",
+  "build": {
+    "appId": "com.hyruletracker.desktop",
+    "productName": "Hyrule Tracker",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**",
+      "dist-electron/**",
+      "!dist-electron/*.map",
+      "data/**",
+      "LICENSE",
+      "THIRD_PARTY_NOTICES.md",
+      "docs/atlas-license.txt",
+      "package.json",
+      "!dist/brand/icon.png",
+      "build/icon.png"
+    ],
+    "win": {
+      "signAndEditExecutable": true,
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "asar": true,
+    "asarUnpack": [
+      "node_modules/koffi/**",
+      "node_modules/@koromix/koffi-*/**"
+    ],
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Hyrule Tracker",
+      "artifactName": "Hyrule-Tracker-Setup-${version}.exe",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico",
+      "installerHeaderIcon": "build/icon.ico"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "jv-prado",
+      "repo": "hyrule-tracker"
+    }
+  }
+}

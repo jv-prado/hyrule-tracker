@@ -1,0 +1,118 @@
+import fs from 'node:fs';
+import { describe, it, expect } from 'vitest';
+import { applyLearned, findPools, findIdentifications, MapEntry } from '../src/core/pools.js';
+import { parseGameData } from '../src/gamedata/parser.js';
+import { Tracker, ChecklistFile, MappingFile } from '../src/core/tracker.js';
+
+const F = ['0x0000000000000010', '0x0000000000000020', '0x0000000000000030'];
+const pooled = (n: number): MapEntry => ({ label: `row ${n}`, detect: { count: F.map(b64 => ({ b64 })), gte: n }, confidence: 'guess', evidence: 'pool' });
+const entries: Record<string, MapEntry> = { a: pooled(1), b: pooled(2), c: pooled(3), x: { label: 'x', detect: { name: 'Foo' }, confidence: 'likely', evidence: '' } };
+const order = ['a', 'b', 'c', 'x'];
+const describeRow = (id: string) => ({ number: order.indexOf(id) + 1, name: id, category: 'Gold Skulltulas', chapter: 'Fire Temple' });
+
+describe('pools', () => {
+  it('finds rows that share flags', () => {
+    expect(findPools(entries, order)).toEqual([{ key: F.join(','), flags: F, rows: ['a', 'b', 'c'] }]);
+  });
+
+  it('asks which row a new flag belongs to', () => {
+    const { ask, auto } = findIdentifications(findPools(entries, order), new Set([F[1]]), describeRow);
+    expect(auto).toEqual([]);
+    expect(ask).toHaveLength(1);
+    expect(ask[0].pick).toBe(1);
+    expect(ask[0].candidates.map(c => c.id)).toEqual(['a', 'b', 'c']);
+    expect(ask[0].area).toBe('Fire Temple');
+  });
+
+  it('applies an answer and shrinks the pool', () => {
+    const { entries: out, pools } = applyLearned(entries, order, [{ flags: [F[1]], items: ['c'] }]);
+    expect(out.c.detect).toEqual({ b64: F[1] });
+    expect(out.c.confidence).toBe('confirmed');
+    expect(pools[0].rows).toEqual(['a', 'b']);
+    expect(pools[0].flags).toEqual([F[0], F[2]]);
+    expect(out.a.detect).toEqual({ count: [{ b64: F[0] }, { b64: F[2] }], gte: 1 });
+  });
+
+  it('identifies the last one by elimination', () => {
+    const { entries: out, pools } = applyLearned(entries, order, [{ flags: [F[0]], items: ['a'] }, { flags: [F[1]], items: ['b'] }]);
+    expect(out.c.detect).toEqual({ b64: F[2] });
+    expect(pools).toEqual([]);
+  });
+
+  it('answers by itself when every remaining row was collected at once', () => {
+    const { pools } = applyLearned(entries, order, [{ flags: [F[0]], items: ['a'] }]);
+    const { ask, auto } = findIdentifications(pools, new Set([F[1], F[2]]), describeRow);
+    expect(ask).toEqual([]);
+    expect(auto).toEqual([{ flags: [F[1], F[2]], items: ['b', 'c'] }]);
+  });
+
+  // A group spread over areas (like Lon Lon Ranch / Lake Hylia / Hyrule Field Skulltulas).
+  const spread = (id: string) => ({ ...describeRow(id), chapter: id === 'a' ? 'Lon Lon Ranch' : 'Lake Hylia' });
+
+  it('answers by itself when only one spot of the group is where you are', () => {
+    const { ask, auto } = findIdentifications(findPools(entries, order), new Set([F[1]]), spread, ['Lon Lon Ranch']);
+    expect(ask).toEqual([]);
+    expect(auto).toEqual([{ flags: [F[1]], items: ['a'], area: 'Lon Lon Ranch' }]);
+    const { entries: e } = applyLearned(entries, order, auto);
+    expect(e.a.detect).toEqual({ b64: F[1] });
+    expect(e.a.evidence).toMatch(/^Recognised automatically/);
+  });
+
+  it('narrows the question to where you are, keeping the rest available', () => {
+    const { ask, auto } = findIdentifications(findPools(entries, order), new Set([F[0]]), spread, ['Lake Hylia']);
+    expect(auto).toEqual([]);
+    expect(ask[0].candidates.map(c => c.id)).toEqual(['b', 'c']);
+    expect(ask[0].others?.map(c => c.id)).toEqual(['a']);
+    expect(ask[0].area).toBe('Lake Hylia');
+  });
+
+  it('asks about the whole group when the area matches none of it (e.g. a grotto)', () => {
+    const { ask, auto } = findIdentifications(findPools(entries, order), new Set([F[0]]), spread, ['Kokiri Forest']);
+    expect(auto).toEqual([]);
+    expect(ask[0].candidates).toHaveLength(3);
+    expect(ask[0].others).toBeUndefined();
+  });
+});
+
+// End to end on a real save: pretend a Fire Temple Skulltula was just collected.
+const snapDir = 'fixtures/snapshots/';
+const snap = fs.existsSync(snapDir) ? fs.readdirSync(snapDir).find(f => f.includes('After-Great-Deku')) : undefined;
+describe.skipIf(!snap)('identify flow on a real save', () => {
+  it('asks about the Fire Temple rows, then confirms the answer', () => {
+    const read = (f: string) => JSON.parse(fs.readFileSync(f, 'utf8'));
+    // The shipped mapping knows every Skulltula's own key now: with it, no question is asked.
+    const exact = new Tracker(read('data/checklist.json') as ChecklistFile, read('data/save-mapping.json') as MappingFile);
+    expect(exact.pools.filter(p => p.rows.some(r => r.startsWith('gold_skulltulas.')))).toEqual([]);
+    const bossKeyLoop = (read('data/save-mapping.json') as MappingFile).entries['gold_skulltulas.057'].detect as { b64: string };
+    const direct = parseGameData(fs.readFileSync(snapDir + snap));
+    direct.bool64.add(BigInt(bossKeyLoop.b64));
+    expect(exact.identifications(parseGameData(fs.readFileSync(snapDir + snap)), direct).ask).toEqual([]);
+    expect(exact.evaluate(direct).categories.find(c => c.id === 'gold_skulltulas')!.items.filter(i => i.chapter === 'Fire Temple' && i.done).map(i => i.number)).toEqual([57]);
+
+    // The question flow itself, on a mapping where the Fire Temple's five share a pool again.
+    const pooled = read('data/save-mapping.json') as MappingFile;
+    const rows = [55, 56, 57, 58, 59].map(n => `gold_skulltulas.0${n}`);
+    const keys = rows.map(r => (pooled.entries[r].detect as { b64: string }).b64);
+    rows.forEach((r, i) => { pooled.entries[r] = { ...pooled.entries[r], detect: { count: keys.map(b64 => ({ b64 })), gte: i + 1 }, confidence: 'guess' }; });
+    const tracker = new Tracker(read('data/checklist.json') as ChecklistFile, pooled);
+    const before = parseGameData(fs.readFileSync(snapDir + snap));
+    const fire = tracker.pools.find(p => p.rows.some(r => r.startsWith('gold_skulltulas.055')))!;
+    expect(fire.rows).toHaveLength(5);
+
+    const after = parseGameData(fs.readFileSync(snapDir + snap));
+    after.bool64.add(BigInt(fire.flags[2]));
+    const { ask } = tracker.identifications(before, after);
+    expect(ask).toHaveLength(1);
+    expect(ask[0].candidates.map(c => c.number)).toEqual([55, 56, 57, 58, 59]);
+
+    // Before answering: one Fire Temple tile is ticked by count (the first in the group).
+    const gs = (t: Tracker, g: typeof after) => t.evaluate(g).categories.find(c => c.id === 'gold_skulltulas')!;
+    expect(gs(tracker, after).done).toBe(2);
+    // The user says it was #57.
+    tracker.setLearned([{ flags: [ask[0].flags[0]], items: [ask[0].candidates[2].id] }]);
+    const item = gs(tracker, after).items.find(i => i.number === 57)!;
+    expect(item.done).toBe(true);
+    expect(item.confidence).toBe('confirmed');
+    expect(gs(tracker, after).items.filter(i => i.chapter === 'Fire Temple' && i.done).map(i => i.number)).toEqual([57]);
+  });
+});

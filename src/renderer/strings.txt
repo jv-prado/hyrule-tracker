@@ -1,0 +1,884 @@
+Visão geral||Overview|Resumen
+Mapa de Hyrule||Hyrule map|Mapa de Hyrule
+Checklist 100%||100% checklist|Lista del 100 %
+Fios do Tempo+||Threads of Time+|Hilos del Tiempo+
+Salão dos Inimigos||Hall of Fallen Foes|Salón de los enemigos caídos
+Registro do dia||Today's record|Registro del día
+Meus dados||My play data|Mis datos
+Missões de rumores||Gossip quests|Misiones de rumores
+Estúdio de fotos||Photo studio|Estudio fotográfico
+Tocar ocarina||Play ocarina|Tocar la ocarina
+Quiz diário||Daily quiz|Cuestionario diario
+Configurações||Settings|Ajustes
+Idioma||Language|Idioma
+Flying Pot|Vaso voador|Flying Pot|Vasija voladora
+Deku Nut Bundle|Porção de nozes Deku|Deku Nut Bundle|Manojo de nueces deku
+Deku Scrub|Deku|Deku Scrub|Deku
+Dodongo Cavern|Caverna dos Dodongos|Dodongo Cavern|Cueva de los Dodongos
+Gohma Larva|Larva de Gohma|Gohma Larva|Larva de Gohma
+Megaton Hammer|Martelo Megaton|Megaton Hammer|Martillo Megatón
+Great Moblin|Moblin gigante|Great Moblin|Moblin gigante
+Poe Sisters|Irmãs Poe|Poe Sisters|Hermanas Poe
+White Wolfos|Wolfos branco|White Wolfos|Wolfos blanco
+Switched to the saves of the game that's running ({game}).|Acompanhando os saves do jogo em execução ({game}).|Switched to the saves of the game that's running ({game}).|Siguiendo las partidas guardadas del juego en ejecución ({game}).
+Collected {item}|Coletado: {item}|Collected {item}|Recogido: {item}
++{count} · Gold Skulltulas ({total} total)|+{count} · Skulltulas douradas ({total} no total)|+{count} · Gold Skulltulas ({total} total)|+{count} · Skulltulas doradas ({total} en total)
+Recognised {category} #{number} in {area}. You can undo it in the item details.|Registro de {category} nº {number} em {area}. Você pode desfazer nos detalhes do item.|Recognised {category} #{number} in {area}. You can undo it in the item details.|Registro de {category} n.º {number} en {area}. Puedes deshacerlo en los detalles.
+Man on the roof|Homem no telhado|Man on the roof|Hombre del tejado
+A man lying on a rooftop gives it to you. As a child, carry a Cucco up to the ledge behind the windmill and glide over; as an adult, Hookshot up.|O homem deitado no telhado entrega o pedaço. Como criança, leve um Cucco até a plataforma atrás do moinho e plane até o telhado. Como adulto, suba com o gancho.|A man lying on a rooftop gives it to you. As a child, carry a Cucco up to the ledge behind the windmill and glide over; as an adult, Hookshot up.|El hombre tumbado en el tejado te da la pieza. De niño, lleva un cuco al saliente tras el molino y planea hasta el tejado. De adulto, sube con el gancho.
+Dampé's gravedigging tour|Escavação de Dampé|Dampé's gravedigging tour|Excavación de Dampé
+As a child at night, pay Dampé to dig in the graveyard's soft ground. Keep paying for digs until the piece turns up.|Como criança, vá ao cemitério à noite e pague Dampé para cavar na terra fofa até encontrar o pedaço.|As a child at night, pay Dampé to dig in the graveyard's soft ground. Keep paying for digs until the piece turns up.|De niño, ve al cementerio de noche y paga a Dampé para que cave en tierra blanda hasta encontrar la pieza.
+Inside the stone tower|Dentro da torre de pedra|Inside the stone tower|Dentro de la torre de piedra
+As a child, push the crates aside in the ranch's stone tower and crawl through to the round room behind them.|Como criança, empurre os caixotes na torre de pedra do rancho e rasteje até a sala redonda atrás deles.|As a child, push the crates aside in the ranch's stone tower and crawl through to the round room behind them.|De niño, aparta las cajas de la torre de piedra del rancho y gatea hasta la sala circular que hay detrás.
+Chest on the Cucco ledge|Baú na plataforma dos Cuccos|Chest on the Cucco ledge|Cofre en el saliente de los cucos
+In a chest on a ledge partway down the valley. Glide there with a Cucco as a child, or Longshot over as an adult.|O baú fica em uma plataforma no meio do vale. Plane até lá com um Cucco quando criança ou use o gancho longo quando adulto.|In a chest on a ledge partway down the valley. Glide there with a Cucco as a child, or Longshot over as an adult.|El cofre está en un saliente a media altura del valle. Planea con un cuco de niño o usa el supergancho de adulto.
+Behind the waterfall|Atrás da cachoeira|Behind the waterfall|Detrás de la cascada
+On a ledge behind the waterfall near the valley's entrance. Drop down to it from the path above.|O pedaço está em uma plataforma atrás da cachoeira perto da entrada do vale. Salte da trilha acima.|On a ledge behind the waterfall near the valley's entrance. Drop down to it from the path above.|La pieza está en un saliente tras la cascada cerca de la entrada del valle. Déjate caer desde el sendero superior.
+Fishing pond (child prize)|Lago de pesca (prêmio de criança)|Fishing pond (child prize)|Estanque de pesca (premio de niño)
+Catch a big enough fish as a child at the fishing pond by Lake Hylia.|Como criança, pesque um peixe grande o suficiente no lago de pesca perto do Lago Hylia.|Catch a big enough fish as a child at the fishing pond by Lake Hylia.|De niño, atrapa un pez lo bastante grande en el estanque de pesca junto al lago Hylia.
+Richard the lost dog|Richard, o cachorro perdido|Richard the lost dog|Richard, el perro perdido
+As a child at night, find the dog Richard running around the back alley and lead him home to his owner.|Como criança, encontre Richard no beco à noite e acompanhe o cachorro até a casa da dona.|As a child at night, find the dog Richard running around the back alley and lead him home to his owner.|De niño, encuentra a Richard de noche en el callejón y guía al perro hasta la casa de su dueña.
+Skull Kid's ocarina game|Jogo de ocarina dos Skull Kids|Skull Kid's ocarina game|Juego de ocarina de los Skull Kids
+As a child, stand on the stump near the entrance to the Lost Woods and repeat the Skull Kid's tunes. Win three rounds.|Como criança, suba no toco perto da entrada do Bosque Perdido, repita as melodias dos Skull Kids e vença três rodadas.|As a child, stand on the stump near the entrance to the Lost Woods and repeat the Skull Kid's tunes. Win three rounds.|De niño, sube al tocón cerca de la entrada del Bosque Perdido, repite las melodías de los Skull Kids y gana tres rondas.
+Skull Kid's song|Canção do Skull Kid|Skull Kid's song|Canción del Skull Kid
+As a child, play Saria's Song for the Skull Kid sitting on a stump in the Lost Woods.|Como criança, toque a Canção de Saria para o Skull Kid sentado em um toco no Bosque Perdido.|As a child, play Saria's Song for the Skull Kid sitting on a stump in the Lost Woods.|De niño, toca la Canción de Saria para el Skull Kid sentado en un tocón del Bosque Perdido.
+Spinning pot|Vaso giratório|Spinning pot|Vasija giratoria
+As a child, light every torch on Goron City's bottom floor, then drop a Bomb (or a Bomb Flower) into the big spinning pot.|Como criança, acenda todas as tochas do andar inferior da Cidade Goron e jogue uma bomba ou Flor-Bomba dentro do vaso giratório.|As a child, light every torch on Goron City's bottom floor, then drop a Bomb (or a Bomb Flower) into the big spinning pot.|De niño, enciende todas las antorchas del piso inferior de Ciudad Goron y lanza una bomba o una flor bomba dentro de la vasija giratoria.
+Ledge below the crater entrance|Plataforma abaixo da entrada da cratera|Ledge below the crater entrance|Saliente bajo la entrada del cráter
+From the summit entrance, climb down the wall to a hidden ledge. A child can grab it before the heat gets too much; as an adult, wear the Goron Tunic.|A partir da entrada do cume, desça pela parede até a plataforma escondida. Link criança consegue pegar o pedaço antes de o calor ficar insuportável. Como adulto, vista a Túnica Goron.|From the summit entrance, climb down the wall to a hidden ledge. A child can grab it before the heat gets too much; as an adult, wear the Goron Tunic.|Desde la entrada de la cima, baja por la pared hasta el saliente oculto. Link niño puede recoger la pieza antes de que el calor sea insoportable. De adulto, usa la túnica goron.
+Rooftop behind Impa's house|Telhado atrás da casa da Impa|Rooftop behind Impa's house|Tejado tras la casa de Impa
+On the roof above Impa's cow pen. As a child, let Kaepora Gaebora carry you down from the Death Mountain summit (he only offers once you have Din's Fire); as an adult, Hookshot up.|O pedaço está no telhado acima do curral da Impa. Como criança, peça a Kaepora Gaebora para levar você do cume da Montanha da Morte ao telhado após obter o Fogo de Din. Como adulto, suba com o gancho.|On the roof above Impa's cow pen. As a child, let Kaepora Gaebora carry you down from the Death Mountain summit (he only offers once you have Din's Fire); as an adult, Hookshot up.|La pieza está sobre el corral de Impa. De niño, pide a Kaepora Gaebora que te lleve desde la cima de la Montaña de la Muerte cuando tengas el Fuego de Din. De adulto, sube con el gancho.
+Bombchu Bowling|Boliche de Bombchu|Bombchu Bowling|Bolos Bombchu
+One of the prizes at the Bombchu Bowling Alley. The alley opens after you defeat King Dodongo.|O pedaço é um dos prêmios do Boliche de Bombchu, que abre após você derrotar o Rei Dodongo.|One of the prizes at the Bombchu Bowling Alley. The alley opens after you defeat King Dodongo.|La pieza es un premio de la bolera Bombchu, que abre después de derrotar al Rey Dodongo.
+Raised platform|Plataforma elevada|Raised platform|Plataforma elevada
+On top of a pillar near the start of the river. Glide there with a Cucco as a child, or use the Hover Boots as an adult.|O pedaço está no topo de um pilar perto do início do rio. Como criança, plane até lá com um Cucco. Como adulto, use as Botas Flutuantes.|On top of a pillar near the start of the river. Glide there with a Cucco as a child, or use the Hover Boots as an adult.|La pieza está sobre un pilar cerca del comienzo del río. Planea con un cuco de niño o usa las botas flotantes de adulto.
+Ledge by the waterfall|Plataforma perto da cachoeira|Ledge by the waterfall|Saliente junto a la cascada
+On a ledge near the waterfall to Zora's Domain. Glide there with a Cucco as a child, or use the Hover Boots as an adult.|O pedaço fica em uma plataforma perto da cachoeira que dá acesso ao Domínio Zora. Plane até lá com um Cucco quando criança ou use as Botas Flutuantes quando adulto.|On a ledge near the waterfall to Zora's Domain. Glide there with a Cucco as a child, or use the Hover Boots as an adult.|La pieza está en un saliente cerca de la cascada que lleva a la Región de los Zora. Planea con un cuco de niño o usa las botas flotantes de adulto.
+Torch chest|Baú das tochas|Torch chest|Cofre de las antorchas
+Light every torch around Zora's Domain with a burning Deku Stick to make a chest appear.|Acenda todas as tochas do Domínio Zora com um graveto Deku em chamas para fazer o baú aparecer.|Light every torch around Zora's Domain with a burning Deku Stick to make a chest appear.|Enciende todas las antorchas de la Región de los Zora con un palo deku encendido para que aparezca el cofre.
+Magic Bean platform|Plataforma do feijão mágico|Magic Bean platform|Plataforma de la judía mágica
+Plant a Magic Bean in the soft soil by the graveyard wall as a child, then ride the plant as an adult to the platform with the piece.|Como criança, plante um feijão mágico na terra fofa junto ao muro do cemitério. Como adulto, suba na planta para alcançar a plataforma com o pedaço.|Plant a Magic Bean in the soft soil by the graveyard wall as a child, then ride the plant as an adult to the platform with the piece.|De niño, planta una judía mágica en la tierra blanda junto al muro del cementerio. De adulto, sube a la planta para alcanzar la plataforma con la pieza.
+Inside the windmill|Dentro do moinho|Inside the windmill|Dentro del molino
+On a ledge high inside the windmill. As a child, the Boomerang can fetch it; as an adult, come up through the tunnel from Dampé's grave.|O pedaço fica no alto do moinho. Como criança, pegue-o com o bumerangue. Como adulto, chegue pelo túnel do túmulo de Dampé.|On a ledge high inside the windmill. As a child, the Boomerang can fetch it; as an adult, come up through the tunnel from Dampé's grave.|La pieza está en lo alto del molino. De niño, recógela con el bumerán. De adulto, entra por el túnel de la tumba de Dampé.
+Dampé's race|Corrida de Dampé|Dampé's race|Carrera de Dampé
+As an adult, race Dampé's ghost through his tomb in under a minute. The chest at the end holds the piece.|Como adulto, siga o fantasma de Dampé pela tumba e termine a corrida em menos de um minuto. O pedaço está no baú ao final.|As an adult, race Dampé's ghost through his tomb in under a minute. The chest at the end holds the piece.|De adulto, sigue al fantasma de Dampé por la tumba y termina en menos de un minuto. La pieza está en el cofre al final.
+House of Skulltula: 50 tokens|Casa das Skulltulas (50 fichas)|House of Skulltula: 50 tokens|Casa de las Skulltulas (50 fichas)
+The reward for bringing 50 Gold Skulltula tokens to the House of Skulltula.|Leve 50 fichas de Skulltula dourada à Casa das Skulltulas para ganhar o pedaço.|The reward for bringing 50 Gold Skulltula tokens to the House of Skulltula.|Lleva 50 fichas de Skulltula dorada a la Casa de las Skulltulas para obtener la pieza.
+Laboratory roof|Telhado do laboratório|Laboratory roof|Tejado del laboratorio
+On the roof of the Lakeside Laboratory. Ride the Magic Bean planted beside the lab as an adult, or use the Scarecrow's Song with the Hookshot.|O pedaço fica no telhado do laboratório à beira do lago. Como adulto, use a planta de feijão mágico ao lado do laboratório ou toque a Canção do Espantalho e suba com o gancho.|On the roof of the Lakeside Laboratory. Ride the Magic Bean planted beside the lab as an adult, or use the Scarecrow's Song with the Hookshot.|La pieza está en el tejado del laboratorio junto al lago. De adulto, sube con la planta de judía mágica o toca la Canción del Espantapájaros y usa el gancho.
+Laboratory diving game|Mergulho no laboratório|Laboratory diving game|Buceo en el laboratorio
+Reach the bottom of the laboratory's deep pool for the scientist. You'll need the Golden Scale.|Use a Escama Dourada para chegar ao fundo do tanque do laboratório e mostrar ao cientista que conseguiu.|Reach the bottom of the laboratory's deep pool for the scientist. You'll need the Golden Scale.|Usa la Escama de Oro para llegar al fondo del tanque del laboratorio y demostrarlo al científico.
+Above Dodongo's Cavern|Acima da Caverna dos Dodongos|Above Dodongo's Cavern|Sobre la Cueva de los Dodongos
+On a ledge above the cavern entrance. Plant a Magic Bean in the soil there as a child and ride it as an adult.|O pedaço está numa plataforma acima da entrada da caverna. Plante um feijão mágico ali como criança e suba na planta como adulto.|On a ledge above the cavern entrance. Plant a Magic Bean in the soil there as a child and ride it as an adult.|La pieza está en un saliente sobre la entrada de la cueva. Planta una judía mágica allí de niño y sube a la planta de adulto.
+Bean pillar|Pilar do feijão mágico|Bean pillar|Pilar de la judía mágica
+On a tall pillar in the middle of the crater. Plant a Magic Bean in the crater's soil as a child (warp in with the Bolero of Fire), then ride it as an adult.|O pedaço está num pilar alto no centro da cratera. Como criança, chegue com o Bolero do Fogo e plante um feijão mágico. Volte como adulto e use a planta.|On a tall pillar in the middle of the crater. Plant a Magic Bean in the crater's soil as a child (warp in with the Bolero of Fire), then ride it as an adult.|La pieza está en un pilar alto en el centro del cráter. De niño, llega con el Bolero del Fuego y planta una judía mágica. Vuelve de adulto y sube a la planta.
+Iceberg|Iceberg|Iceberg|Iceberg
+As an adult, hop across the floating ice to the farthest iceberg in Zora's Fountain.|Como adulto, pule entre os blocos de gelo até alcançar o iceberg mais distante da Fonte Zora.|As an adult, hop across the floating ice to the farthest iceberg in Zora's Fountain.|De adulto, salta sobre los témpanos hasta llegar al más lejano de la Fuente Zora.
+Bottom of the fountain|Fundo da fonte|Bottom of the fountain|Fondo de la fuente
+As an adult, sink to the bottom of Zora's Fountain with the Iron Boots, wearing the Zora Tunic.|Como adulto, vista a Túnica Zora e use as Botas de Ferro para descer até o fundo da Fonte Zora.|As an adult, sink to the bottom of Zora's Fountain with the Iron Boots, wearing the Zora Tunic.|De adulto, ponte la túnica zora y usa las botas de hierro para bajar al fondo de la Fuente Zora.
+Frogs: Song of Storms|Sapos (Canção das Tempestades)|Frogs: Song of Storms|Ranas (Canción de las Tormentas)
+As a child, play the Song of Storms to the frogs on the log in Zora's River.|Como criança, toque a Canção das Tempestades para os sapos no tronco do Rio Zora.|As a child, play the Song of Storms to the frogs on the log in Zora's River.|De niño, toca la Canción de las Tormentas para las ranas del tronco en el Río Zora.
+Frogs: bug-catching game|Sapos (jogo dos insetos)|Frogs: bug-catching game|Ranas (juego de los insectos)
+As a child, play all six of the frogs' songs, then win their bug-catching game.|Como criança, toque as seis canções pedidas pelos sapos e vença o jogo de pegar insetos.|As a child, play all six of the frogs' songs, then win their bug-catching game.|De niño, toca las seis canciones que piden las ranas y gana el juego de atrapar insectos.
+Treasure Chest Shop|Loja de baús|Treasure Chest Shop|Tienda de cofres
+As a child at night, win the Treasure Chest Shop's game. The Lenses of Truth show which chests to open.|Como criança, vença o jogo da Loja de Baús à noite. A Lente da Verdade indica quais baús abrir.|As a child at night, win the Treasure Chest Shop's game. The Lenses of Truth show which chests to open.|De niño, gana el juego de la Tienda de Cofres por la noche. La Lupa de la Verdad revela qué cofres abrir.
+Rooftop chest|Baú no telhado|Rooftop chest|Cofre en el tejado
+In a chest on a high rooftop of the fortress. Get there with the Scarecrow's Song and Hookshot, the Longshot or the Hover Boots.|O baú fica num telhado alto da fortaleza. Chegue lá com a Canção do Espantalho e o gancho, com o gancho longo ou com as Botas Flutuantes.|In a chest on a high rooftop of the fortress. Get there with the Scarecrow's Song and Hookshot, the Longshot or the Hover Boots.|El cofre está en un tejado alto de la fortaleza. Llega con la Canción del Espantapájaros y el gancho, con el supergancho o con las botas flotantes.
+Horseback archery|Tiro a cavalo|Horseback archery|Tiro con arco a caballo
+Score 750 points at the Gerudo horseback archery range, riding Epona.|Faça 750 pontos no campo de tiro da Fortaleza Gerudo montando Epona.|Score 750 points at the Gerudo horseback archery range, riding Epona.|Consigue 750 puntos en el campo de tiro de la Fortaleza Gerudo montando a Epona.
+Bean platform|Plataforma do feijão mágico|Bean platform|Plataforma de la judía mágica
+Plant a Magic Bean in the soil by the Spirit Temple as a child (warp in with the Requiem of Spirit), then ride it as an adult to the piece.|Como criança, chegue ao Templo dos Espíritos usando o Réquiem do Espírito e plante um feijão mágico. Como adulto, use a planta para chegar ao pedaço.|Plant a Magic Bean in the soil by the Spirit Temple as a child (warp in with the Requiem of Spirit), then ride it as an adult to the piece.|De niño, llega al Templo del Espíritu con el Réquiem del Espíritu y planta una judía mágica. De adulto, sube a la planta para alcanzar la pieza.
+Hidden grave chest|Baú no túmulo escondido|Hidden grave chest|Cofre de la tumba oculta
+Pull back one of the graveyard's gravestones (as a child, only at night) and drop into the grave. The chest is at the end.|Puxe uma das lápides do cemitério e desça pelo buraco. Como criança, faça isso à noite. O baú está no final.|Pull back one of the graveyard's gravestones (as a child, only at night) and drop into the grave. The chest is at the end.|Mueve una lápida del cementerio y baja por el agujero. De niño, hazlo de noche. El cofre está al final.
+Password Business Scrub|Deku Mercador que pede a senha|Password Business Scrub|Deku comerciante que pide la contraseña
+As an adult, read the Fairy Note on the tree near the castle drawbridge for a password. Then, as a child, bomb the cracked ground nearby and buy the piece from the scrub for 100 Rupees.|Como adulto, leia a senha no Pensamento de Fada da árvore perto da ponte levadiça. Volte como criança, exploda o chão rachado ali perto e compre o pedaço do Deku Mercador por 100 rupees.|As an adult, read the Fairy Note on the tree near the castle drawbridge for a password. Then, as a child, bomb the cracked ground nearby and buy the piece from the scrub for 100 Rupees.|De adulto, lee la contraseña en la nota de hada del árbol junto al puente levadizo. Vuelve de niño, vuela el suelo agrietado cercano y compra la pieza al Deku comerciante por 100 rupias.
+Chest by the Gerudo Valley road|Baú na estrada para o Vale Gerudo|Chest by the Gerudo Valley road|Cofre del camino al Valle Gerudo
+As an adult, read the Fairy Note beside the chest under the red cliffs near Gerudo Valley. Then open the chest as a child.|Como adulto, leia o Pensamento de Fada ao lado do baú sob as falésias vermelhas perto do Vale Gerudo. Depois abra o baú como criança.|As an adult, read the Fairy Note beside the chest under the red cliffs near Gerudo Valley. Then open the chest as a child.|De adulto, lee la nota de hada junto al cofre bajo los acantilados rojos cerca del Valle Gerudo. Después abre el cofre de niño.
+{n} floor|{n}º andar|Floor {n}|Planta {n}
+{n} basement|{n}º subsolo|Basement {n}|Sótano {n}
+{n} Gold Skulltula tokens|{n} fichas de Skulltula dourada|{n} Gold Skulltula tokens|{n} fichas de Skulltula dorada
+The scrub sells it for 100 Rupees (the starting wallet holds 200).|O Deku Mercador cobra 100 Rupias. A carteira inicial comporta 200.|The scrub sells it for 100 Rupees (the starting wallet holds 200).|El Deku comerciante cobra 100 rupias. La bolsa inicial admite 200.
+As a child, from the summit entrance go left and drop down to the ledge below. The scrub there sells the piece for 100 Rupees.|Como criança, entre pela passagem do cume, vire à esquerda e desça até a plataforma. O Deku Mercador vende o pedaço por 100 rupees.|As a child, from the summit entrance go left and drop down to the ledge below. The scrub there sells the piece for 100 Rupees.|De niño, entra por la cima, gira a la izquierda y baja al saliente. El Deku comerciante vende la pieza por 100 rupias.
+A child can grab it before the heat gets too much; as adult, wear the Goron Tunic. No Hookshot needed.|Link criança consegue pegar o pedaço antes de o calor ficar insuportável. Como adulto, vista a Túnica Goron. Dá para chegar sem o gancho.|A child can grab it before the heat gets too much; as adult, wear the Goron Tunic. No Hookshot needed.|Link niño puede recoger la pieza antes de que el calor sea insoportable. De adulto, usa la túnica goron. Puedes llegar sin el gancho.
+Child: the owl at the Death Mountain summit drops you on Impa's roof, but only once you have Din's Fire. Adult: Hookshot.|Como criança, peça à coruja do cume da Montanha da Morte para levar você ao telhado da Impa. É preciso ter o Fogo de Din. Como adulto, use o gancho.|Child: the owl at the Death Mountain summit drops you on Impa's roof, but only once you have Din's Fire. Adult: Hookshot.|De niño, la lechuza de la cima de la Montaña de la Muerte te lleva al tejado de Impa cuando ya tienes el Fuego de Din. De adulto, usa el gancho.
+The Bombchu Bowling Alley opens only after King Dodongo.|O Boliche de Bombchu abre depois que você derrota o Rei Dodongo.|The Bombchu Bowling Alley opens only after King Dodongo.|La bolera Bombchu abre después de derrotar al Rey Dodongo.
+Child: the Boomerang. Adult: through Dampé's grave (Song of Time).|Como criança, use o bumerangue. Como adulto, entre pelo túmulo de Dampé e use a Canção do Tempo.|Child: the Boomerang. Adult: through Dampé's grave (Song of Time).|De niño, usa el bumerán. De adulto, entra por la tumba de Dampé con la Canción del Tiempo.
+The soil is behind the Dodongo's Cavern boulder, which the bracelet's bomb flower opens.|A terra fofa fica atrás da rocha da Caverna dos Dodongos. Com o Bracelete Goron, use uma Flor-Bomba para destruir a rocha.|The soil is behind the Dodongo's Cavern boulder, which the bracelet's bomb flower opens.|La tierra blanda está detrás de la roca de la Cueva de los Dodongos. Con el brazalete goron, usa una flor bomba para destruir la roca.
+No Sun's Song in the remake. As a child the grave can only be pulled at night.|O remake permite abrir esse túmulo sem tocar a Canção do Sol. Como criança, puxe a lápide durante a noite.|No Sun's Song needed in the remake. As a child the grave can only be pulled at night.|En el remake puedes abrir esa tumba sin tocar la Canción del Sol. De niño, mueve la lápida de noche.
+Read the password on the Fairy Note by the hole as adult, then buy it as a child for 100 Rupees.|Como adulto, leia a senha no Pensamento de Fada perto da entrada. Depois volte como criança e compre o pedaço por 100 rupees.|Read the password on the Fairy Note by the hole as adult, then buy it as a child for 100 Rupees.|De adulto, lee la contraseña en la nota de hada junto a la entrada. Vuelve de niño y compra la pieza por 100 rupias.
+Read the Fairy Note as adult first; the chest is opened as a child.|Leia o Pensamento de Fada como adulto antes de abrir o baú como criança.|Read the Fairy Note as adult first; the chest is opened as a child.|Lee la nota de hada de adulto antes de abrir el cofre de niño.
+Burn the web, bomb the wall, then the Boomerang.|Queime a teia, exploda a parede e recolha a ficha com o bumerangue.|Burn the web, bomb the wall, then the Boomerang.|Quema la telaraña, vuela la pared y recoge la ficha con el bumerán.
+The soil is behind the boulder that the bracelet's bomb flower opens.|A terra fofa fica atrás da rocha. Use o Bracelete Goron para levantar uma Flor-Bomba e explodir a rocha.|The soil is behind the boulder that the bracelet's bomb flower opens.|La tierra blanda está detrás de la roca. Usa el brazalete goron para levantar una flor bomba y destruir la roca.
+Out of reach on the house wall: the Boomerang brings the token back.|Na parede da casa, fora de alcance. Use o bumerangue para trazer a ficha.|Out of reach on the house wall: the Boomerang brings the token back.|Está fuera de alcance en la pared de la casa. Usa el bumerán para recoger la ficha.
+Kill the Skulltula in the marsh grotto as a child; as adult, break the crate for the token.|Como criança, derrote a Skulltula na gruta do pântano. Como adulto, quebre o caixote para pegar a ficha.|Kill the Skulltula in the marsh grotto as a child; as adult, break the crate for the token.|De niño, derrota a la Skulltula en la gruta del pantano. De adulto, rompe la caja para obtener la ficha.
+Talon has to be back at the ranch first: get the Weird Egg from Malon at Hyrule Castle, let it hatch, and wake Talon there with the Cucco.|Talon precisa voltar ao rancho. Pegue o Ovo Estranho com Malon no Castelo de Hyrule, espere nascer o Cucco e use-o para acordar Talon.|Talon has to be back at the ranch first: get the Weird Egg from Malon at Hyrule Castle, let it hatch, and wake Talon there with the Cucco.|Talon debe volver al rancho. Consigue el Huevo Raro de Malon en el castillo de Hyrule, espera a que nazca el cuco y úsalo para despertar a Talon.
+Zelda's Lullaby opens Darunia's door; he gives the bracelet after you play Saria's Song.|Toque a Canção de Ninar da Zelda para abrir a porta de Darunia. Ele entrega o bracelete depois que você toca a Canção de Saria.|Zelda's Lullaby opens Darunia's door; he gives the bracelet after you play Saria's Song.|Toca la Nana de Zelda para abrir la puerta de Darunia. Te da el brazalete cuando tocas la Canción de Saria.
+The Bombchu Shop opens at night, after King Dodongo.|A Loja de Bombchus abre à noite após você derrotar o Rei Dodongo.|The Bombchu Shop opens at night, after King Dodongo.|La tienda de bombchus abre de noche después de derrotar al Rey Dodongo.
+Available as soon as you reach Castle Town; no other requirement.|Disponível assim que você chega à Cidade do Castelo.|Available as soon as you reach Castle Town; no other requirement.|Disponible en cuanto llegas a la Ciudadela.
+Appears only once you have Din's Fire. 50 Rupees.|Aparece após obter o Fogo de Din. Custa 50 rupees.|Appears only once you have Din's Fire. 50 Rupees.|Aparece cuando consigues el Fuego de Din. Cuesta 50 rupias.
+Appears only once you have Din's Fire. 100 Rupees.|Aparece após obter o Fogo de Din. Custa 100 rupees.|Appears only once you have Din's Fire. 100 Rupees.|Aparece cuando consigues el Fuego de Din. Cuesta 100 rupias.
+Appears only once you have Din's Fire. 200 Rupees.|Aparece após obter o Fogo de Din. Custa 200 rupees.|Appears only once you have Din's Fire. 200 Rupees.|Aparece cuando consigues el Fuego de Din. Cuesta 200 rupias.
+Appears only once you have Din's Fire. 300 Rupees: more than the starting wallet holds.|Aparece após obter o Fogo de Din. Custa 300 Rupias, acima da capacidade da carteira inicial.|Appears only once you have Din's Fire. 300 Rupees: more than the starting wallet holds.|Aparece cuando consigues el Fuego de Din. Cuesta 300 rupias, más de lo que admite la bolsa inicial.
+Appears only once you have Din's Fire. 500 Rupees: needs the Adult's Wallet.|Aparece após obter o Fogo de Din. Custa 500 Rupias e exige a Carteira de Adulto.|Appears only once you have Din's Fire. 500 Rupees: needs the Adult's Wallet.|Aparece cuando consigues el Fuego de Din. Cuesta 500 rupias y requiere la bolsa de adulto.
+King Dodongo|Rei Dodongo|King Dodongo|Rey Dodongo
+Phantom Ganon|Ganon Fantasma|Phantom Ganon|Ganon Fantasma
+Din's Fire|Fogo de Din|Din's Fire|Fuego de Din
+Nayru's Love|Amor de Nayru|Nayru's Love|Amor de Nayru
+Zora Tunic|Túnica Zora|Zora Tunic|Túnica zora
+Goron Tunic|Túnica Goron|Goron Tunic|Túnica goron
+Silver Scale|Escama Prateada|Silver Scale|Escama de plata
+Golden Scale|Escama Dourada|Golden Scale|Escama de oro
+Fire Arrow|Flecha de Fogo|Fire Arrow|Flecha de Fuego
+Light Arrow|Flecha de Luz|Light Arrow|Flecha de Luz
+Ice Arrow|Flecha de Gelo|Ice Arrow|Flecha de Hielo
+Bomb Bag|Bolsa de Bombas|Bomb Bag|Saco de Bombas
+Main Map|Mapa principal|Main Map|Mapa principal
+inimigos||enemies|enemigos
+needs {item}|requer {item}|needs {item}|requiere {item}
+No checklist entries for this area|Sem objetivos para esta região|No checklist entries for this area|Sin objetivos para esta zona
+to get|disponíveis|to get|disponibles
+later|para depois|later|más adelante
+left here|restantes na região|left here|restantes en la zona
+can't reach yet|ainda inacessível|can't reach yet|aún inaccesible
+Hearts|Corações|Hearts|Corazones
+Pieces of Heart|Pedaços de coração|Pieces of Heart|Piezas de corazón
+Key item|Item-chave|Key item|Objeto clave
+Wallet|Carteira|Wallet|Bolsa
+Slot|Partida|Slot|Partida
+child|criança|a child|niño
+adult|adulto|an adult|adulto
+at night|à noite|at night|de noche
+to be a child|estar como criança|to be a child|ser niño
+to be an adult|estar como adulto|to be an adult|ser adulto
+reach {area} as {age}|chegar a {area} como {age}|reach {area} as {age}|llegar a {area} como {age}
+Identify the items collected in {area}.|Identifique o que foi coletado em {area}.|Identify the items collected in {area}.|Identifica lo recogido en {area}.
+Tick by hand|Marcar manualmente|Tick by hand|Marcar manualmente
+Remove hand tick|Remover marcação manual|Remove hand tick|Quitar marca manual
+Expand|Expandir|Expand|Expandir
+Collapse|Recolher|Collapse|Contraer
+No folder chosen|Nenhuma pasta selecionada|No folder chosen|No se ha elegido una carpeta
+Not in this save yet|Ainda não registrado na partida|Not in this save yet|Aún no consta en la partida
+Game not running: using saves|Jogo fechado. Acompanhando os saves.|Game not running: using saves|Juego cerrado. Siguiendo las partidas guardadas.
+Looking for the game's progress…|Buscando o progresso do jogo…|Looking for the game's progress…|Buscando el progreso del juego…
+Waiting for the game|Aguardando o jogo|Waiting for the game|Esperando al juego
+Unlock overlay (to move/resize)|Desbloquear painel para mover ou redimensionar|Unlock overlay (to move/resize)|Desbloquear el panel para moverlo o redimensionarlo
+Lock overlay (click-through)|Bloquear painel e passar cliques para o jogo|Lock overlay (click-through)|Bloquear el panel y pasar los clics al juego
+The tracker can’t see this one in your save. Tick it by hand once you have it.|Este objetivo aceita marcação manual após a coleta.|The tracker can’t see this one in your save. Tick it by hand once you have it.|Marca este objetivo manualmente cuando lo consigas.
+Garden palm tree|Palmeira do jardim|Garden palm tree|Palmera del jardín
+As a child, roll into the palm tree in the garden at the foot of the castle wall.|Como criança, role contra a palmeira no jardim, junto à muralha do castelo.|As a child, roll into the palm tree in the garden at the foot of the castle wall.|De niño, rueda contra la palmera del jardín, al pie de la muralla del castillo.
+Big tree|Árvore grande|Big tree|Árbol grande
+Cliff above the log|Penhasco acima do tronco|Cliff above the log|Acantilado sobre el tronco
+Entrance alcove crate|Caixote no nicho da entrada|Entrance alcove crate|Caja del nicho de la entrada
+Soft soil by Dodongo's Cavern|Terra fofa perto da Caverna dos Dodongos|Soft soil by Dodongo's Cavern|Tierra blanda junto a la Cueva de los Dodongos
+Cave behind a cracked rock|Gruta atrás da pedra rachada|Cave behind a cracked rock|Gruta tras la roca agrietada
+Business Scrub|Deku Mercador|Business Scrub|Deku comerciante
+Farore's Wind|Vento de Farore|Farore's Wind|Viento de Farore
+Kokiri Tunic|Túnica Kokiri|Kokiri Tunic|Túnica Kokiri
+Hyrule Castle|Castelo de Hyrule|Hyrule Castle|Castillo de Hyrule
+Hyrule Castle Town|Cidade do Castelo de Hyrule|Hyrule Castle Town|Ciudadela de Hyrule
+Ganon's Castle|Castelo de Ganon|Ganon's Castle|Castillo de Ganon
+Hyrule Field|Campo de Hyrule|Hyrule Field|Llanura de Hyrule
+Kokiri Forest|Floresta Kokiri|Kokiri Forest|Bosque Kokiri
+Kakariko Village|Vila Kakariko|Kakariko Village|Aldea Kakariko
+Lost Woods|Bosque Perdido|Lost Woods|Bosque Perdido
+Death Mountain Crater|Cratera da Montanha da Morte|Death Mountain Crater|Cráter de la Montaña de la Muerte
+Death Mountain Trail|Trilha da Montanha da Morte|Death Mountain Trail|Sendero de la Montaña de la Muerte
+Zora's Fountain|Fonte Zora|Zora's Fountain|Fuente Zora
+Zora Fountain|Fonte Zora|Zora Fountain|Fuente Zora
+Zora's Domain|Domínio Zora|Zora's Domain|Región de los Zora
+Zora Domain|Domínio Zora|Zora Domain|Región de los Zora
+Zora's River|Rio Zora|Zora's River|Río Zora
+Zora River|Rio Zora|Zora River|Río Zora
+Lake Hylia|Lago Hylia|Lake Hylia|Lago Hylia
+Gerudo Valley|Vale Gerudo|Gerudo Valley|Valle Gerudo
+Gerudo Fortress|Fortaleza Gerudo|Gerudo Fortress|Fortaleza Gerudo
+Lon Lon Ranch|Rancho Lon Lon|Lon Lon Ranch|Rancho Lon Lon
+Goron City|Cidade Goron|Goron City|Ciudad Goron
+Temple of Time|Templo do Tempo|Temple of Time|Templo del Tiempo
+Great Deku Tree|Grande Árvore Deku|Great Deku Tree|Gran Árbol Deku
+Dodongo's Cavern|Caverna dos Dodongos|Dodongo's Cavern|Cueva de los Dodongos
+Lord Jabu-Jabu's Belly|Barriga de Jabu-Jabu|Lord Jabu-Jabu's Belly|Interior de Jabu-Jabu
+Sacred Forest Meadow|Clareira Sagrada|Sacred Forest Meadow|Prado Sagrado del Bosque
+Forest Temple|Templo da Floresta|Forest Temple|Templo del Bosque
+Fire Temple|Templo do Fogo|Fire Temple|Templo del Fuego
+Water Temple|Templo da Água|Water Temple|Templo del Agua
+Shadow Temple|Templo das Sombras|Shadow Temple|Templo de las Sombras
+Spirit Temple|Templo dos Espíritos|Spirit Temple|Templo del Espíritu
+Bottom of the Well|Fundo do Poço|Bottom of the Well|Fondo del Pozo
+Ice Cavern|Caverna de Gelo|Ice Cavern|Caverna de Hielo
+Haunted Wasteland|Deserto Assombrado|Haunted Wasteland|Desierto Encantado
+Desert Colossus|Colosso do Deserto|Desert Colossus|Coloso del Desierto
+Gerudo Training Ground|Campo de Treinamento Gerudo|Gerudo Training Ground|Campo de Entrenamiento Gerudo
+Ocarina of Time|Ocarina do Tempo|Ocarina of Time|Ocarina del Tiempo
+Kokiri Sword|Espada Kokiri|Kokiri Sword|Espada Kokiri
+Master Sword|Espada Mestra|Master Sword|Espada Maestra
+Fairy Slingshot|Estilingue das Fadas|Fairy Slingshot|Tirachinas de las hadas
+Fairy Bow|Arco das Fadas|Fairy Bow|Arco de las hadas
+Hookshot|Gancho|Hookshot|Gancho
+Longshot|Gancho longo|Longshot|Supergancho
+Boomerang|Bumerangue|Boomerang|Bumerán
+Deku Sticks|Gravetos Deku|Deku Sticks|Palos Deku
+Deku Nuts|Nozes Deku|Deku Nuts|Nueces Deku
+Lens of Truth|Lente da Verdade|Lens of Truth|Lupa de la Verdad
+Lenses of Truth|Lente da Verdade|Lenses of Truth|Lupa de la Verdad
+Rupee Red|Rupia vermelha|Red Rupee|Rupia roja
+Rupee Purple|Rupia roxa|Purple Rupee|Rupia morada
+Rupee Blue|Rupia azul|Blue Rupee|Rupia azul
+Rupee Green|Rupia verde|Green Rupee|Rupia verde
+Rupee Gold|Rupia dourada|Gold Rupee|Rupia dorada
+Scrub Business Seed|Semente de Deku Mercador|Business Scrub Seed|Semilla del Deku comerciante
+Heart Piece|Pedaço de coração|Piece of Heart|Pieza de corazón
+Menu principal||Main menu|Menú principal
+Aguardando partida||Waiting for a game|Esperando una partida
+Partida local||Local game|Partida local
+Ao vivo||Live|En directo
+Save conectado||Save connected|Partida conectada
+Acompanhando o último save||Following the latest save|Siguiendo la última partida guardada
+Falha ao ler o save||Could not read the save|No se pudo leer la partida
+Buscando conexão||Connecting|Buscando conexión
+Último save||Last save|Última partida guardada
+Sem partida||No game detected|Sin partida
+Buscar saves||Find saves|Buscar partidas
+Buscando…||Searching…|Buscando…
+Escolher pasta||Choose folder|Elegir carpeta
+Buscando sua partida||Looking for your save|Buscando tu partida
+Encontre a sua partida||Find your save|Encuentra tu partida
+Procurando saves do remake nos locais de instalação.||Looking for remake saves in installation folders.|Buscando partidas del remake en las carpetas de instalación.
+Nenhuma partida encontrada. Abra o jogo e salve uma vez, ou selecione a pasta do jogo.||No save found. Save once in the game or select the game folder.|No se encontró ninguna partida. Guarda una vez en el juego o selecciona su carpeta.
+A pasta escolhida não contém um save compatível.||The selected folder has no compatible save.|La carpeta seleccionada no contiene una partida compatible.
+Progresso da jornada||Adventure progress|Progreso de la aventura
+Progresso do checklist||Checklist progress|Progreso de la lista
+objetivos concluídos||objectives completed|objetivos completados
+Abrir checklist||Open checklist|Abrir lista
+Resumo da partida||Save summary|Resumen de la partida
+Corações||Hearts|Corazones
+Capacidade máxima||Maximum capacity|Capacidad máxima
+pedaços para o próximo||pieces to the next heart|piezas para el siguiente corazón
+Skulltulas douradas||Gold Skulltulas|Skulltulas doradas
+Recompensa disponível||Reward ready|Recompensa disponible
+Próxima recompensa aos||Next reward at|Próxima recompensa al llegar a
+Todas as recompensas alcançadas||All rewards reached|Todas las recompensas alcanzadas
+Baús abertos||Opened chests|Cofres abiertos
+Exploração de Hyrule||Hyrule exploration|Exploración de Hyrule
+Saldo atual||Current balance|Saldo actual
+Ver jornada||View adventure|Ver aventura
+Atividade recente||Recent activity|Actividad reciente
+Abrir registro||Open log|Abrir registro
+Os próximos avanços aparecerão aqui durante a partida.||New milestones will appear here as you play.|Los próximos avances aparecerán aquí mientras juegas.
+Fonte da partida||Save source|Origen de la partida
+Pasta do save ainda não encontrada.||Save folder not found yet.|Aún no se encontró la carpeta de la partida.
+Seguir o save mais recente||Follow the latest save|Seguir la última partida guardada
+Rastreamento||Tracking|Seguimiento
+Atualizar ao vivo enquanto o jogo estiver aberto||Track live while the game is open|Actualizar en directo mientras el juego esté abierto
+Guardar o registro de atividade neste PC||Keep the activity log on this PC|Guardar el registro de actividad en este PC
+Fotografar a janela do jogo nos marcos da jornada||Capture the game window at milestones|Capturar la ventana del juego en momentos clave
+Slot fixado. Selecione o save mais recente para voltar ao modo ao vivo.||Slot pinned. Select the latest save to resume live tracking.|Ranura fijada. Selecciona la última partida para reanudar el seguimiento en directo.
+Ocultar painel no jogo||Hide in-game overlay|Ocultar panel en el juego
+Mostrar painel no jogo||Show in-game overlay|Mostrar panel en el juego
+Região||Region|Región
+Baús sem posição mapeada||Chests without mapped positions|Cofres sin posición en el mapa
+Baús sem posição||Unmapped chests|Cofres sin posición
+Era||Era|Época
+Todas||All|Todas
+Criança||Child|Niño
+Adulto||Adult|Adulto
+Ocultar regiões não vistas||Hide unvisited regions|Ocultar regiones no visitadas
+Seguir Link||Follow Link|Seguir a Link
+Mapa esquemático de Hyrule||Schematic map of Hyrule|Mapa esquemático de Hyrule
+Mapa esquemático ·||Schematic map ·|Mapa esquemático ·
+região atual ao vivo||live current region|región actual en directo
+região no último save||region in the last save|región de la última partida
+Coletáveis||Collectibles|Coleccionables
+Todos||All|Todos
+Só pendentes||Only remaining|Solo pendientes
+Posições de baús na região||Chest positions in the region|Posiciones de los cofres de la región
+Visite a região para ver os itens.||Visit the region to reveal items.|Visita la región para revelar sus objetos.
+Nenhum item para este filtro.||No items match this filter.|No hay objetos para este filtro.
+Coletado||Collected|Recogido
+Pendente||Remaining|Pendiente
+Situação não mapeada||Status unknown|Estado desconocido
+História principal||Main story|Historia principal
+Vendas de máscaras||Mask sales|Ventas de máscaras
+Vendida||Sold|Vendida
+Encontre um save para ver a história.||Load a save to reveal the story.|Carga una partida para ver la historia.
+Encontre um save para ver as missões secundárias.||Load a save to see the side quests.|Carga una partida para ver las misiones secundarias.
+Detalhes da missão indisponíveis.||Quest details unavailable.|Detalles de la misión no disponibles.
+In Kakariko Graveyard, play Zelda's Lullaby at the Royal Family's Tomb to open it. Read the inscription at the back of the tomb to learn the Sun's Song.|No cemitério de Kakariko, toque a Canção de Ninar da Zelda diante do Túmulo da Família Real para abri-lo. Leia a inscrição no fundo do túmulo para aprender a Canção do Sol.|In Kakariko Graveyard, play Zelda's Lullaby at the Royal Family's Tomb to open it. Read the inscription at the back of the tomb to learn the Sun's Song.|En el cementerio de Kakariko, toca la Nana de Zelda ante la Tumba de la Familia Real para abrirla. Lee la inscripción al fondo de la tumba para aprender la Canción del Sol.
+Missões principais||Main quests|Misiones principales
+Missões secundárias||Side quests|Misiones secundarias
+Concluído||Complete|Completado
+Concluída||Complete|Completada
+Em andamento||In progress|En curso
+Aguardando||Waiting|Pendiente
+Estátuas||Statues|Estatuas
+Estátuas de monstros||Monster statues|Estatuas de monstruos
+Revanches||Rematches|Revanchas
+Revanche dos chefes||Boss rematches|Revanchas contra jefes
+Provações||Trials|Pruebas
+Provações do Salão||Hall trials|Pruebas del salón
+Registre o resultado e seu melhor tempo após cada revanche.||Record the result and your best time after each rematch.|Anota el resultado y tu mejor tiempo después de cada revancha.
+Recorde (s)||Best time (s)|Récord (s)
+Recorde de||Best time for|Récord de
+Recorde||Best time|Récord
+Buscar inimigo||Find an enemy|Buscar enemigo
+Obtido||Unlocked|Obtenido
+Fechar||Close|Cerrar
+Desmarcar||Uncheck|Desmarcar
+Concluí||Mark complete|Marcar completado
+Indisponível||Unavailable|No disponible
+Encontre um save para ver o Salão.||Load a save to see the Hall.|Carga una partida para ver el salón.
+Atividade da partida||Adventure activity|Actividad de la partida
+Dia||Day|Día
+inimigos contabilizados||enemies counted|enemigos registrados
+rupees de ganhos observados|Rupias ganhas registradas|rupees gained on record|rupias ganadas registradas
+pedaços registrados||pieces recorded|piezas registradas
+Nenhum avanço foi registrado neste dia com o tracker aberto.||No milestones were recorded on this day with the tracker open.|No se registraron avances ese día con el tracker abierto.
+Captura do momento||Screenshot of the moment|Captura del momento
+Medalhas da jornada||Adventure medals|Medallas de la aventura
+Marcos locais calculados a partir do seu progresso.||Local milestones based on your progress.|Hitos locales calculados según tu progreso.
+Inimigos derrotados||Enemies defeated|Enemigos derrotados
+Medalha conquistada||Medal earned|Medalla conseguida
+Medalha pendente||Medal pending|Medalla pendiente
+Ocarina digital||Digital ocarina|Ocarina digital
+Partitura||Score|Partitura
+Sequência de notas||Note sequence|Secuencia de notas
+Toque nos botões ou use o teclado.||Use the buttons or your keyboard.|Usa los botones o el teclado.
+Tocar partitura||Play score|Tocar partitura
+Parar||Stop|Detener
+Recomeçar||Start over|Volver a empezar
+Nome da melodia||Melody name|Nombre de la melodía
+Guardar||Save|Guardar
+Limpar||Clear|Borrar
+Compartilhar e importar||Share and import|Compartir e importar
+Gerar QR da melodia||Generate melody QR|Generar QR de la melodía
+Baixar QR||Download QR|Descargar QR
+Código da melodia||Melody code|Código de la melodía
+Cole o texto lido do QR||Paste the text read from the QR|Pega el texto leído del QR
+Importar||Import|Importar
+Partituras de rumores||Gossip quest scores|Partituras de rumores
+pontos disponíveis||points available|puntos disponibles
+Desbloqueada||Unlocked|Desbloqueada
+Trocar por 1 ponto||Exchange for 1 point|Canjear por 1 punto
+Livre||Free play|Modo libre
+Guiado||Guided play|Modo guiado
+Demonstração||Demo play|Demostración
+Melodia concluída.||Melody complete.|Melodía completada.
+Tente a nota destacada.||Try the highlighted note.|Prueba la nota resaltada.
+Dê um nome à melodia e toque pelo menos uma nota.||Name the melody and play at least one note.|Pon un nombre a la melodía y toca al menos una nota.
+Esse título já está na lista.||That name is already in use.|Ese nombre ya está en uso.
+Melodia guardada.||Melody saved.|Melodía guardada.
+Código inválido para o Hyrule Tracker.||Invalid Hyrule Tracker code.|Código de Hyrule Tracker no válido.
+Melodia carregada.||Melody loaded.|Melodía cargada.
+Prévia||Preview|Vista previa
+Capture a janela do jogo, carregue uma foto ou use a miniatura do save.||Capture the game window, load a photo or use the save thumbnail.|Captura la ventana del juego, carga una foto o usa la miniatura de la partida.
+Foto editada||Edited photo|Foto editada
+Editar foto||Edit photo|Editar foto
+Carregar imagem||Load image|Cargar imagen
+Usar foto do save||Use save photo|Usar foto de la partida
+Capturar jogo||Capture game|Capturar juego
+Do registro||From the log|Del registro
+Escolha uma captura||Choose a screenshot|Elige una captura
+Moldura||Frame|Marco
+Dourada||Gold|Dorado
+Clara||Light|Claro
+Sem moldura||No frame|Sin marco
+Selo||Stamp|Sello
+Sem selo||No stamp|Sin sello
+Legenda||Caption|Texto
+Melodia (código QR)||Melody (QR code)|Melodía (código QR)
+Cole um código gerado na ocarina do tracker.||Paste a code generated by the tracker's ocarina.|Pega un código generado con la ocarina del tracker.
+Exportar PNG||Export PNG|Exportar PNG
+Não foi possível abrir a imagem.||The image could not be opened.|No se pudo abrir la imagen.
+Escolha uma imagem de até 20 MB.||Choose an image of up to 20 MB.|Elige una imagen de hasta 20 MB.
+Abra a janela do jogo para capturar.||Open the game window to take a screenshot.|Abre la ventana del juego para capturarla.
+Caça fotográfica||Photo hunt|Búsqueda fotográfica
+pontos||points|puntos
+Encontre a região descrita, fotografe a janela do jogo e troque pontos por partituras.||Find the described region, capture the game window and exchange points for sheet music.|Encuentra la región descrita, captura la ventana del juego y canjea puntos por partituras.
+Dica||Hint|Pista
+Fotografar||Take photo|Tomar foto
+A região atual não corresponde à pista.||The current region does not match the clue.|La región actual no coincide con la pista.
+A janela do jogo precisa estar visível.||The game window must be visible.|La ventana del juego debe estar visible.
+Foto aceita. Você ganhou um ponto.||Photo accepted. You earned one point.|Foto aceptada. Ganaste un punto.
+Conhecimentos de Hyrule||Hyrule knowledge|Conocimientos de Hyrule
+Treino||Practice|Práctica
+Rodada diária||Daily round|Ronda diaria
+Difícil||Hard|Difícil
+acertos||correct|aciertos
+Jogar no modo treino||Play practice mode|Jugar en modo práctica
+Questão||Question|Pregunta
+Resposta correta.||Correct answer.|Respuesta correcta.
+Resposta correta||Correct answer|Respuesta correcta
+Ver resultado||See result|Ver resultado
+Próxima questão||Next question|Siguiente pregunta
+Registro de figuras||Figure log|Registro de figuras
+Registre os usos feitos no jogo. A cada cinco usos, o tracker destaca a meta de bônus.||Log uses made in-game. The tracker highlights the bonus milestone every five uses.|Registra los usos en el juego. El tracker resalta el hito de bonificación cada cinco usos.
+Nome da figura||Figure name|Nombre de la figura
+Adicionar figura||Add figure|Añadir figura
+usos ·||uses ·|usos ·
+meta de bônus atingida||bonus milestone reached|hito de bonificación alcanzado
+para a meta||toward the milestone|para el objetivo
+Registrado hoje||Logged today|Registrado hoy
+Registrar uso||Log use|Registrar uso
+Máscaras encontradas no save||Masks found in the save|Máscaras encontradas en la partida
+Coletada||Collected|Recogida
+Ordenar||Sort|Ordenar
+Progresso||Progress|Progreso
+Baús||Chests|Cofres
+Jogador||Player|Jugador
+Ações||Actions|Acciones
+Remover||Remove|Eliminar
+Este arquivo não é um resumo válido do Hyrule Tracker.||This file is not a valid Hyrule Tracker summary.|Este archivo no es un resumen válido de Hyrule Tracker.
+Preparando o diário…||Opening the journal…|Abriendo el diario…
+Criado por João Victor Prado||Created by João Victor Prado|Creado por João Victor Prado
+Veja o progresso da sua partida e retome a jornada.||See your save progress and pick up where you left off.|Consulta el progreso de tu partida y retoma la aventura.
+Explore as regiões de Hyrule e localize os colecionáveis.||Explore Hyrule's regions and find collectibles.|Explora las regiones de Hyrule y localiza los coleccionables.
+Acompanhe os objetivos que faltam para completar 100% do jogo.||Track the objectives you still need for 100% completion.|Consulta los objetivos que te faltan para completar el 100 % del juego.
+Acompanhe os capítulos da história e as missões secundárias.||Track the story chapters and side quests.|Sigue los capítulos de la historia y las misiones secundarias.
+Confira as estátuas de inimigos, as revanches e as provações.||Check your enemy statues, rematches and trials.|Consulta las estatuas de enemigos, las revanchas y las pruebas.
+Consulte o progresso registrado pelo tracker ao longo de cada dia.||See the progress the tracker recorded each day.|Consulta el progreso que el rastreador registró cada día.
+Veja seus totais e os marcos conquistados na jornada.||See your totals and the milestones you've reached.|Consulta tus totales y los hitos alcanzados durante la aventura.
+Siga as pistas e fotografe as regiões indicadas.||Follow the clues and photograph the areas they describe.|Sigue las pistas y fotografía las regiones que describen.
+Explore os desafios de fotografia e organize suas capturas.||Explore photo challenges and organize your snapshots.|Explora los retos fotográficos y organiza tus capturas.
+Pratique as melodias do jogo e compartilhe suas composições.||Practice songs from the game and share your own melodies.|Practica las melodías del juego y comparte tus composiciones.
+Teste seus conhecimentos sobre Hyrule no desafio diário.||Test your knowledge of Hyrule in the daily quiz.|Pon a prueba tus conocimientos de Hyrule en el reto diario.
+Acompanhe as máscaras desbloqueadas e registre seus amiibo.||Track unlocked masks and log your amiibo.|Consulta las máscaras desbloqueadas y registra tus amiibo.
+Configure o idioma, a origem da partida e a janela flutuante.||Set your language, save source and overlay preferences.|Configura el idioma, el origen de la partida y la ventana flotante.
+de||of|de
+of|de|of|de
+in|em|in|en
+as|como|as|como
+Most recent (|Mais recente (|Most recent (|Más reciente (
+Hide collected|Ocultar coletados|Hide collected|Ocultar recogidos
+Collapse every category|Recolher todas as categorias|Collapse every category|Contraer todas las categorías
+Collapse all|Recolher tudo|Collapse all|Contraer todo
+Expand every category|Expandir todas as categorias|Expand every category|Expandir todas las categorías
+Expand all|Expandir tudo|Expand all|Expandir todo
+Quest progress|Progresso das missões|Quest progress|Progreso de misiones
+Extras (not counted)|Extras fora do 100%|Extras outside 100%|Extras fuera del 100 %
+Categories ▾|Categorias ▾|Categories ▾|Categorías ▾
+Overlay|Painel no jogo|Overlay|Panel del juego
+Can get now|Disponível agora|Can get now|Disponible ahora
+entries in|itens em|entries in|elementos en
+areas|regiões|areas|regiones
+Nothing left to get with what you have right now.|Nenhum objetivo disponível com o equipamento atual.|Nothing left to get with what you have right now.|No hay objetivos disponibles con el equipo actual.
+you are here|você está aqui|you are here|estás aquí
+night|noite|night|noche
+Reading progress live from the game (read-only)|Lendo o progresso ao vivo|Reading live game progress|Leyendo el progreso en directo
+● Live|● Ao vivo|● Live|● En directo
+Settings ▾|Configurações ▾|Settings ▾|Ajustes ▾
+Saves|Saves|Saves|Partidas
+Change save folder…|Alterar pasta do save…|Change save folder…|Cambiar carpeta de guardado…
+Live tracking|Rastreamento ao vivo|Live tracking|Seguimiento en directo
+Read progress live from the running game|Ler progresso do jogo aberto|Track progress from the running game|Leer progreso del juego abierto
+Read-only: the tracker only looks at the game's memory, it never changes anything. Uses your saves whenever the game isn't running.|Leitura da memória do jogo. Com o jogo fechado, o tracker lê os saves.|Reads game memory. When the game is closed, it reads saves.|Lee la memoria del juego. Cuando está cerrado, lee las partidas guardadas.
+Opacity:|Opacidade|Opacity|Opacidad
+Shows|Exibir|Shows|Mostrar
+Category counters|Contadores por categoria|Category counters|Contadores por categoría
+Remaining in the current area|Pendentes na região atual|Remaining in the current area|Pendientes en la región actual
+Hotkeys|Atalhos|Hotkeys|Atajos
+Show/hide overlay|Mostrar/ocultar painel|Show/hide overlay|Mostrar/ocultar panel
+Lock/unlock overlay|Bloquear/desbloquear painel|Lock/unlock overlay|Bloquear/desbloquear panel
+Format like Control+Shift+O, Alt+F9. Works while the game has focus.|Exemplo: Control+Shift+O ou Alt+F9. Funciona com o jogo em foco.|Example: Control+Shift+O or Alt+F9. Works while the game has focus.|Ejemplo: Control+Shift+O o Alt+F9. Funciona con el juego activo.
+Save hotkeys|Salvar atalhos|Save hotkeys|Guardar atajos
+Advanced|Avançado|Advanced|Avanzado
+Keep a change log|Guardar registro de mudanças|Keep a change log|Guardar registro de cambios
+Notes every change the tracker sees, with the time and area, in a file on this PC.|O registro local inclui mudanças, horário e região.|The local log includes changes, time and region.|El registro local incluye cambios, hora y región.
+Open log folder|Abrir pasta do registro|Open log folder|Abrir carpeta del registro
+Developer tools|Ferramentas de desenvolvimento|Developer tools|Herramientas de desarrollo
+Adds a panel with save snapshots and the raw values that changed, and shows how each entry is detected.|Exibe cópias dos saves, os valores alterados e a detecção de cada item.|Shows save snapshots, changed values and how items are detected.|Muestra copias de partidas, valores modificados y cómo se detectan los objetos.
+All collected|Tudo coletado|All collected|Todo recogido
+can get now|disponíveis agora|available now|disponibles ahora
+(ticked by hand)|(marcado manualmente)|(marked manually)|(marcado manualmente)
+Click a name to see where it is.|Clique no nome para ver a localização.|Click a name to see its location.|Pulsa un nombre para ver dónde está.
+Close|Fechar|Close|Cerrar
+new in remake|novo no remake|new in the remake|nuevo en el remake
+You can get this now|Disponível agora|Available now|Disponible ahora
+Not yet.|Ainda não disponível.|Not available yet.|Aún no disponible.
+Still needed:|Requisitos pendentes:|Still needed:|Requisitos pendientes:
+Wrong spot? Undo this match|Local incorreto? Desfazer associação|Wrong spot? Undo match|¿Lugar incorrecto? Deshacer asociación
+Requirement:|Requisito|Requirement|Requisito
+Logic:|Condição|Logic|Condición
+Detection:|Detecção|Detection|Detección
+Which one was it?|Qual item foi coletado?|Which one was it?|¿Qué objeto conseguiste?
+more|a mais|more|más
+You collected|Você coletou|You collected|Recogiste
+Save (|Salvar (|Save (|Guardar (
+Not here? Show the|Ver também os|Not here? Show the|Ver también los
+in other areas|de outras regiões|in other areas|de otras regiones
+Not sure, skip|Pular|Skip|Omitir
+Skipping is fine: it still counts, just not on a specific tile.|O total ficará registrado sem associar um local.|The total is recorded without a location.|El total se registra sin asociar un lugar.
+Legend|Legenda|Legend|Leyenda
+Collected|Coletado|Collected|Recogido
+Not collected yet|Pendente|Not collected yet|Pendiente
+Ticked by hand|Marcado manualmente|Marked manually|Marcado manualmente
+Click an entry to see where it is and what you still need for it. Double-click to tick or untick it by hand.|Clique para ver localização e requisitos. Clique duas vezes para marcar ou desmarcar.|Click to see the location and requirements. Double-click to toggle completion.|Pulsa para ver la ubicación y los requisitos. Haz doble clic para marcar o desmarcar.
+snapshot label, e.g. before-skulltula|Nome da cópia do save|Save snapshot name|Nombre de la copia
+Snapshot|Copiar save|Snapshot|Copiar partida
+Open snapshot folder|Abrir pasta de cópias|Open snapshot folder|Abrir carpeta de copias
+Spots you identified:|Locais identificados|Spots identified|Lugares identificados
+Write them into the mapping file|Gravar no arquivo de mapeamento|Write to the mapping file|Guardar en el archivo de datos
+Since previous snapshot (|Desde a cópia anterior (|Since previous snapshot (|Desde la copia anterior (
+Latest save|Último save|Latest save|Última partida
+Changes appear here after the game writes its next save.|As mudanças aparecem após o próximo save.|Changes appear after the next save.|Los cambios aparecen tras el próximo guardado.
+Tracked keys|Campos rastreados|Tracked keys|Campos rastreados
+Other keys|Outros campos|Other keys|Otros campos
+play-time/position keys hidden)|tempo e posição ocultos)|play time and position hidden)|tiempo y posición ocultos)
+none|nenhum|none|ninguno
+Drag to move|Arraste para mover|Drag to move|Arrastra para mover
+⠿ drag|⠿ mover|⠿ drag|⠿ mover
+Counters|Contadores|Counters|Contadores
+Remaining here|Pendentes aqui|Remaining here|Pendientes aquí
+Opacity|Opacidade|Opacity|Opacidad
+Lock|Bloquear|Lock|Bloquear
+Claim:|Resgatar|Claim|Reclamar
+to identify: open the tracker|para identificar no tracker|to identify in the tracker|por identificar en el tracker
+Nothing to get right now|Nada disponível agora|Nothing to get right now|Nada disponible ahora
+Nothing left here 🎉|Nada pendente aqui|Nothing left here|Nada pendiente aquí
+Heart Pieces|Pedaços de coração|Heart Pieces|Piezas de corazón
+Heart Containers|Recipientes de coração|Heart Containers|Contenedores de corazón
+Gold Skulltulas|Skulltulas douradas|Gold Skulltulas|Skulltulas doradas
+Songs|Canções|Songs|Canciones
+Equipment|Equipamento|Equipment|Equipo
+Items|Itens|Items|Objetos
+Key Items|Itens importantes|Key Items|Objetos importantes
+Masks|Máscaras|Masks|Máscaras
+Bottles|Garrafas|Bottles|Botellas
+Great Fairies|Grandes Fadas|Great Fairies|Grandes Hadas
+Capacity Upgrades|Melhorias de capacidade|Capacity upgrades|Mejoras de capacidad
+Stones & Medallions|Pedras e medalhões|Stones and medallions|Piedras y medallones
+Dungeons Cleared|Masmorras concluídas|Dungeons cleared|Mazmorras completadas
+Bosses|Chefes|Bosses|Jefes
+Mini-bosses|Minichefes|Mini-bosses|Minijefes
+Side Quests|Missões secundárias|Side quests|Misiones secundarias
+Big Poes Sold|Grandes Poes vendidos|Big Poes sold|Grandes Poes vendidos
+House of Skulltula Rewards|Recompensas das Skulltulas|House of Skulltula rewards|Recompensas de las Skulltulas
+Child Trading Sequence|Trocas na infância|Child trading sequence|Intercambios de niño
+Adult Trading Sequence|Trocas na idade adulta|Adult trading sequence|Intercambios de adulto
+Magic Bean Spots Planted|Locais plantados com feijão mágico|Magic bean spots planted|Lugares con judías mágicas
+Maps, Compasses & Boss Keys|Mapas, bússolas e chaves de chefe|Maps, compasses and boss keys|Mapas, brújulas y llaves del jefe
+amiibo Retro Masks|Máscaras retrô de amiibo|amiibo retro masks|Máscaras retro de amiibo
+Save|Save|Save|Partida
+Rupees|Rupias|Rupees|Rupias
+Search the checklist|Buscar no checklist|Search the checklist|Buscar en la lista
+No matching entries|Nenhum objetivo encontrado|No matching entries|No se encontraron objetivos
+Posições dos itens na região||Item positions in the region|Posiciones de los objetos de la región
+Baú do tesouro||Treasure chest|Cofre del tesoro
+Minijogos||Minigames|Minijuegos
+Veja os minijogos que você já venceu, os prêmios e os recordes da partida.||See which minigames you've won, along with your prizes and records.|Consulta los minijuegos ganados, los premios y tus récords.
+Já concluídos||Completed|Completados
+Sem conclusão||Not completed|Sin completar
+Sem resultado no save||No result in the save|Sin resultado en la partida
+Marcado manualmente||Marked manually|Marcado manualmente
+Marcar||Mark complete|Marcar
+Encontre um save para ver os minijogos.||Find a save to see your minigames.|Busca una partida para ver los minijuegos.
+Filtrar minijogos||Filter minigames|Filtrar minijuegos
+com conclusão registrada||with a recorded result|con resultado registrado
+Melhor pontuação||Best score|Mejor puntuación
+Nenhum minijogo neste filtro.||No minigames match this filter.|No hay minijuegos para este filtro.
+Boliche de Bombchu||Bombchu Bowling|Bolos Bombchu
+Tiro a cavalo||Horseback Archery|Tiro con arco a caballo
+Corrida de Dampé||Dampé's Race|Carrera de Dampé
+Mergulho dos Zora||Zora Diving Game|Juego de buceo zora
+Sapos do Rio Zora||Zora River Frogs|Ranas del río Zora
+Teatro Deku||Deku Theater|Teatro deku
+Corrida de Dampé: primeira vitória||Dampé's Race: first win|Carrera de Dampé: primera victoria
+Modo especialista no Mercado||Castle Town Expert Mode|Modo experto del Mercado
+Modo especialista em Kakariko||Kakariko Expert Mode|Modo experto de Kakariko
+Complete a corrida com o corredor||Finish the Running Man race|Termina la carrera con el Corredor
+Eventos e descobertas||Events and discoveries|Eventos y descubrimientos
+Locais de feijão mágico||Magic bean spots|Lugares de judías mágicas
+Pensamentos de fada||Fairy Thoughts|Pensamientos de hada
+Pensamento de fada||Fairy Thought|Pensamiento de hada
+Chamadas de Pierre||Pierre summons|Invocaciones de Pierre
+Chamado de Pierre||Pierre summon|Invocación de Pierre
+Entradas de grutas||Grotto entrances|Entradas a grutas
+Entrada de gruta||Grotto entrance|Entrada a gruta
+Provação das Pedras Espirituais||Trial of the Spiritual Stones|Prueba de las Piedras Espirituales
+Provação dos Cinco Sábios||Trial of the Five Sages|Prueba de los Cinco Sabios
+Provação do Herói do Tempo||Trial of the Hero of Time|Prueba del Héroe del Tiempo
+A Grande Árvore Deku||The Great Deku Tree|El Gran Árbol Deku
+Acorde na floresta Kokiri||Wake up in Kokiri Forest|Despierta en el Bosque Kokiri
+Conquiste a Pedra da Floresta||Claim the Spiritual Stone of the Forest|Consigue la Piedra Espiritual del Bosque
+A princesa de Hyrule||The Princess of Hyrule|La princesa de Hyrule
+Encontre Zelda no Castelo de Hyrule||Meet Zelda at Hyrule Castle|Encuentra a Zelda en el Castillo de Hyrule
+As três pedras espirituais||The Three Spiritual Stones|Las tres piedras espirituales
+Conquiste a Pedra do Fogo||Claim the Spiritual Stone of Fire|Consigue la Piedra Espiritual del Fuego
+Conquiste a Pedra da Água||Claim the Spiritual Stone of Water|Consigue la Piedra Espiritual del Agua
+Abra a Porta do Tempo||Open the Door of Time|Abre la Puerta del Tiempo
+O despertar dos cinco sábios||The Awakening of the Five Sages|El despertar de los cinco sabios
+Reúna os cinco sábios||Gather the Five Sages|Reúne a los cinco sabios
+Desperte a Sábia da Floresta||Awaken the Sage of Forest|Despierta a la Sabia del Bosque
+Desperte o Sábio do Fogo||Awaken the Sage of Fire|Despierta al Sabio del Fuego
+Desperte a Sábia da Água||Awaken the Sage of Water|Despierta a la Sabia del Agua
+Desperte a Sábia das Sombras||Awaken the Sage of Shadow|Despierta a la Sabia de las Sombras
+Desperte a Sábia dos Espíritos||Awaken the Sage of Spirit|Despierta a la Sabia del Espíritu
+Luz e escuridão||Light and Darkness|Luz y oscuridad
+Derrote Ganon||Defeat Ganon|Derrota a Ganon
+Malon's Friend|Amigo de Malon|Malon's Friend|Amigo de Malon
+Happy Mask Shopkeeper|O vendedor de máscaras|Happy Mask Shopkeeper|El vendedor de máscaras
+To the Great Fairy|Ao encontro da Grande Fada|To the Great Fairy|Al encuentro de la Gran Hada
+Stir the Scarecrow's Soul!|Toque para o espantalho!|Stir the Scarecrow's Soul!|¡Anima al espantapájaros!
+From a Pocket Egg Comes…|De um ovo de bolso nasce…|From a Pocket Egg Comes…|De un huevo de bolsillo nace…
+Broken Windmill, Dry Well|Moinho quebrado, poço seco|Broken Windmill, Dry Well|Molino roto, pozo seco
+A Song of the Royal Family|Uma canção da Família Real|A Song of the Royal Family|Una canción de la Familia Real
+Goron Mask|Máscara Goron|Goron Mask|Máscara goron
+Zora Mask|Máscara Zora|Zora Mask|Máscara zora
+Gerudo Mask|Máscara Gerudo|Gerudo Mask|Máscara gerudo
+Keaton Mask|Máscara Keaton|Keaton Mask|Máscara keaton
+Skull Mask|Máscara de Caveira|Skull Mask|Máscara de calavera
+Spooky Mask|Máscara Assustadora|Spooky Mask|Máscara tenebrosa
+Bunny Hood|Capuz de Coelho|Bunny Hood|Capucha de conejo
+Mask of Truth|Máscara da Verdade|Mask of Truth|Máscara de la Verdad
+Trilha da Montanha da Morte||Death Mountain Trail|Sendero de la Montaña de la Muerte
+Cratera da Montanha da Morte||Death Mountain Crater|Cráter de la Montaña de la Muerte
+Floresta Kokiri||Kokiri Forest|Bosque Kokiri
+Vila Kakariko||Kakariko Village|Aldea Kakariko
+Cidade Goron||Goron City|Ciudad Goron
+Graveyard|Cemitério|Graveyard|Cementerio
+Cemitério||Graveyard|Cementerio
+Domínio Zora||Zora's Domain|Región de los Zora
+Fonte Zora||Zora's Fountain|Fuente Zora
+Rio Zora||Zora's River|Río Zora
+Templo do Tempo||Temple of Time|Templo del Tiempo
+Templo da Floresta||Forest Temple|Templo del Bosque
+Templo do Fogo||Fire Temple|Templo del Fuego
+Templo da Água||Water Temple|Templo del Agua
+Templo das Sombras||Shadow Temple|Templo de las Sombras
+Templo dos Espíritos||Spirit Temple|Templo del Espíritu
+Covil dos Dodongos||Dodongo Cavern|Cueva de los Dodongos
+Caverna dos Dodongos||Dodongo Cavern|Cueva de los Dodongos
+Caverna de Gelo||Ice Cavern|Caverna de Hielo
+Fundo do Poço||Bottom of the Well|Fondo del Pozo
+Grande Árvore Deku||Great Deku Tree|Gran Árbol Deku
+Barriga de Jabu-Jabu||Jabu-Jabu's Belly|Interior de Jabu-Jabu
+Lago Hylia||Lake Hylia|Lago Hylia
+Rancho Lon Lon||Lon Lon Ranch|Rancho Lon Lon
+Clareira Sagrada||Sacred Forest Meadow|Prado Sagrado del Bosque
+Bosque Perdido||Lost Woods|Bosque Perdido
+Fortaleza Gerudo||Gerudo Fortress|Fortaleza Gerudo
+Vale Gerudo||Gerudo Valley|Valle Gerudo
+Campo de Treinamento Gerudo||Gerudo Proving Grounds|Campo de Entrenamiento Gerudo
+Deserto Assombrado||Haunted Wasteland|Desierto Encantado
+Colosso do Deserto||Desert Colossus|Coloso del Desierto
+Campo de Hyrule||Hyrule Field|Llanura de Hyrule
+Castelo de Hyrule||Hyrule Castle|Castillo de Hyrule
+Castelo de Ganon||Ganon's Castle|Castillo de Ganon
+Mercado||Market|Mercado
+Tiro ao alvo no Mercado||Market Shooting Gallery|Galería de tiro del Mercado
+Bolsa de sementes do tiro ao alvo||Shooting Gallery Seed Bag|Bolsa de semillas de la galería de tiro
+Tiro ao alvo em Kakariko||Kakariko Shooting Gallery|Galería de tiro de Kakariko
+Aljava do tiro ao alvo||Shooting Gallery Quiver|Carcaj de la galería de tiro
+Boliche de Bombchu: primeira vitória||Bombchu Bowling: first win|Bolos Bombchu: primera victoria
+Boliche de Bombchu: segunda vitória||Bombchu Bowling: second win|Bolos Bombchu: segunda victoria
+Boliche de Bombchu: terceira vitória||Bombchu Bowling: third win|Bolos Bombchu: tercera victoria
+Jogo dos baús||Treasure Chest Game|Juego de los cofres
+Pesca: pedaço de coração||Fishing: Piece of Heart|Pesca: pieza de corazón
+Pesca: Escala Dourada|Pesca: Escama Dourada|Fishing: Golden Scale|Pesca: Escama Dorada
+Tiro a cavalo: 750 pontos||Horseback Archery: 750 points|Tiro a caballo: 750 puntos
+Tiro a cavalo: 1.400 pontos||Horseback Archery: 1,400 points|Tiro a caballo: 1400 puntos
+Escavação de Dampé||Dampé's Gravedigging|Excavación de Dampé
+Corrida de Dampé: pedaço de coração||Dampé Race: Piece of Heart|Carrera de Dampé: pieza de corazón
+Mergulho: Escala Prateada|Mergulho: Escama Prateada|Diving: Silver Scale|Buceo: Escama Plateada
+Sapos: Canção das Tempestades||Frogs: Song of Storms|Ranas: Canción de las Tormentas
+Sapos: sequência musical||Frogs: music sequence|Ranas: secuencia musical
+Corrida de Ingo||Ingo's Race|Carrera de Ingo
+Pista com obstáculos do Rancho Lon Lon||Lon Lon Ranch obstacle course|Circuito de obstáculos del Rancho Lon Lon
+Alvo do Bosque Perdido||Lost Woods target|Blanco del Bosque Perdido
+Teatro Deku: Máscara de Caveira||Deku Theater: Skull Mask|Teatro Deku: Máscara de Calavera
+Teatro Deku: Máscara da Verdade||Deku Theater: Mask of Truth|Teatro Deku: Máscara de la Verdad
+Encontre o Super Cucco||Find the Super Cucco|Encuentra al Supercuco
+Reúna os Cuccos de Kakariko||Round up the Kakariko Cuccos|Reúne a los cucos de Kakariko
+Sessão musical dos Skull Kids||Skull Kids' music session|Sesión musical de los Skull Kids
+Corrida com o corredor||Race the Running Man|Compite con el Corredor
+O Sábio da Luz||The Sage of Light|El Sabio de la Luz
+Fuga do Castelo de Ganon||Escape Ganon's Castle|Escapa del Castillo de Ganon
+Encontre Richard||Find Richard|Encuentra a Richard
+Aprenda a usar uma garrafa||Learn to use a bottle|Aprende a usar una botella
+Conquiste as Flechas de Fogo||Obtain the Fire Arrows|Consigue las Flechas de Fuego
+Encontre a Lente da Verdade||Find the Lens of Truth|Encuentra la Lupa de la Verdad
+Conquiste as Flechas de Gelo||Obtain the Ice Arrows|Consigue las Flechas de Hielo
+Colecionador de fantasmas||Ghost collector|Coleccionista de fantasmas
+Libere a Casa das Skulltulas||Lift the House of Skulltula curse|Rompe la maldición de la Casa Skulltula
+Complete os combates do Salão||Complete the Hall battles|Completa los combates del salón
+A aldeia atrás das árvores||The village behind the trees|La aldea tras los árboles
+Procure o povoado de crianças protegido pela Grande Árvore.||Find the children's village protected by the Great Tree.|Busca la aldea de niños protegida por el Gran Árbol.
+O lugar das corridas||The racing grounds|El lugar de las carreras
+Visite o lugar onde Malon cuida dos cavalos.||Visit the place where Malon cares for horses.|Visita el lugar donde Malon cuida de los caballos.
+A água sob a ponte||The water beneath the bridge|El agua bajo el puente
+Procure o grande lago onde também se pode pescar.||Find the large lake with a fishing pond.|Busca el gran lago donde también se puede pescar.
+O moinho da vila||The village windmill|El molino del pueblo
+Siga para o vilarejo ao pé da Montanha da Morte.||Head to the village at the foot of Death Mountain.|Ve a la aldea al pie de la Montaña de la Muerte.
+Na cidade de pedra||In the stone city|En la ciudad de piedra
+O caminho pela montanha leva aos amigos de Darunia.||The mountain path leads to Darunia's friends.|El camino por la montaña conduce a los amigos de Darunia.
+À sombra do colosso||In the shadow of the colossus|A la sombra del coloso
+Procure o monumento além do deserto assombrado.||Look for the monument beyond the Haunted Wasteland.|Busca el monumento más allá del Desierto Encantado.
+Canção de ninar de Zelda|Canção de Ninar da Zelda|Zelda's Lullaby|Nana de Zelda
+Canção de Epona||Epona's Song|Canción de Epona
+Canção de Saria||Saria's Song|Canción de Saria
+Canção do Sol||Sun's Song|Canción del Sol
+Canção do Tempo||Song of Time|Canción del Tiempo
+Canção das Tempestades||Song of Storms|Canción de las Tormentas
+Minueto da Floresta||Minuet of Forest|Minueto del Bosque
+Bolero do Fogo||Bolero of Fire|Bolero del Fuego
+Serenata da Água||Serenade of Water|Serenata del Agua
+Réquiem dos Espíritos||Requiem of Spirit|Réquiem del Espíritu
+Noturno das Sombras||Nocturne of Shadow|Nocturno de las Sombras
+Prelúdio da Luz||Prelude of Light|Preludio de la Luz
+Caminho de Hyrule||Hyrule Trail|Camino de Hyrule
+Estrelas de Kokiri||Kokiri Stars|Estrellas de Kokiri
+Ré||D|Re
+Fá||F|Fa
+Lá||A|La
+Si||B|Si
+Ré agudo||High D|Re agudo
+Quem acompanha Link desde Kokiri?||Who accompanies Link from Kokiri Forest?|¿Quién acompaña a Link desde el Bosque Kokiri?
+Quem ensina a canção de Epona?||Who teaches Epona's Song?|¿Quién enseña la Canción de Epona?
+Qual arma pode voltar depois de arremessada?||Which weapon returns when thrown?|¿Qué arma vuelve después de lanzarla?
+Qual instrumento Link aprende a tocar?||Which instrument does Link learn to play?|¿Qué instrumento aprende a tocar Link?
+Quantos pedaços formam um coração inteiro?||How many pieces make a full heart?|¿Cuántas piezas forman un corazón entero?
+Quantas Skulltulas douradas podem ser coletadas?||How many Gold Skulltulas can be collected?|¿Cuántas Skulltulas doradas se pueden recoger?
+Onde Zelda é encontrada pela primeira vez?||Where do you first meet Zelda?|¿Dónde encuentras a Zelda por primera vez?
+Qual é o nome do cavalo de Link?||What is the name of Link's horse?|¿Cómo se llama el caballo de Link?
+Qual é a terra natal dos Kokiri?||What is the Kokiri homeland?|¿Cuál es la tierra natal de los kokiri?
+Que raça vive no Domínio Zora?||Which people live in Zora's Domain?|¿Qué pueblo vive en la Región de los Zora?
+Quem é o antagonista principal?||Who is the main antagonist?|¿Quién es el antagonista principal?
+Que item abre caminho explodindo pedras rachadas?||Which item blasts cracked boulders out of the way?|¿Qué objeto abre paso al hacer explotar rocas agrietadas?
+Onde fica o Rancho Lon Lon?||Where is Lon Lon Ranch located?|¿Dónde se encuentra el Rancho Lon Lon?
+Qual é a moeda encontrada pelo caminho?||What currency do you find along the way?|¿Qué moneda encuentras por el camino?
+O que Link usa para refletir ataques?||What does Link use to deflect attacks?|¿Qué usa Link para desviar ataques?
+Qual chefe espera no Templo da Floresta?||Which boss awaits in the Forest Temple?|¿Qué jefe espera en el Templo del Bosque?
+Quem guarda a Pedra Espiritual da Água?||Who holds the Spiritual Stone of Water?|¿Quién guarda la Piedra Espiritual del Agua?
+Qual é a arma encontrada no Templo do Fogo?||Which weapon is found in the Fire Temple?|¿Qué arma se encuentra en el Templo del Fuego?
+Em que templo aparece Dark Link?||Which temple features Dark Link?|¿En qué templo aparece Link oscuro?
+Qual a primeira masmorra de Link criança?||What is young Link's first dungeon?|¿Cuál es la primera mazmorra de Link niño?
+Quem se torna o Sábio do Fogo?||Who becomes the Sage of Fire?|¿Quién se convierte en el Sabio del Fuego?
+Qual chefe é combatido no Templo das Sombras?||Which boss do you fight in the Shadow Temple?|¿Contra qué jefe luchas en el Templo de las Sombras?
+Qual canção transporta Link ao Lago Hylia?||Which song warps Link to Lake Hylia?|¿Qué canción transporta a Link al Lago Hylia?
+Qual prova rende a Escala Dourada?|Qual prova rende a Escama Dourada?|Which challenge awards the Golden Scale?|¿Qué prueba otorga la Escama Dorada?
+Qual inimigo é derrotado na barriga de Jabu-Jabu?||Which enemy is defeated inside Jabu-Jabu?|¿Qué enemigo es derrotado en la barriga de Jabu-Jabu?
+Quantas Estátuas de Monstros existem no remake?||How many Monster Statues are in the remake?|¿Cuántas estatuas de monstruos hay en el remake?
+Quantos Pedaços de Coração existem para coletar?||How many Pieces of Heart can you collect?|¿Cuántas piezas de corazón puedes recoger?
+Quem forja a espada de duas mãos na troca de adulto?||Who forges the two-handed sword in the adult trading quest?|¿Quién forja la espada de dos manos en los intercambios de adulto?
+Qual é o nome do deserto entre a fortaleza e o Colosso?||What is the desert between the fortress and the Colossus called?|¿Cómo se llama el desierto entre la fortaleza y el Coloso?
+Quem é a Sábia dos Espíritos?||Who is the Sage of Spirit?|¿Quién es la Sabia del Espíritu?
+Bumerangue||Boomerang|Bumerán
+Estilingue||Slingshot|Tirachinas
+Martelo Megaton||Megaton Hammer|Martillo Megatón
+Espada Kokiri||Kokiri Sword|Espada kokiri
+Harpa||Harp|Arpa
+Flauta de Pã||Pan flute|Flauta de pan
+Tambor||Drum|Tambor
+Bomba||Bomb|Bomba
+Arco||Bow|Arco
+Feijão mágico||Magic bean|Judía mágica
+Garrafa||Bottle|Botella
+Rupee|Rupia|Rupee|Rupia
+Medalhão||Medallion|Medallón
+Pedra espiritual||Spiritual Stone|Piedra espiritual
+Escudo||Shield|Escudo
+Martelo||Hammer|Martillo
+Botas de Ferro||Iron Boots|Botas de hierro
+Arco das Fadas||Fairy Bow|Arco de las Hadas
+Lente da Verdade||Lens of Truth|Lupa de la Verdad
+Pesca||Fishing|Pesca
+Tiro ao alvo||Target shooting|Tiro al blanco
+Corrida de cavalos||Horse racing|Carrera de caballos
+Caça aos Poes||Poe hunt|Caza de poes
+Deserto Lanayru||Lanayru Desert|Desierto de Lanayru
+Vale de Ikana||Ikana Valley|Valle de Ikana
+Areias de Nayru||Sands of Nayru|Arenas de Nayru
+Que inimigo está na imagem?||Which enemy is pictured?|¿Qué enemigo aparece en la imagen?
+Que local está na imagem?||Which location is pictured?|¿Qué lugar aparece en la imagen?
+Imagem da pergunta||Quiz image|Imagen de la pregunta
+Mapa da região||Regional map|Mapa de la región
+Andar / era||Floor / era|Piso / época
+Mostrar local||Show location|Mostrar ubicación
+Escolha um marcador||Choose a marker|Elige un marcador
+Local no jogo||In-game location|Ubicación en el juego
+Foto anterior||Previous photo|Foto anterior
+Próxima foto||Next photo|Foto siguiente
+Big Poes do Campo de Hyrule|Grandes Poes do Campo de Hyrule|Big Poes of Hyrule Field|Grandes poes de la Llanura de Hyrule
+Pedras falantes||Gossip Stones|Piedras chismosas
+Pedra falante||Gossip Stone|Piedra chismosa
+Desafios das rupees prateadas|Desafios das Rupias prateadas|Silver Rupee challenges|Desafíos de rupias plateadas
+Rupees prateadas|Rupias prateadas|Silver Rupees|Rupias plateadas
+Vacas e leite||Cows and milk|Vacas y leche
+Vaca para a casa de Link||Cow for Link's house|Vaca para la casa de Link
+Toque para uma vaca e ganhe leite||Play for a cow to get milk|Toca para una vaca y consigue leche
+Waiting for a save…|Aguardando um save…|Waiting for a save…|Esperando una partida…
+Unknown area|Região desconhecida|Unknown area|Región desconocida
+Live from the game|Ao vivo do jogo|Live from the game|En directo del juego
+Using saves|Lendo saves|Using saves|Leyendo partidas
+Extras|Extras|Extras|Extras
+on|ligado|on|activado
+off|desligado|off|desactivado
+100% checklist|Checklist 100%|100% checklist|Lista del 100 %
+Atualizar agora||Refresh now|Actualizar ahora
+Atualizando…||Refreshing…|Actualizando…
+Falha na atualização. Tente novamente.||Could not refresh. Try again.|No se pudo actualizar. Inténtalo de nuevo.
+Nova versão disponível||New version available|Nueva versión disponible
+Novidades||What's new|Novedades
+Atualizar||Update|Actualizar
+Depois||Later|Más tarde
+Baixando a atualização…||Downloading the update…|Descargando la actualización…
+Atualização pronta||Update ready|Actualización lista
+Reiniciar e instalar||Restart and install|Reiniciar e instalar
+A atualização foi baixada. Reinicie para instalar.||The update was downloaded. Restart to install it.|La actualización se descargó. Reinicia para instalarla.
+Não foi possível baixar a atualização.||The update could not be downloaded.|No se pudo descargar la actualización.
+Tentar novamente||Try again|Reintentar
+No slot_* folder found in {path}. Select the game profile folder.|Nenhuma pasta slot_* encontrada em {path}. Selecione a pasta do perfil do jogo.|No slot_* folder found in {path}. Select the game profile folder.|No se encontró ninguna carpeta slot_* en {path}. Selecciona la carpeta del perfil del juego.
+No slot_* folders with a progress.sav in {path}.|Nenhuma pasta slot_* com progress.sav em {path}.|No slot_* folders with a progress.sav in {path}.|Ninguna carpeta slot_* con progress.sav en {path}.
+This save doesn't look like an Ocarina of Time save: {error}|Este save não parece ser de Ocarina of Time: {error}|This save doesn't look like an Ocarina of Time save: {error}|Esta partida no parece de Ocarina of Time: {error}
+Couldn't read {slot}/progress.sav: {error}|Não foi possível ler {slot}/progress.sav: {error}|Couldn't read {slot}/progress.sav: {error}|No se pudo leer {slot}/progress.sav: {error}
+Save format warning: {warning}|Aviso sobre o formato do save: {warning}|Save format warning: {warning}|Aviso sobre el formato de la partida: {warning}
+{slot} is no longer in the save folder.|{slot} não está mais na pasta de saves.|{slot} is no longer in the save folder.|{slot} ya no está en la carpeta de partidas.
++{count} · {category}|+{count} · {category}|+{count} · {category}|+{count} · {category}
+Reading game memory is not available on this system.|A leitura da memória do jogo não está disponível neste sistema.|Reading game memory is not available on this system.|La lectura de la memoria del juego no está disponible en este sistema.
+Waiting for a save to compare with.|Aguardando um save para comparar.|Waiting for a save to compare with.|Esperando una partida para comparar.
+Couldn't find the progress tables yet. Load your file in the game.|As tabelas de progresso ainda não foram encontradas. Carregue seu arquivo no jogo.|Couldn't find the progress tables yet. Load your file in the game.|Aún no se encontraron las tablas de progreso. Carga tu partida en el juego.
+The game is running, but its progress doesn't match your latest save ({percent}% of flags, {missing} collected objects missing). On the title screen, or a different file?|O jogo está aberto, mas o progresso não corresponde ao seu último save ({percent}% das flags, {missing} objetos coletados faltando). Está na tela inicial ou em outro arquivo?|The game is running, but its progress doesn't match your latest save ({percent}% of flags, {missing} collected objects missing). On the title screen, or a different file?|El juego está abierto, pero su progreso no coincide con tu última partida ({percent} % de las flags, faltan {missing} objetos recogidos). ¿Estás en la pantalla de título o en otro archivo?
+Your save has {n} piece in total; {matched} matched to a location so far.|Seu save tem {n} pedaço no total; {matched} associado(s) a um local até agora.|Your save has {n} piece in total; {matched} matched to a location so far.|Tu partida tiene {n} pieza en total; {matched} asociada(s) a un lugar por ahora.
+Your save has {n} pieces in total; {matched} matched to a location so far.|Seu save tem {n} pedaços no total; {matched} associado(s) a um local até agora.|Your save has {n} pieces in total; {matched} matched to a location so far.|Tu partida tiene {n} piezas en total; {matched} asociada(s) a un lugar por ahora.
+Your save has {n} token; {matched} matched to a location so far.|Seu save tem {n} ficha; {matched} associada(s) a um local até agora.|Your save has {n} token; {matched} matched to a location so far.|Tu partida tiene {n} ficha; {matched} asociada(s) a un lugar por ahora.
+Your save has {n} tokens; {matched} matched to a location so far.|Seu save tem {n} fichas; {matched} associada(s) a um local até agora.|Your save has {n} tokens; {matched} matched to a location so far.|Tu partida tiene {n} fichas; {matched} asociada(s) a un lugar por ahora.
+Créditos||Credits|Créditos
+Mapas de Hyrule e das masmorras, posições dos colecionáveis e fotos dos locais: Ocarina Atlas (licença MIT), que credita o atlas e as imagens de jogo ao Nintendúo.||Hyrule and dungeon maps, collectible positions and location screenshots: Ocarina Atlas (MIT License), which credits the base atlas and gameplay imagery to Nintendúo.|Mapas de Hyrule y de las mazmorras, posiciones de los coleccionables y capturas de los lugares: Ocarina Atlas (licencia MIT), que atribuye el atlas y las imágenes del juego a Nintendúo.
+Imagens de itens, colecionáveis e HUD: Zelda Wiki e Mt. Wildwood Zelda Wiki. Imagens de inimigos e regiões: Mt. Wildwood Zelda Wiki.||Item, collectible and HUD images: Zelda Wiki and Mt. Wildwood Zelda Wiki. Enemy and region images: Mt. Wildwood Zelda Wiki.|Imágenes de objetos, coleccionables y HUD: Zelda Wiki y Mt. Wildwood Zelda Wiki. Imágenes de enemigos y regiones: Mt. Wildwood Zelda Wiki.
+As imagens do jogo pertencem aos seus respectivos detentores de direitos. Veja todos os créditos em THIRD_PARTY_NOTICES.md, incluído com o aplicativo.||Game imagery belongs to its respective rights holders. See THIRD_PARTY_NOTICES.md, bundled with the app, for the full credits.|Las imágenes del juego pertenecen a sus respectivos titulares de derechos. Consulta todos los créditos en THIRD_PARTY_NOTICES.md, incluido con la aplicación.
+Não foi possível buscar os saves. Tente novamente.||Couldn't search for saves. Try again.|No se pudieron buscar las partidas guardadas. Inténtalo de nuevo.
+Não foi possível abrir a pasta escolhida. Tente novamente.||Couldn't open the chosen folder. Try again.|No se pudo abrir la carpeta elegida. Inténtalo de nuevo.
+Não encontrou? Selecione manualmente a pasta do perfil que contém as pastas slot_*.||Not found? Choose the profile folder that contains the slot_* folders yourself.|¿No la encuentras? Selecciona manualmente la carpeta del perfil que contiene las carpetas slot_*.
+Não foi possível guardar a foto: o armazenamento está cheio.||Couldn't keep the photo: storage is full.|No se pudo guardar la foto: el almacenamiento está lleno.
+You can get this now as {ages}.|Disponível agora como {ages}.|Available now as {ages}.|Disponible ahora como {ages}.
+You can get this now as {ages}, at night.|Disponível agora como {ages}, à noite.|Available now as {ages}, at night.|Disponible ahora como {ages}, de noche.
+{n}/4 pedaço para o próximo||{n}/4 piece to the next heart|{n}/4 pieza para el siguiente corazón
+{n}/4 pedaços para o próximo||{n}/4 pieces to the next heart|{n}/4 piezas para el siguiente corazón
++{n} Coração||+{n} Heart|+{n} corazón
++{n} Corações||+{n} Hearts|+{n} corazones
++{n} Pedaço de coração||+{n} Piece of Heart|+{n} pieza de corazón
++{n} Pedaços de coração||+{n} Pieces of Heart|+{n} piezas de corazón
++{n} inimigo||+{n} enemy|+{n} enemigo
++{n} inimigos||+{n} enemies|+{n} enemigos
++{n} Rupee|+{n} Rupia|+{n} Rupee|+{n} Rupia
++{n} Rupees|+{n} Rupias|+{n} Rupees|+{n} Rupias
+{n} Gold Skulltula token|{n} ficha de Skulltula dourada|{n} Gold Skulltula token|{n} ficha de Skulltula dorada
+Link (ao vivo)||Link (live)|Link (en vivo)
+Link (último save)||Link (last save)|Link (última partida)
+Link ao vivo||Link live on the map|Link en vivo en el mapa
+Link no último save||Link at the last save|Link en la última partida
+Rastreio ao vivo||Live tracking|Seguimiento en vivo
+Link no mapa em tempo real||Link on the map in real time|Link en el mapa en tiempo real
+Rastreio ao vivo indisponível||Live tracking unavailable|Seguimiento en vivo no disponible
+Ao vivo: aguardando o jogo||Live: waiting for the game|En vivo: esperando el juego
+Abra o jogo para o rastreio ao vivo começar.||Open the game to start live tracking.|Abre el juego para empezar el seguimiento en vivo.
+Ao vivo: procurando o Link||Live: looking for Link|En vivo: buscando a Link
+Carregue seu arquivo no jogo.||Load your file in the game.|Carga tu partida en el juego.
+Skulltula dourada||Gold Skulltula|Skulltula dorada
+Pedaço de coração||Piece of Heart|Pieza de corazón
+Recipiente de coração||Heart Container|Contenedor de corazón
+Grande Fada||Great Fairy|Gran Hada
+Mostrar no mapa||Show on map|Mostrar en el mapa
+Faltam||Remaining|Faltan
+Coletados||Collected|Recogidos
+Grandes Fadas||Great Fairies|Grandes Hadas
+Defeated in Hyrule Field: {done}/{total}|Derrotados no Campo de Hyrule: {done}/{total}|Defeated in Hyrule Field: {done}/{total}|Derrotados en el Campo de Hyrule: {done}/{total}

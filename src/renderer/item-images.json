@@ -1,0 +1,474 @@
+{
+  "adults_wallet": {
+    "file": "images/items/adults_wallet.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/8e/OoTNS2_Adult's_Wallet_Icon.png"
+  },
+  "big_poe": {
+    "file": "images/items/big_poe.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/36/OoTNS2_Big_Poe_Icon.png"
+  },
+  "bigger_bomb_bag": {
+    "file": "images/items/bigger_bomb_bag.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/1a/OoTNS2_Bigger_Bomb_Bag_Icon.png"
+  },
+  "bigger_deku_seed_bag": {
+    "file": "images/items/bigger_deku_seed_bag.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f6/OoTNS2_Bigger_Deku-Seed_Bag_Icon.png"
+  },
+  "bigger_quiver": {
+    "file": "images/items/bigger_quiver.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/41/OoTNS2_Bigger_Quiver_Icon.png"
+  },
+  "biggest_bomb_bag": {
+    "file": "images/items/biggest_bomb_bag.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/da/OoTNS2_Biggest_Bomb_Bag_Icon.png"
+  },
+  "biggest_deku_seed_bag": {
+    "file": "images/items/biggest_deku_seed_bag.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/71/OoTNS2_Biggest_Deku-Seed_Bag_Icon.png"
+  },
+  "biggest_quiver": {
+    "file": "images/items/biggest_quiver.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/OoTNS2_Biggest_Quiver_Icon.png"
+  },
+  "biggorons_sword": {
+    "file": "images/items/biggorons_sword.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/21/OoTNS2_Biggoron_Sword_Icon.png"
+  },
+  "blue_rupee": {
+    "file": "images/items/blue_rupee.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e6/OoTNS2_Blue_Rupee_Icon.png"
+  },
+  "bolero_of_fire": {
+    "file": "images/items/bolero_of_fire.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoTNS2_Bolero_of_Fire_Icon.png"
+  },
+  "bomb": {
+    "file": "images/items/bomb.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/OoTNS2_Bomb_Icon.png"
+  },
+  "bomb_bag": {
+    "file": "images/items/bomb_bag.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/cd/OoTNS2_Bomb_Bag_Icon.png"
+  },
+  "bombchus": {
+    "file": "images/items/bombchus.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/OoTNS2_Bombchu_Icon.png"
+  },
+  "boomerang": {
+    "file": "images/items/boomerang.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/85/OoTNS2_Boomerang_Icon.png"
+  },
+  "boss_key": {
+    "file": "images/items/boss_key.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/32/OoTNS2_Boss_Key_Icon.png"
+  },
+  "bottle": {
+    "file": "images/items/bottle.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/04/OoTNS2_Empty_Bottle_Icon.png"
+  },
+  "broken_gorons_sword": {
+    "file": "images/items/broken_gorons_sword.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/OoTNS2_Broken_Goron_Sword_Icon.png"
+  },
+  "bunny_hood": {
+    "file": "images/items/bunny_hood.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/23/OoTNS2_Bunny_Hood_Icon.png"
+  },
+  "business_scrub_seed": {
+    "file": "images/items/business_scrub_seed.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/8c/OoTNS2_Business_Scrub_Seed_Icon.png"
+  },
+  "chest": {
+    "file": "images/items/chest.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/cf/OoTNS2_Treasure_Chest_Model.png"
+  },
+  "claim_check": {
+    "file": "images/items/claim_check.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/76/OoTNS2_Biggoron_Receipt_Icon.png"
+  },
+  "cojiro": {
+    "file": "images/items/cojiro.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/4a/OoTNS2_Cojiro_Icon.png"
+  },
+  "compass": {
+    "file": "images/items/compass.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/07/OoTNS2_Compass_Icon.png"
+  },
+  "deku_nut_capacity_30": {
+    "file": "images/items/deku_nut_capacity_30.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/0b/OoTNS2_Bigger_Deku-Nut_Bag_Icon.png"
+  },
+  "deku_nut_capacity_40": {
+    "file": "images/items/deku_nut_capacity_40.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/80/OoTNS2_Biggest_Deku-Nut_Bag_Icon.png"
+  },
+  "deku_nuts": {
+    "file": "images/items/deku_nuts.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f8/OoTNS2_Deku_Nut_Icon.png"
+  },
+  "deku_shield": {
+    "file": "images/items/deku_shield.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/06/OoTNS2_Deku_Shield_Icon.png"
+  },
+  "deku_stick_capacity_20": {
+    "file": "images/items/deku_stick_capacity_20.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/89/OoTNS2_Bigger_Deku-Stick_Bag_Icon.png"
+  },
+  "deku_stick_capacity_30": {
+    "file": "images/items/deku_stick_capacity_30.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/2c/OoTNS2_Biggest_Deku-Stick_Bag_Icon.png"
+  },
+  "deku_sticks": {
+    "file": "images/items/deku_sticks.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f7/OoTNS2_Deku_Stick_Icon.png"
+  },
+  "dins_fire": {
+    "file": "images/items/dins_fire.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/1e/OoTNS2_Din's_Fire_Icon.png"
+  },
+  "double_magic": {
+    "file": "images/items/double_magic.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7c/OoTNS2_Gift_of_Doubled_Magic_Icon.png"
+  },
+  "dungeon_map": {
+    "file": "images/items/dungeon_map.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/OoTNS2_Dungeon_Map_Icon.png"
+  },
+  "echo_gem": {
+    "file": "images/items/echo_gem.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e1/OoTNS2_Echo_Gem_Icon.png"
+  },
+  "eponas_song": {
+    "file": "images/items/eponas_song.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/45/OoTNS2_Epona's_Song_Icon.png"
+  },
+  "eyeball_frog": {
+    "file": "images/items/eyeball_frog.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/11/OoTNS2_Eyeball_Frog_Icon.png"
+  },
+  "fairy_bow": {
+    "file": "images/items/fairy_bow.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7a/OoTNS2_Fairy_Bow_Icon.png"
+  },
+  "fairy_ocarina": {
+    "file": "images/items/fairy_ocarina.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6a/OoTNS2_Fairy_Ocarina_Icon.png"
+  },
+  "fairy_slingshot": {
+    "file": "images/items/fairy_slingshot.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/a4/OoTNS2_Fairy_Slingshot_Icon.png"
+  },
+  "farores_wind": {
+    "file": "images/items/farores_wind.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e1/OoTNS2_Farore's_Wind_Icon.png"
+  },
+  "fire_arrow": {
+    "file": "images/items/fire_arrow.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/69/OoTNS2_Fire_Arrow_Item_Menu_Icon.png"
+  },
+  "fire_medallion": {
+    "file": "images/items/fire_medallion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/eb/OoTNS2_Fire_Medallion_Icon.png"
+  },
+  "forest_medallion": {
+    "file": "images/items/forest_medallion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/32/OoTNS2_Forest_Medallion_Icon.png"
+  },
+  "gerudo_mask": {
+    "file": "images/items/gerudo_mask.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/0c/OoTNS2_Gerudo_Mask_Icon.png"
+  },
+  "gerudo_membership_card": {
+    "file": "images/items/gerudo_membership_card.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/01/OoTNS2_Gerudo_Pass_Icon.png"
+  },
+  "giants_knife": {
+    "file": "images/items/giants_knife.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6a/OoTNS2_Giant's_Knife_Icon.png"
+  },
+  "giants_wallet": {
+    "file": "images/items/giants_wallet.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/3f/OoTNS2_Giant's_Wallet_Icon.png"
+  },
+  "gold_rupee": {
+    "file": "images/items/gold_rupee.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/93/OoTNS2_Gold_Rupee_Icon.png"
+  },
+  "gold_skulltula": {
+    "file": "images/items/gold_skulltula.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/bf/OoTNS2_Token_Icon.png"
+  },
+  "golden_gauntlets": {
+    "file": "images/items/golden_gauntlets.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/3e/OoTNS2_Golden_Gauntlets_Icon.png"
+  },
+  "golden_scale": {
+    "file": "images/items/golden_scale.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/48/OoTNS2_Golden_Scale_Icon.png"
+  },
+  "goron_mask": {
+    "file": "images/items/goron_mask.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/db/OoTNS2_Goron_Mask_Icon.png"
+  },
+  "goron_tunic": {
+    "file": "images/items/goron_tunic.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b7/OoTNS2_Goron_Tunic_Icon.png"
+  },
+  "gorons_bracelet": {
+    "file": "images/items/gorons_bracelet.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/34/OoTNS2_Goron_Bracelet_Icon.png"
+  },
+  "gorons_ruby": {
+    "file": "images/items/gorons_ruby.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/93/OoTNS2_Goron_Ruby_Icon.png"
+  },
+  "heart": {
+    "file": "images/items/heart.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/1d/OoTNS2_Heart_Icon.png"
+  },
+  "heart_container": {
+    "file": "images/items/heart_container.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f8/OoTNS2_Piece_of_Heart_Full_Icon.png"
+  },
+  "heart_piece": {
+    "file": "images/items/heart_piece.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoTNS2_Piece_of_Heart_Icon.png"
+  },
+  "hookshot": {
+    "file": "images/items/hookshot.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/ef/OoTNS2_Hookshot_Icon.png"
+  },
+  "hover_boots": {
+    "file": "images/items/hover_boots.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/72/OoTNS2_Hover_Boots_Icon.png"
+  },
+  "hylian_shield": {
+    "file": "images/items/hylian_shield.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c5/OoTNS2_Hylian_Shield_Icon.png"
+  },
+  "ice_arrow": {
+    "file": "images/items/ice_arrow.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/2c/OoTNS2_Ice_Arrow_Item_Menu_Icon.png"
+  },
+  "iron_boots": {
+    "file": "images/items/iron_boots.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c2/OoTNS2_Iron_Boots_Icon.png"
+  },
+  "keaton_mask": {
+    "file": "images/items/keaton_mask.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/4c/OoTNS2_Keaton_Mask_Icon.png"
+  },
+  "kokiri_sword": {
+    "file": "images/items/kokiri_sword.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/30/OoTNS2_Kokiri_Sword_Icon.png"
+  },
+  "kokiri_tunic_heros_clothes": {
+    "file": "images/items/kokiri_tunic_heros_clothes.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoTNS2_Hero's_Clothes_Icon.png"
+  },
+  "kokiri_wallet": {
+    "file": "images/items/kokiri_wallet.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/83/OoTNS2_Kokiri_Wallet_Icon.png"
+  },
+  "kokiris_emerald": {
+    "file": "images/items/kokiris_emerald.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/81/OoTNS2_Kokiri_Emerald_Icon.png"
+  },
+  "lenses_of_truth": {
+    "file": "images/items/lenses_of_truth.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b0/OoTNS2_Lenses_of_Truth_Icon.png"
+  },
+  "light_arrow": {
+    "file": "images/items/light_arrow.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/74/OoTNS2_Light_Arrow_Item_Menu_Icon.png"
+  },
+  "light_medallion": {
+    "file": "images/items/light_medallion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/e7/OoTNS2_Light_Medallion_Icon.png"
+  },
+  "lon_lon_milk": {
+    "file": "images/items/lon_lon_milk.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/OoTNS2_Lon_Lon_Milk_Icon.png"
+  },
+  "longshot": {
+    "file": "images/items/longshot.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7b/OoTNS2_Longshot_Icon.png"
+  },
+  "magic_bean": {
+    "file": "images/items/magic_bean.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/13/OoTNS2_Magic_Beans_Icon.png"
+  },
+  "mask_of_truth": {
+    "file": "images/items/mask_of_truth.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/a4/OoTNS2_Mask_of_Truth_Icon.png"
+  },
+  "master_sword": {
+    "file": "images/items/master_sword.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/d7/OoTNS2_Master_Sword_Icon.png"
+  },
+  "megaton_hammer": {
+    "file": "images/items/megaton_hammer.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/0a/OoTNS2_Megaton_Hammer_Item_Menu_Icon.png"
+  },
+  "minuet_of_forest": {
+    "file": "images/items/minuet_of_forest.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6b/OoTNS2_Minuet_of_the_Forest_Icon.png"
+  },
+  "mirror_shield": {
+    "file": "images/items/mirror_shield.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c2/OoTNS2_Mirror_Shield_Icon.png"
+  },
+  "nayrus_love": {
+    "file": "images/items/nayrus_love.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/d7/OoTNS2_Nayru's_Love_Icon.png"
+  },
+  "nocturne_of_shadow": {
+    "file": "images/items/nocturne_of_shadow.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5c/OoTNS2_Nocturne_of_Shadow_Icon.png"
+  },
+  "ocarina_of_time": {
+    "file": "images/items/ocarina_of_time.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/57/OoTNS2_Ocarina_of_Time_Icon.png"
+  },
+  "odd_mushroom": {
+    "file": "images/items/odd_mushroom.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/8/8d/OoTNS2_Odd_Mushroom_Icon.png"
+  },
+  "odd_potion": {
+    "file": "images/items/odd_potion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/75/OoTNS2_Odd_Poultice_Icon.png"
+  },
+  "poachers_saw": {
+    "file": "images/items/poachers_saw.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/e/ec/OoTNS2_Poacher's_Saw_Icon.png"
+  },
+  "pocket_cucco": {
+    "file": "images/items/pocket_cucco.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/a/a2/OoTNS2_Pocket_Cucco_Icon.png"
+  },
+  "pocket_egg": {
+    "file": "images/items/pocket_egg.webp",
+    "source": "https://zelda.mtwildwood.net/img/items/pocket-egg.png"
+  },
+  "prelude_of_light": {
+    "file": "images/items/prelude_of_light.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c9/OoTNS2_Prelude_of_Light_Icon.png"
+  },
+  "prescription": {
+    "file": "images/items/prescription.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/5a/OoTNS2_Prescription_Icon.png"
+  },
+  "purple_rupee": {
+    "file": "images/items/purple_rupee.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/12/OoTNS2_Purple_Rupee_Icon.png"
+  },
+  "red_rupee": {
+    "file": "images/items/red_rupee.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/3b/OoTNS2_Red_Rupee_Icon.png"
+  },
+  "requiem_of_spirit": {
+    "file": "images/items/requiem_of_spirit.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/9/90/OoTNS2_Requiem_of_Spirit_Icon.png"
+  },
+  "rupee": {
+    "file": "images/items/rupee.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/22/OoTNS2_Green_Rupee_Icon.png"
+  },
+  "sarias_song": {
+    "file": "images/items/sarias_song.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/07/OoTNS2_Saria's_Song_Icon.png"
+  },
+  "scarecrows_song": {
+    "file": "images/items/scarecrows_song.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/f/f4/OoTNS2_Scarecrow_Song_Icon.png"
+  },
+  "serenade_of_water": {
+    "file": "images/items/serenade_of_water.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/75/OoTNS2_Serenade_of_Water_Icon.png"
+  },
+  "shadow_medallion": {
+    "file": "images/items/shadow_medallion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b8/OoTNS2_Shadow_Medallion_Icon.png"
+  },
+  "silver_gauntlets": {
+    "file": "images/items/silver_gauntlets.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/4/4c/OoTNS2_Silver_Gauntlets_Icon.png"
+  },
+  "silver_scale": {
+    "file": "images/items/silver_scale.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/d/d7/OoTNS2_Silver_Scale_Icon.png"
+  },
+  "skull_mask": {
+    "file": "images/items/skull_mask.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/3e/OoTNS2_Skull_Mask_Icon.png"
+  },
+  "small_key": {
+    "file": "images/items/small_key.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/31/OoTNS2_Small_Key_Icon.png"
+  },
+  "song_of_storms": {
+    "file": "images/items/song_of_storms.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6d/OoTNS2_Song_of_Storms_Icon.png"
+  },
+  "song_of_time": {
+    "file": "images/items/song_of_time.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/64/OoTNS2_Song_of_Time_Icon.png"
+  },
+  "spirit_medallion": {
+    "file": "images/items/spirit_medallion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/1/18/OoTNS2_Spirit_Medallion_Icon.png"
+  },
+  "spooky_mask": {
+    "file": "images/items/spooky_mask.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/6/6b/OoTNS2_Spooky_Mask_Icon.png"
+  },
+  "suns_song": {
+    "file": "images/items/suns_song.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/3/38/OoTNS2_Sun's_Song_Icon.png"
+  },
+  "wake_up_cucco": {
+    "file": "images/items/wake_up_cucco.webp",
+    "source": "https://zelda.mtwildwood.net/img/items/wake-up-cucco.png"
+  },
+  "water_medallion": {
+    "file": "images/items/water_medallion.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c2/OoTNS2_Water_Medallion_Icon.png"
+  },
+  "weird_egg": {
+    "file": "images/items/weird_egg.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/7/7f/OoTNS2_Weird_Egg_Icon.png"
+  },
+  "worlds_finest_eye_drops": {
+    "file": "images/items/worlds_finest_eye_drops.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/b/b3/OoTNS2_Specialty_Eye_Drops_Icon.png"
+  },
+  "young_link": {
+    "file": "images/items/young_link.webp",
+    "source": "https://zelda.mtwildwood.net/img/items/fairy-kid-mask.png"
+  },
+  "young_zelda": {
+    "file": "images/items/young_zelda.webp",
+    "source": "https://zelda.mtwildwood.net/img/items/princess-mask.png"
+  },
+  "zeldas_letter": {
+    "file": "images/items/zeldas_letter.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/5/59/OoTNS2_Zelda's_Letter_Icon.png"
+  },
+  "zeldas_lullaby": {
+    "file": "images/items/zeldas_lullaby.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/2/21/OoTNS2_Zelda's_Lullaby_Icon.png"
+  },
+  "zora_mask": {
+    "file": "images/items/zora_mask.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/09/OoTNS2_Zora_Mask_Icon.png"
+  },
+  "zora_tunic": {
+    "file": "images/items/zora_tunic.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/0/08/OoTNS2_Zora_Tunic_Icon.png"
+  },
+  "zoras_sapphire": {
+    "file": "images/items/zoras_sapphire.webp",
+    "source": "https://cdn.wikimg.net/en/zeldawiki/images/c/c7/OoTNS2_Zora_Sapphire_Icon.png"
+  }
+}

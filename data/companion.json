@@ -1,0 +1,3237 @@
+{
+  "enemyCounters": [
+    1392689553,
+    4263895026,
+    2187871719,
+    527223020,
+    737414181,
+    2890526175,
+    4157537266,
+    972136701,
+    947190980,
+    3230272470,
+    142786542,
+    3143964157,
+    159519686,
+    796455826,
+    2080928153,
+    1578631619,
+    1245182813,
+    1653335173,
+    4270019503,
+    1585679997,
+    1918073315,
+    3023662004,
+    497309904,
+    3445816146,
+    1837319945,
+    3813274271,
+    1679688565,
+    4001696467,
+    2265836166,
+    3226778873,
+    3038808235,
+    2286295184,
+    3373751082,
+    1995152798,
+    4139497585,
+    1236449755,
+    1668052551,
+    3861637158,
+    171873149,
+    1827068621,
+    3389560168,
+    79641965,
+    4291531342,
+    1573268344,
+    4260554814,
+    3388855111,
+    761706829,
+    691334093,
+    251616052,
+    784491404,
+    1097272391,
+    3132793553,
+    2114449526,
+    3158458444,
+    3998280883,
+    3012916718,
+    3202064440,
+    1591333792,
+    4061865442,
+    1656462898,
+    1069665833,
+    2524256781,
+    1328827303,
+    2301454558,
+    2284434194,
+    2618962230,
+    1538093875,
+    3141125130,
+    955569106,
+    2739471208,
+    2340693334,
+    327264627,
+    3740721153,
+    2141245990,
+    2798524402,
+    2502385971,
+    3680029801,
+    1786539049,
+    3504545938,
+    2974164671,
+    4037897919,
+    2310001530,
+    3840008609,
+    1439737762,
+    1182111629,
+    1194717033,
+    3601295147,
+    3261288460,
+    2191180657,
+    1581298683,
+    2394077213,
+    2410101273,
+    385509113,
+    1648112695,
+    2923289408,
+    3057001780,
+    3518547405,
+    3834243840,
+    3854349392,
+    464926156,
+    3565873128,
+    1454004599,
+    3704243861,
+    135022436,
+    3902104213,
+    4032950620,
+    3362130068,
+    907772845,
+    1839511328,
+    3238179990,
+    867174270,
+    3075903146,
+    2338036099,
+    2915243666,
+    1180572244,
+    304354550,
+    1088556383,
+    2903247734,
+    2041368915,
+    1978764431,
+    351255282,
+    2822358697,
+    3703174004,
+    2798339594,
+    3321609642,
+    2390730896,
+    951459903,
+    3727450167,
+    89006836,
+    3147929027,
+    261072893,
+    3527970459,
+    1777487446,
+    4267258277
+  ],
+  "statues": [
+    {
+      "actor": "Enemy_Scrub_Mad",
+      "key": 3518547405,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Dekubaba",
+      "key": 1245182813,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Gohma_Larva",
+      "key": 3388855111,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Scrub_Deku",
+      "key": 2923289408,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_SkullKid",
+      "key": 1454004599,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Wolfos",
+      "key": 2390730896,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_MiddleBoss_Poe_Meg",
+      "key": 327264627,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_Stalfos_Weak",
+      "key": 2338036099,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Gohma",
+      "key": 4001696467,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_DungeonBoss_PhantomGanon",
+      "key": 3373751082,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Floormaster",
+      "key": 1236449755,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Joelle",
+      "key": 3601295147,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Beth",
+      "key": 3840008609,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Amy",
+      "key": 4037897919,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Wallmaster",
+      "key": 3321609642,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Stalchild",
+      "key": 907772845,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Skulltula",
+      "key": 3704243861,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Skulltula_Gold",
+      "key": 135022436,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Skullwalltula",
+      "key": 4032950620,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Peahat_Larva",
+      "key": 1786539049,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Peahat",
+      "key": 2502385971,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Moblin",
+      "key": 3740721153,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Moblin_Club",
+      "key": 2141245990,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Scrub_Business",
+      "key": 385509113,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_IronKnuckle_Black",
+      "key": 1097272391,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Ganondorf",
+      "key": 3813274271,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Ganon",
+      "key": 1837319945,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Flat",
+      "key": 1182111629,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Hyrule",
+      "key": 1194717033,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Big",
+      "key": 1439737762,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe",
+      "key": 2974164671,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Poe_Sharp",
+      "key": 3261288460,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_ReDead",
+      "key": 1581298683,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Keese",
+      "key": 3158458444,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Bubble_Green_Big",
+      "key": 3143964157,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Bubble_Blue",
+      "key": 3230272470,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Gibdo",
+      "key": 1573268344,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Stalfos_ShadowTemple",
+      "key": 3238179990,
+      "requires": [
+        3819516349
+      ],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_DeadHand",
+      "key": 1578631619,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_DungeonBoss_BongoBongo",
+      "key": 3023662004,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_TrickyDoor_SpiritTemple",
+      "key": 2798339594,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Leever_Big",
+      "key": 4061865442,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Anubis",
+      "key": 527223020,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_LikeLike",
+      "key": 1069665833,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Bubble_Green",
+      "key": 142786542,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Leever",
+      "key": 1591333792,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Guay",
+      "key": 761706829,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_FlyingPot",
+      "key": 3861637158,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Bubble_White",
+      "key": 796455826,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_MiddleBoss_GerudoThief",
+      "key": 2618962230,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_IronKnuckle_Silver",
+      "key": 3132793553,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_MiddleBoss_IronKnuckle_Nabooru",
+      "key": 2739471208,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Twinrova",
+      "key": 1995152798,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Tailpasaran",
+      "key": 304354550,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Shabom",
+      "key": 3834243840,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Bari",
+      "key": 2890526175,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Biri",
+      "key": 947190980,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Stinger",
+      "key": 2915243666,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Keese_Ice",
+      "key": 3012916718,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_ShellBlade",
+      "key": 3565873128,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Tektite_Blue",
+      "key": 1088556383,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Freezard",
+      "key": 79641965,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Spike",
+      "key": 3362130068,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Octorok",
+      "key": 2798524402,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_MiddleBoss_BigOcto",
+      "key": 1328827303,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_MiddleBoss_DarkLink",
+      "key": 2301454558,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_Wolfos_White",
+      "key": 951459903,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Barinade",
+      "key": 1918073315,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Morpha",
+      "key": 2286295184,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Beamos",
+      "key": 4157537266,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Amos",
+      "key": 4263895026,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_TorchSlug",
+      "key": 2822358697,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_BabyDodongo",
+      "key": 737414181,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Keese_Fire",
+      "key": 3998280883,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_TrickyDoor",
+      "key": 3703174004,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_CrazyFloorTile",
+      "key": 2080928153,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Dodongo",
+      "key": 1585679997,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Tektite_Red",
+      "key": 2903247734,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_Bubble_Red",
+      "key": 159519686,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_MiddleBoss_Lizalfos",
+      "key": 2340693334,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_MiddleBoss_FlareDancer",
+      "key": 2284434194,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_Dinolfos",
+      "key": 4270019503,
+      "requires": [],
+      "boss": true
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Dodongo",
+      "key": 497309904,
+      "requires": [],
+      "boss": false
+    },
+    {
+      "actor": "Enemy_DungeonBoss_Volvagia",
+      "key": 4139497585,
+      "requires": [],
+      "boss": false
+    }
+  ],
+  "rematches": [
+    {
+      "id": 1767506718,
+      "actor": "EnemyTeam_IronKnuckle",
+      "completed": 1966157803,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1901057031
+        },
+        {
+          "field": 2898886106,
+          "key": 1091442034
+        }
+      ]
+    },
+    {
+      "id": 2621707338,
+      "actor": "EnemyTeam_Twinrova",
+      "completed": 3895428567,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 2030129134
+        },
+        {
+          "field": 2898886106,
+          "key": 1445355962
+        }
+      ]
+    },
+    {
+      "id": 269452687,
+      "actor": "Enemy_DeadHand",
+      "completed": 3621536740,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3282355169
+        },
+        {
+          "field": 2898886106,
+          "key": 1968172612
+        }
+      ]
+    },
+    {
+      "id": 1255593776,
+      "actor": "Enemy_Dinolfos",
+      "completed": 2970620060,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 2804163138
+        },
+        {
+          "field": 2898886106,
+          "key": 3089226071
+        }
+      ]
+    },
+    {
+      "id": 4289969849,
+      "actor": "Enemy_DungeonBoss_Barinade",
+      "completed": 2739860191,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1188519043
+        },
+        {
+          "field": 2898886106,
+          "key": 3732680486
+        }
+      ]
+    },
+    {
+      "id": 3095213470,
+      "actor": "Enemy_DungeonBoss_BongoBongo",
+      "completed": 1989190435,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 2459791643
+        },
+        {
+          "field": 2898886106,
+          "key": 2991558390
+        }
+      ]
+    },
+    {
+      "id": 781222998,
+      "actor": "Enemy_DungeonBoss_Dodongo",
+      "completed": 3336293769,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 2182674176
+        },
+        {
+          "field": 2898886106,
+          "key": 3926113335
+        }
+      ]
+    },
+    {
+      "id": 731577124,
+      "actor": "Enemy_DungeonBoss_Ganon",
+      "completed": 2712299001,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1179523556
+        },
+        {
+          "field": 2898886106,
+          "key": 68079024
+        }
+      ]
+    },
+    {
+      "id": 914132166,
+      "actor": "Enemy_DungeonBoss_Ganondorf",
+      "completed": 1820181150,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3043263459
+        },
+        {
+          "field": 2898886106,
+          "key": 3666101194
+        }
+      ]
+    },
+    {
+      "id": 1497142866,
+      "actor": "Enemy_DungeonBoss_Gohma",
+      "completed": 520384949,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3010935736
+        },
+        {
+          "field": 2898886106,
+          "key": 705227266
+        }
+      ]
+    },
+    {
+      "id": 128670759,
+      "actor": "Enemy_DungeonBoss_Morpha",
+      "completed": 1190044151,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 142941889
+        },
+        {
+          "field": 2898886106,
+          "key": 818360536
+        }
+      ]
+    },
+    {
+      "id": 2811088555,
+      "actor": "Enemy_DungeonBoss_PhantomGanon",
+      "completed": 2578332321,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 803506708
+        },
+        {
+          "field": 2898886106,
+          "key": 2171335378
+        }
+      ]
+    },
+    {
+      "id": 35362201,
+      "actor": "Enemy_DungeonBoss_Volvagia",
+      "completed": 528925504,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 873519039
+        },
+        {
+          "field": 2898886106,
+          "key": 4180427486
+        }
+      ]
+    },
+    {
+      "id": 1692747204,
+      "actor": "Enemy_IronKnuckle_Silver",
+      "completed": 2207895939,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3490056673
+        },
+        {
+          "field": 2898886106,
+          "key": 91572377
+        }
+      ]
+    },
+    {
+      "id": 463315128,
+      "actor": "Enemy_MiddleBoss_BigOcto",
+      "completed": 2703468843,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3805283044
+        },
+        {
+          "field": 2898886106,
+          "key": 1410918731
+        }
+      ]
+    },
+    {
+      "id": 1764487783,
+      "actor": "Enemy_MiddleBoss_DarkLink",
+      "completed": 1774235044,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3049252820
+        },
+        {
+          "field": 2898886106,
+          "key": 4175755392
+        }
+      ]
+    },
+    {
+      "id": 1123765258,
+      "actor": "Enemy_MiddleBoss_FlareDancer",
+      "completed": 446519394,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 520552030
+        },
+        {
+          "field": 2898886106,
+          "key": 2370733250
+        }
+      ]
+    },
+    {
+      "id": 83193068,
+      "actor": "Enemy_MiddleBoss_GerudoThief",
+      "completed": 695904961,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 303338770
+        },
+        {
+          "field": 2898886106,
+          "key": 1632110995
+        }
+      ]
+    },
+    {
+      "id": 3744582554,
+      "actor": "Enemy_MiddleBoss_IronKnuckle_Nabooru",
+      "completed": 2563168064,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1110311973
+        },
+        {
+          "field": 2898886106,
+          "key": 1441734118
+        }
+      ]
+    },
+    {
+      "id": 958848205,
+      "actor": "Enemy_MiddleBoss_Lizalfos",
+      "completed": 2600664121,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 4023580349
+        },
+        {
+          "field": 2898886106,
+          "key": 219799439
+        }
+      ]
+    },
+    {
+      "id": 1131170704,
+      "actor": "Enemy_MiddleBoss_Poe_Meg",
+      "completed": 3289738930,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 2572495326
+        },
+        {
+          "field": 2898886106,
+          "key": 2723164351
+        }
+      ]
+    },
+    {
+      "id": 1040753803,
+      "actor": "Enemy_Stalfos",
+      "completed": 3259252792,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1888270631
+        },
+        {
+          "field": 2898886106,
+          "key": 3465207420
+        }
+      ]
+    },
+    {
+      "id": 2171812137,
+      "actor": "Enemy_Stalfos_Weak",
+      "completed": 1701854087,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1584022544
+        },
+        {
+          "field": 2898886106,
+          "key": 2259517498
+        }
+      ]
+    },
+    {
+      "id": 547562208,
+      "actor": "Enemy_Wolfos",
+      "completed": 4136063067,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 3845428629
+        },
+        {
+          "field": 2898886106,
+          "key": 3691496939
+        }
+      ]
+    },
+    {
+      "id": 1760887237,
+      "actor": "Enemy_Wolfos_White",
+      "completed": 2083623265,
+      "timeKeys": [
+        {
+          "field": 1698759759,
+          "key": 1448107198
+        },
+        {
+          "field": 2898886106,
+          "key": 2842387528
+        }
+      ]
+    }
+  ],
+  "chests": [
+    {
+      "hash": 2525137222,
+      "stage": "DesertColossus",
+      "x": -168.6,
+      "y": 113.3,
+      "z": -8.6,
+      "item": "Item_Shield_Mirror"
+    },
+    {
+      "hash": 3309686743,
+      "stage": "InsideGanonCastle",
+      "x": -36,
+      "y": 99.7,
+      "z": -16.5,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 2210036084,
+      "stage": "ShadowTemple",
+      "x": 177.8,
+      "y": 60.9,
+      "z": 95.2,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 2293682039,
+      "stage": "WaterTemple",
+      "x": 33.1,
+      "y": 103.7,
+      "z": -81.5,
+      "item": "Item_Dungeon_BossKey"
+    },
+    {
+      "hash": 1230557683,
+      "stage": "FireTemple",
+      "x": -37.8,
+      "y": 145.2,
+      "z": -0.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2421499340,
+      "stage": "GerudoTrainingGround",
+      "x": -19.2,
+      "y": 98,
+      "z": -46.2,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 3552031247,
+      "stage": "GerudoTrainingGround",
+      "x": -9,
+      "y": 98,
+      "z": -60,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 829262368,
+      "stage": "KokiriForest",
+      "x": -50.3,
+      "y": 112.3,
+      "z": -42,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 190510511,
+      "stage": "BottomOfTheWell",
+      "x": -29.6,
+      "y": 100,
+      "z": -37,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 938534801,
+      "stage": "GoronCity",
+      "x": -52.2,
+      "y": 94.8,
+      "z": 26.3,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 4277185180,
+      "stage": "ForestTemple",
+      "x": 0.2,
+      "y": 114.8,
+      "z": -68.5,
+      "item": "Item_Range_Bow"
+    },
+    {
+      "hash": 2473667363,
+      "stage": "ShadowTemple",
+      "x": 98.9,
+      "y": 87.2,
+      "z": -25.7,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2271963578,
+      "stage": "GerudoTrainingGround",
+      "x": -7.6,
+      "y": 99.5,
+      "z": -11.4
+    },
+    {
+      "hash": 4178261177,
+      "stage": "InsideTheDekuTree",
+      "x": -65.2,
+      "y": 125.6,
+      "z": 0,
+      "item": "TBox_DekuNutBundle"
+    },
+    {
+      "hash": 3029639833,
+      "stage": "IceCavern",
+      "x": 3.4,
+      "y": 113.7,
+      "z": -80.2,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 1727074269,
+      "stage": "GerudoTrainingGround",
+      "x": -2.3,
+      "y": 96.3,
+      "z": -77.3,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 601865423,
+      "stage": "DodongoCavern",
+      "x": 43,
+      "y": 113.2,
+      "z": -8.7,
+      "item": "TBox_Shield_Deku"
+    },
+    {
+      "hash": 1961810782,
+      "stage": "DeathMountainCrater",
+      "x": -27,
+      "y": 67.6,
+      "z": 65.2,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 1994906518,
+      "stage": "HyruleField",
+      "era": "adult",
+      "x": -5.7,
+      "y": 146.2,
+      "z": 406.9,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1655888428,
+      "stage": "WaterTemple",
+      "x": 12,
+      "y": 92.7,
+      "z": -4.5,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1634430530,
+      "stage": "GerudoTrainingGround",
+      "x": 10.3,
+      "y": 98,
+      "z": -50.5,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 2342141199,
+      "stage": "ForestTemple",
+      "x": -9.9,
+      "y": 117.5,
+      "z": 64.4,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2131010186,
+      "stage": "BottomOfTheWell",
+      "x": 0,
+      "y": 105.8,
+      "z": -77.1,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 435478221,
+      "stage": "GerudoTrainingGround",
+      "x": -53.7,
+      "y": 103.5,
+      "z": -131.8,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 4106085104,
+      "stage": "GoronCity",
+      "x": -47.4,
+      "y": 113.7,
+      "z": -2.3,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1357593998,
+      "stage": "DesertColossus",
+      "x": -129.5,
+      "y": 77,
+      "z": -36.5,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 2378071281,
+      "stage": "KakarikoVillage",
+      "era": "adult",
+      "x": 5.6,
+      "y": 130.2,
+      "z": 41.4,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 1312221387,
+      "stage": "SpiritTemple",
+      "x": 55.8,
+      "y": 130.9,
+      "z": -50,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3393701785,
+      "stage": "FireTemple",
+      "x": -31.8,
+      "y": 196.1,
+      "z": -12.7,
+      "item": "Item_Hammer"
+    },
+    {
+      "hash": 2603889773,
+      "stage": "Market",
+      "era": "child",
+      "x": -85.9,
+      "y": 97.9,
+      "z": 15.7,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 4029828204,
+      "stage": "DodongoCavern",
+      "x": 39,
+      "y": 115.7,
+      "z": -23,
+      "item": "Item_BombBag_Small"
+    },
+    {
+      "hash": 2848396638,
+      "stage": "DodongoCavern",
+      "x": -49,
+      "y": 116,
+      "z": -63.9,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 1755114472,
+      "stage": "GerudoFortress",
+      "era": "adult",
+      "x": 29,
+      "y": 131.5,
+      "z": -93.7,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 460481007,
+      "stage": "ShadowTemple",
+      "x": 128,
+      "y": 52,
+      "z": 10.5,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 959928816,
+      "stage": "FireTemple",
+      "x": 48.5,
+      "y": 147,
+      "z": -43.4,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 87178126,
+      "stage": "Market",
+      "era": "child",
+      "x": -96.9,
+      "y": 97.9,
+      "z": 9.7,
+      "item": "Obj_MiniGame_SmallKey"
+    },
+    {
+      "hash": 1181753597,
+      "stage": "KokiriForest",
+      "x": -53.2,
+      "y": 112.3,
+      "z": -42.1,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 605224955,
+      "stage": "InsideTheDekuTree",
+      "x": -10.4,
+      "y": 79.4,
+      "z": -12.6,
+      "item": "Item_DekuStickBundle_Small"
+    },
+    {
+      "hash": 1826940282,
+      "stage": "KakarikoVillage",
+      "x": -41.7,
+      "y": 79.7,
+      "z": 11.4,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 4016708087,
+      "stage": "SpiritTemple",
+      "x": 43.4,
+      "y": 119.2,
+      "z": -47.5,
+      "item": "Item_BombBundle_Small"
+    },
+    {
+      "hash": 3120674520,
+      "stage": "FireTemple",
+      "x": -17.1,
+      "y": 147,
+      "z": -31.1,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3521849873,
+      "stage": "BottomOfTheWell",
+      "x": 19.9,
+      "y": 97.8,
+      "z": -18.6,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1293491650,
+      "stage": "InsideTheDekuTree",
+      "x": -42.9,
+      "y": 116.2,
+      "z": 19.3,
+      "item": "TBox_DekuNutBundle"
+    },
+    {
+      "hash": 453461903,
+      "stage": "KakarikoVillage",
+      "era": "adult",
+      "x": 5.6,
+      "y": 130.2,
+      "z": 41.4,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 3751945967,
+      "stage": "GerudoTrainingGround",
+      "x": -50.3,
+      "y": 98.1,
+      "z": -15.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 107641012,
+      "stage": "ShadowTemple",
+      "x": 2.6,
+      "y": 90.5,
+      "z": -26.2,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 665008794,
+      "stage": "IceCavern",
+      "x": 90.2,
+      "y": 104.5,
+      "z": 2.9,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 368262048,
+      "stage": "GerudoValley",
+      "era": "adult",
+      "x": -33.7,
+      "y": 102.2,
+      "z": 22.1,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 225303980,
+      "stage": "Market",
+      "era": "child",
+      "x": -107.9,
+      "y": 97.9,
+      "z": 15.7,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 2904530331,
+      "stage": "SpiritTemple",
+      "x": -25.4,
+      "y": 158.2,
+      "z": -51.3,
+      "item": "Item_BombBundle_Small"
+    },
+    {
+      "hash": 3839268083,
+      "stage": "SpiritTemple",
+      "x": 0,
+      "y": 114.2,
+      "z": -57.6,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 3402823158,
+      "stage": "SpiritTemple",
+      "x": 58,
+      "y": 132.1,
+      "z": 4.7,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 846048197,
+      "stage": "InsideGanonCastle",
+      "x": -40.6,
+      "y": 99.7,
+      "z": -27.3,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 312717633,
+      "stage": "FireTemple",
+      "x": -5.1,
+      "y": 100.9,
+      "z": -8.7,
+      "item": "Item_Dungeon_BossKey"
+    },
+    {
+      "hash": 4047565456,
+      "stage": "InsideGanonCastle",
+      "x": 56.4,
+      "y": 99.5,
+      "z": -15.2,
+      "item": "Item_BombchuBundle_Small"
+    },
+    {
+      "hash": 4144212847,
+      "stage": "ShadowTemple",
+      "x": -72.6,
+      "y": 90.5,
+      "z": -10.1,
+      "item": "Item_HoverBoot"
+    },
+    {
+      "hash": 1052436092,
+      "stage": "GoronCity",
+      "x": -47.4,
+      "y": 113.7,
+      "z": -5.2,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 2230201688,
+      "stage": "ForestTemple",
+      "x": 0,
+      "y": 105.8,
+      "z": -62.7,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3052080685,
+      "stage": "KokiriForest",
+      "x": -70.8,
+      "y": 103.6,
+      "z": -63.4,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 2084424726,
+      "stage": "BottomOfTheWell",
+      "x": -12.4,
+      "y": 100.1,
+      "z": -11,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 1179700852,
+      "stage": "InsideJabuJabuBelly",
+      "x": 37.7,
+      "y": 77.6,
+      "z": -57.1,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 2522688064,
+      "stage": "InsideGanonCastle",
+      "x": -40.4,
+      "y": 99.9,
+      "z": -21,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 2127176983,
+      "stage": "SpiritTemple",
+      "x": -39.2,
+      "y": 119.2,
+      "z": -39.6,
+      "item": "Item_BombchuBundle_Small"
+    },
+    {
+      "hash": 975836505,
+      "stage": "ZoraFountain",
+      "era": "adult",
+      "x": 33,
+      "y": 108.5,
+      "z": 1.7,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 3931281414,
+      "stage": "FireTemple",
+      "x": 31.7,
+      "y": 194.4,
+      "z": -8.5,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1275766762,
+      "stage": "ForestTemple",
+      "x": 56,
+      "y": 104,
+      "z": -22.8
+    },
+    {
+      "hash": 4134181619,
+      "stage": "InsideGanonCastle",
+      "x": -52.2,
+      "y": 100,
+      "z": -16.5,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 989997264,
+      "stage": "SpiritTemple",
+      "x": 13,
+      "y": 104.8,
+      "z": -63.7,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 2435957055,
+      "stage": "Market",
+      "era": "child",
+      "x": -118.9,
+      "y": 97.9,
+      "z": 15.7,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1879175548,
+      "stage": "GerudoValley",
+      "x": -9.5,
+      "y": 90.4,
+      "z": 35,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 754909119
+    },
+    {
+      "hash": 2786780332,
+      "stage": "ForestTemple",
+      "x": -52.8,
+      "y": 115,
+      "z": 4.2,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 3213152408,
+      "stage": "Graveyard",
+      "era": "adult",
+      "x": -6,
+      "y": 82.5,
+      "z": 77.7,
+      "item": "Item_Hookshot"
+    },
+    {
+      "hash": 1331182499,
+      "stage": "SpiritTemple",
+      "x": 19.8,
+      "y": 151,
+      "z": -65.1,
+      "item": "Item_Dungeon_BossKey"
+    },
+    {
+      "hash": 2171154989,
+      "stage": "WaterTemple",
+      "x": 36.8,
+      "y": 119.5,
+      "z": -4.5,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 3448393848,
+      "stage": "WaterTemple",
+      "x": -68.3,
+      "y": 104.3,
+      "z": 20.1,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 3065382667,
+      "stage": "WaterTemple",
+      "x": 56.9,
+      "y": 118.4,
+      "z": -28.1,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3853133985,
+      "stage": "GerudoFortress",
+      "era": "adult",
+      "x": 15,
+      "y": 89.2,
+      "z": -67.7,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 722628717,
+      "stage": "BottomOfTheWell",
+      "x": 0,
+      "y": 92.4,
+      "z": -110.3,
+      "item": "Item_GlassTruth"
+    },
+    {
+      "hash": 2423933311,
+      "stage": "FireTemple",
+      "x": 34.1,
+      "y": 147.1,
+      "z": -5.7,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 365383137,
+      "stage": "KokiriForest",
+      "x": -82.6,
+      "y": 122.3,
+      "z": 33,
+      "item": "Item_Sword_Kokiri"
+    },
+    {
+      "hash": 3811910781,
+      "stage": "FireTemple",
+      "x": 77.4,
+      "y": 141.1,
+      "z": 0.2,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 1847301288,
+      "stage": "Market",
+      "era": "child",
+      "x": -131.6,
+      "y": 97.9,
+      "z": 12.7,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 3549298180,
+      "stage": "ShadowTemple",
+      "x": 118.4,
+      "y": 52.1,
+      "z": -17.7,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 971290604,
+      "stage": "Graveyard",
+      "x": 38.3,
+      "y": 86.3,
+      "z": 11.2,
+      "item": "TBox_Shield_Hylian"
+    },
+    {
+      "hash": 382178283,
+      "stage": "InsideGanonCastle",
+      "x": 25.3,
+      "y": 103,
+      "z": 23.7,
+      "item": "TBox_ArrowBundle_Medium"
+    },
+    {
+      "hash": 945296694,
+      "stage": "FireTemple",
+      "x": 33.1,
+      "y": 194.4,
+      "z": -9.9,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 4115265555,
+      "stage": "HyruleField",
+      "era": "adult",
+      "x": -297.4,
+      "y": 131.3,
+      "z": 558.1,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 885548230,
+      "stage": "FireTemple",
+      "x": 39.4,
+      "y": 105.3,
+      "z": 51.2,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3585653778,
+      "stage": "InsideGanonCastle",
+      "x": 0.1,
+      "y": 149.7,
+      "z": -24.7,
+      "item": "Item_Dungeon_BossKey"
+    },
+    {
+      "hash": 1569943867,
+      "stage": "ShadowTemple",
+      "x": 84.1,
+      "y": 87.3,
+      "z": 22.9,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 1718885013,
+      "stage": "SpiritTemple",
+      "x": -61.2,
+      "y": 132.8,
+      "z": -27.7,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2416810057,
+      "stage": "HyruleField",
+      "x": -151.9,
+      "y": 162,
+      "z": 265.3,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 1789177251,
+      "stage": "LostWood",
+      "x": -49.4,
+      "y": 104.5,
+      "z": 71.9,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 2518682527,
+      "stage": "DodongoCavern",
+      "x": -49,
+      "y": 103.6,
+      "z": 7.5,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 2473051484,
+      "stage": "SacredForestMeadow",
+      "x": 12.1,
+      "y": 96,
+      "z": -73.8,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 325687586,
+      "stage": "InsideGanonCastle",
+      "x": 48.3,
+      "y": 104,
+      "z": -105.3,
+      "item": "Item_Gauntlet_Gold"
+    },
+    {
+      "hash": 2717300398,
+      "stage": "GerudoValley",
+      "x": -47.3,
+      "y": 84,
+      "z": -46,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 176842646,
+      "stage": "Market",
+      "era": "child",
+      "x": -74.9,
+      "y": 97.9,
+      "z": 9.7,
+      "item": "Obj_MiniGame_SmallKey"
+    },
+    {
+      "hash": 1507271454,
+      "stage": "ShadowTemple",
+      "x": -181.9,
+      "y": 41.4,
+      "z": -12.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 605657081,
+      "stage": "WaterTemple",
+      "x": -77.9,
+      "y": 126.6,
+      "z": -99.2,
+      "item": "Item_Longshot"
+    },
+    {
+      "hash": 2299831558,
+      "stage": "WaterTemple",
+      "x": 43.8,
+      "y": 100,
+      "z": -4.5,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 971373074,
+      "stage": "Market",
+      "era": "child",
+      "x": -118.9,
+      "y": 97.9,
+      "z": 9.7,
+      "item": "Obj_MiniGame_SmallKey"
+    },
+    {
+      "hash": 1447194364,
+      "stage": "InsideGanonCastle",
+      "x": 12.6,
+      "y": 103.9,
+      "z": -65.9,
+      "item": "TBox_ArrowBundle_Medium"
+    },
+    {
+      "hash": 1938222105,
+      "stage": "GerudoValley",
+      "era": "adult",
+      "x": -43.3,
+      "y": 84,
+      "z": -46,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 3933003337,
+      "stage": "GerudoTrainingGround",
+      "x": 22.8,
+      "y": 98,
+      "z": -45.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2555172900,
+      "stage": "GerudoTrainingGround",
+      "x": -1.9,
+      "y": 98,
+      "z": -48,
+      "item": "Item_Arrow_Ice"
+    },
+    {
+      "hash": 4259375778,
+      "stage": "GerudoTrainingGround",
+      "x": 5.5,
+      "y": 98,
+      "z": -45.5,
+      "item": "Item_BombchuBundle_Small"
+    },
+    {
+      "hash": 3336695085,
+      "stage": "SpiritTemple",
+      "x": -10.9,
+      "y": 124.8,
+      "z": -60.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3449660039,
+      "stage": "Graveyard",
+      "era": "adult",
+      "x": -6,
+      "y": 82.5,
+      "z": 77.6,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1111203405,
+      "stage": "GerudoTrainingGround",
+      "x": 4.1,
+      "y": 99.5,
+      "z": -11.4,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 205460094,
+      "stage": "DesertColossus",
+      "x": -168.6,
+      "y": 113.3,
+      "z": 29.5,
+      "item": "Item_Gauntlet_Silver"
+    },
+    {
+      "hash": 2135393254,
+      "stage": "WaterTemple",
+      "x": -44,
+      "y": 102.3,
+      "z": -19.5,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 172981201
+    },
+    {
+      "hash": 3667787564,
+      "stage": "HyruleField",
+      "x": -213.3,
+      "y": 133.5,
+      "z": 138.7,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 2707918553,
+      "stage": "ZoraDomain",
+      "era": "child",
+      "x": 28.8,
+      "y": 100.4,
+      "z": -4.9,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 213467794,
+      "stage": "ForestTemple",
+      "x": 38.8,
+      "y": 101.4,
+      "z": -35.7,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 2603488607,
+      "stage": "ForestTemple",
+      "x": -17.1,
+      "y": 114.8,
+      "z": -63.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 719616279,
+      "stage": "InsideJabuJabuBelly",
+      "x": 25.5,
+      "y": 92.3,
+      "z": -175.9,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 2701723107
+    },
+    {
+      "hash": 3744916514,
+      "stage": "InsideJabuJabuBelly",
+      "x": -34.2,
+      "y": 82.5,
+      "z": -52,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 3850443732,
+      "stage": "FireTemple",
+      "x": 58.2,
+      "y": 147.1,
+      "z": 40.6,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 2124811858,
+      "stage": "WaterTemple",
+      "x": -1.2,
+      "y": 112,
+      "z": -51.8,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 730436757,
+      "stage": "GerudoTrainingGround",
+      "x": 78.5,
+      "y": 94,
+      "z": -43.9,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2138134535,
+      "stage": "ShadowTemple",
+      "x": 177.8,
+      "y": 60.9,
+      "z": 98.6,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 2248327974,
+      "stage": "GerudoTrainingGround",
+      "x": -39.5,
+      "y": 103.5,
+      "z": -130.8,
+      "item": "Item_BombBundle_Small"
+    },
+    {
+      "hash": 2466978460,
+      "stage": "GoronCity",
+      "x": -43.2,
+      "y": 113.7,
+      "z": -8.4,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 2490301409,
+      "stage": "FireTemple",
+      "x": 34.2,
+      "y": 105.3,
+      "z": -46.5,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3688108408,
+      "stage": "IceCavern",
+      "x": -53.1,
+      "y": 107.2,
+      "z": -34.2,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 3451948149,
+      "stage": "SpiritTemple",
+      "x": 48.9,
+      "y": 100.3,
+      "z": -78,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2105620594,
+      "stage": "GerudoTrainingGround",
+      "x": -1.7,
+      "y": 105,
+      "z": -37.9,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2145823765,
+      "stage": "Graveyard",
+      "era": "adult",
+      "x": -6,
+      "y": 82.5,
+      "z": 77.6,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 3843384773,
+      "stage": "KokiriForest",
+      "x": -132.2,
+      "y": 123.9,
+      "z": -16,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 2179705387,
+      "stage": "GerudoTrainingGround",
+      "x": 43.3,
+      "y": 98.4,
+      "z": -82.4,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2000110264,
+      "stage": "GoronCity",
+      "x": -48.4,
+      "y": 113.7,
+      "z": 2,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 4124864288,
+      "stage": "GerudoTrainingGround",
+      "x": -55.1,
+      "y": 104,
+      "z": -90.3,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 562200135
+    },
+    {
+      "hash": 3362011206,
+      "stage": "KokiriForest",
+      "x": -54.2,
+      "y": 112.3,
+      "z": -40.9,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1980317873,
+      "stage": "GerudoTrainingGround",
+      "x": 44.4,
+      "y": 98.7,
+      "z": -5.4,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 611316640,
+      "stage": "InsideGanonCastle",
+      "x": -52.2,
+      "y": 100,
+      "z": -25.5,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 2188962090,
+      "stage": "GerudoTrainingGround",
+      "x": 43.5,
+      "y": 98,
+      "z": -90.9
+    },
+    {
+      "hash": 2302544954,
+      "stage": "ForestTemple",
+      "x": -49.5,
+      "y": 129.5,
+      "z": -63.7,
+      "item": "Item_Dungeon_BossKey"
+    },
+    {
+      "hash": 83765489,
+      "stage": "SpiritTemple",
+      "x": -56,
+      "y": 104.7,
+      "z": -67.6,
+      "item": "TBox_Shield_Deku"
+    },
+    {
+      "hash": 776396307,
+      "stage": "GerudoTrainingGround",
+      "x": -42.1,
+      "y": 104.2,
+      "z": -137.7,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 639168905,
+      "stage": "Market",
+      "era": "child",
+      "x": -85.9,
+      "y": 97.9,
+      "z": 9.7,
+      "item": "Obj_MiniGame_SmallKey"
+    },
+    {
+      "hash": 193051954,
+      "stage": "BottomOfTheWell",
+      "x": -0.2,
+      "y": 96.2,
+      "z": -5,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 3802178141,
+      "stage": "InsideJabuJabuBelly",
+      "x": -31.3,
+      "y": 92.4,
+      "z": -131.9,
+      "item": "Item_Boomerang"
+    },
+    {
+      "hash": 2201084167,
+      "stage": "Graveyard",
+      "era": "adult",
+      "x": -6,
+      "y": 82.5,
+      "z": 77.7,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 4205363732,
+      "stage": "FireTemple",
+      "x": -39.2,
+      "y": 105,
+      "z": 24.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2948290161
+    },
+    {
+      "hash": 3081815556,
+      "stage": "ShadowTemple",
+      "x": 101.2,
+      "y": 52.1,
+      "z": -17.6,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 3598952997,
+      "stage": "SpiritTemple",
+      "x": -15.3,
+      "y": 104.7,
+      "z": -60.2,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2020938610,
+      "stage": "HyruleField",
+      "x": 152.2,
+      "y": 136,
+      "z": 16.7,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 1652069460,
+      "stage": "ShadowTemple",
+      "x": -1.5,
+      "y": 63.5,
+      "z": 98.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 3642837765,
+      "stage": "BottomOfTheWell",
+      "x": 0,
+      "y": 102.2,
+      "z": -100.5,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 1787567071,
+      "stage": "GerudoValley",
+      "era": "child",
+      "x": -43.3,
+      "y": 84,
+      "z": -46,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 969453275,
+      "stage": "BottomOfTheWell",
+      "x": 12,
+      "y": 100,
+      "z": -11.1,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1863128383,
+      "stage": "ForestTemple",
+      "x": 16.4,
+      "y": 88,
+      "z": -42.6,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 4207438301,
+      "stage": "GerudoValley",
+      "x": 31.2,
+      "y": -22.6,
+      "z": 37,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 608340850,
+      "stage": "Market",
+      "era": "child",
+      "x": -107.9,
+      "y": 97.9,
+      "z": 9.7,
+      "item": "Obj_MiniGame_SmallKey"
+    },
+    {
+      "hash": 2732240123,
+      "stage": "Market",
+      "era": "child",
+      "x": -131.6,
+      "y": 97.9,
+      "z": 12.7,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 3798270761,
+      "stage": "IceCavern",
+      "x": -46.2,
+      "y": 109.7,
+      "z": 42.5,
+      "item": "Item_HeavyBoot"
+    },
+    {
+      "hash": 1229209380,
+      "stage": "GerudoTrainingGround",
+      "x": -42.2,
+      "y": 104.2,
+      "z": -123.6,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 3390613229,
+      "stage": "HyruleField",
+      "x": -214.9,
+      "y": 98,
+      "z": 449.1,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1040557638,
+      "stage": "ForestTemple",
+      "x": 17.1,
+      "y": 114.8,
+      "z": -63.6,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 1120759576
+    },
+    {
+      "hash": 1889375436
+    },
+    {
+      "hash": 2986680184,
+      "stage": "Market",
+      "era": "child",
+      "x": -74.9,
+      "y": 97.9,
+      "z": 15.7,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 3501469629
+    },
+    {
+      "hash": 3414708626,
+      "stage": "InsideGanonCastle",
+      "x": -45.1,
+      "y": 99.7,
+      "z": -16.6,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 902257305,
+      "stage": "DodongoCavern",
+      "x": -20.8,
+      "y": 113.3,
+      "z": -36.5,
+      "item": "TBox_Shield_Deku"
+    },
+    {
+      "hash": 426439574,
+      "stage": "ForestTemple",
+      "x": -70.2,
+      "y": 107.1,
+      "z": -26.5,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 4181366528
+    },
+    {
+      "hash": 2072470569,
+      "stage": "DodongoCavern",
+      "x": 83,
+      "y": 100.6,
+      "z": -55.6,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 2233873468,
+      "stage": "InsideGanonCastle",
+      "x": -38,
+      "y": 104,
+      "z": 13.3,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 989192419,
+      "stage": "SacredForestMeadow",
+      "x": -3.7,
+      "y": 82.3,
+      "z": 67.2,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 749318105,
+      "stage": "GerudoTrainingGround",
+      "x": -13.2,
+      "y": 98,
+      "z": -60.5,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1090009813,
+      "stage": "InsideTheDekuTree",
+      "x": -54.4,
+      "y": 112,
+      "z": 12.2,
+      "item": "Item_Range_SlingShot"
+    },
+    {
+      "hash": 1470414189,
+      "stage": "DodongoCavern",
+      "x": -26.5,
+      "y": 100.3,
+      "z": -38,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 1323349268,
+      "stage": "BottomOfTheWell",
+      "x": 10.6,
+      "y": 100,
+      "z": -4.5,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 2292971855,
+      "stage": "DodongoCavern",
+      "x": 92.5,
+      "y": 115,
+      "z": -50.3,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 3841676637,
+      "stage": "InsideTheDekuTree",
+      "x": 6.5,
+      "y": 108.4,
+      "z": 7.2,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 3295293238,
+      "stage": "DodongoCavern",
+      "x": -30.1,
+      "y": 100,
+      "z": -8,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1307652362,
+      "stage": "FireTemple",
+      "x": 31.4,
+      "y": 194.4,
+      "z": -10.2,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 1673615830,
+      "stage": "BottomOfTheWell",
+      "x": 33.9,
+      "y": 100,
+      "z": -22.5,
+      "item": "TBox_Shield_Deku"
+    },
+    {
+      "hash": 2988341838,
+      "stage": "FireTemple",
+      "x": -7,
+      "y": 102,
+      "z": -33.3,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 3535074057,
+      "stage": "HountedWasteland",
+      "x": 16,
+      "y": 87.7,
+      "z": -98.3,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 1867008566,
+      "stage": "ZoraRiver",
+      "x": -16.7,
+      "y": 74.9,
+      "z": 29.7,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 2667034826,
+      "stage": "ShadowTemple",
+      "x": 21.1,
+      "y": 56.4,
+      "z": 98.4,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 4188699192,
+      "stage": "BottomOfTheWell",
+      "x": -11,
+      "y": 100,
+      "z": -5.4,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 1418713553,
+      "stage": "ForestTemple",
+      "x": -16.3,
+      "y": 60.7,
+      "z": 12.6,
+      "item": "TBox_ArrowBundle_Large"
+    },
+    {
+      "hash": 574873167,
+      "stage": "DeathMountainCrater",
+      "x": -66.8,
+      "y": 70.4,
+      "z": 4.7,
+      "item": "TBox_Rupee_Purple"
+    },
+    {
+      "hash": 79200074,
+      "stage": "SpiritTemple",
+      "x": 53.7,
+      "y": 132.1,
+      "z": 4.7,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 2664118972,
+      "stage": "GoronCity",
+      "x": -52.2,
+      "y": 94.8,
+      "z": 32,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 1251642070,
+      "stage": "ShadowTemple",
+      "x": -173.2,
+      "y": 41.4,
+      "z": -69.1,
+      "item": "Item_Dungeon_BossKey"
+    },
+    {
+      "hash": 832583292,
+      "stage": "InsideTheDekuTree",
+      "x": -48.3,
+      "y": 120.4,
+      "z": 0,
+      "item": "Item_Dungeon_Compass"
+    },
+    {
+      "hash": 2663093503,
+      "stage": "BottomOfTheWell",
+      "x": 18.3,
+      "y": 87.4,
+      "z": 1.2,
+      "item": "Item_Dungeon_Map"
+    },
+    {
+      "hash": 2218301934,
+      "stage": "Market",
+      "era": "child",
+      "x": -96.9,
+      "y": 97.9,
+      "z": 15.7,
+      "item": "TBox_Rupee_Green"
+    },
+    {
+      "hash": 2626274661,
+      "stage": "Graveyard",
+      "x": 21.4,
+      "y": 85.8,
+      "z": 39.3,
+      "item": "Obj_Heart_Piece"
+    },
+    {
+      "hash": 1482831027,
+      "stage": "FireTemple",
+      "x": 46.6,
+      "y": 150.5,
+      "z": 33.4,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 4168142859,
+      "stage": "KokiriForest",
+      "x": -49.3,
+      "y": 112.3,
+      "z": -40.9,
+      "item": "TBox_Rupee_Blue"
+    },
+    {
+      "hash": 1775851429,
+      "stage": "DeathMountainTrail",
+      "x": -29.8,
+      "y": 120.3,
+      "z": 45.6,
+      "item": "Item_ScrubBusinessSeed"
+    },
+    {
+      "hash": 1629692153,
+      "stage": "ShadowTemple",
+      "x": -190.1,
+      "y": 41.3,
+      "z": -69.4,
+      "item": "Tbox_MagicJar_Large"
+    },
+    {
+      "hash": 2982691321,
+      "stage": "HyruleField",
+      "era": "adult",
+      "x": 84.4,
+      "y": 152.6,
+      "z": 45.4,
+      "item": "TBox_Rupee_Red"
+    },
+    {
+      "hash": 4080865971,
+      "stage": "GerudoTrainingGround",
+      "x": -1.5,
+      "y": 105,
+      "z": -48,
+      "item": "Item_Dungeon_SmallKey"
+    },
+    {
+      "hash": 812441948
+    }
+  ],
+  "notes": [
+    {
+      "hash": 2162162301,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": 152.2,
+      "y": 155.1,
+      "z": 27.4,
+      "item": "00"
+    },
+    {
+      "hash": 1229779628,
+      "stage": "LonLonRanch",
+      "era": "child",
+      "x": -89.3,
+      "y": 151.2,
+      "z": 207,
+      "item": "01"
+    },
+    {
+      "hash": 2274455897,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": -52,
+      "y": 146.2,
+      "z": 17.1,
+      "item": "02"
+    },
+    {
+      "hash": 3931244337,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": 85.4,
+      "y": 153.5,
+      "z": 44.5,
+      "item": "04"
+    },
+    {
+      "hash": 2341419572,
+      "stage": "LakeHylia",
+      "era": "child",
+      "x": -295.7,
+      "y": 132.2,
+      "z": 560.6,
+      "item": "06"
+    },
+    {
+      "hash": 2391751397,
+      "stage": "HyruleField",
+      "era": "adult",
+      "x": 50.4,
+      "y": 149.4,
+      "z": 18.3,
+      "item": "07"
+    },
+    {
+      "hash": 3977918637,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": -6,
+      "y": 147.1,
+      "z": 405.6,
+      "item": "08"
+    },
+    {
+      "hash": 1254586769,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": 187.2,
+      "y": 158.1,
+      "z": 186.2,
+      "item": "09"
+    },
+    {
+      "hash": 354343297,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": -141.7,
+      "y": 147.8,
+      "z": 29.7,
+      "item": "10"
+    },
+    {
+      "hash": 1720574920,
+      "stage": "HyruleField",
+      "era": "adult",
+      "x": -211.5,
+      "y": 135,
+      "z": 138.6,
+      "item": "11"
+    },
+    {
+      "hash": 1961930775,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": 50,
+      "y": 126.6,
+      "z": 346.2,
+      "item": "12"
+    },
+    {
+      "hash": 993498171,
+      "stage": "ZoraRiver",
+      "era": "child",
+      "x": -27.2,
+      "y": 105.2,
+      "z": -30.9,
+      "item": "13"
+    },
+    {
+      "hash": 965238119,
+      "stage": "DeathMountainTrail",
+      "era": "child",
+      "x": -10,
+      "y": 121.2,
+      "z": -20,
+      "item": "14"
+    },
+    {
+      "hash": 16062239,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": -152.8,
+      "y": 151.2,
+      "z": 259.1,
+      "item": "15"
+    },
+    {
+      "hash": 1145067482,
+      "stage": "Graveyard",
+      "era": "child",
+      "x": 53.1,
+      "y": 105,
+      "z": 4,
+      "item": "16"
+    },
+    {
+      "hash": 3616773659,
+      "stage": "ForestTemple",
+      "x": 62.6,
+      "y": 124.5,
+      "z": -53.9,
+      "item": "19"
+    },
+    {
+      "hash": 3366226444,
+      "stage": "FireTemple",
+      "x": -63.7,
+      "y": 194.3,
+      "z": 10.8,
+      "item": "20"
+    },
+    {
+      "hash": 810305992,
+      "stage": "IceCavern",
+      "x": 79.1,
+      "y": 104.2,
+      "z": -3.6,
+      "item": "21"
+    },
+    {
+      "hash": 1124098896,
+      "stage": "WaterTemple",
+      "x": -54.1,
+      "y": 105.7,
+      "z": -11.5,
+      "item": "22"
+    },
+    {
+      "hash": 3611854014,
+      "stage": "BottomOfTheWell",
+      "x": -54.3,
+      "y": 101,
+      "z": -24.7,
+      "item": "23"
+    },
+    {
+      "hash": 2730984485,
+      "stage": "ShadowTemple",
+      "x": 16.9,
+      "y": 57.4,
+      "z": 86.6,
+      "item": "24"
+    },
+    {
+      "hash": 3145274054,
+      "stage": "DesertColossus",
+      "era": "child",
+      "x": -159.2,
+      "y": 110.9,
+      "z": 10.3,
+      "item": "25"
+    },
+    {
+      "hash": 782041802,
+      "stage": "Graveyard",
+      "era": "child",
+      "x": 142.3,
+      "y": 98.3,
+      "z": 5.5,
+      "item": "26"
+    }
+  ],
+  "scarecrows": [
+    {
+      "hash": 3968755397,
+      "stage": "DeathMountainCrater",
+      "era": "adult",
+      "x": 29.2,
+      "y": 110.7,
+      "z": -5.8
+    },
+    {
+      "hash": 4012111049,
+      "stage": "DeathMountainCrater",
+      "era": "adult",
+      "x": 20.7,
+      "y": 115.8,
+      "z": 12.7
+    },
+    {
+      "hash": 2222919848,
+      "stage": "DodongoCavern",
+      "x": 55.6,
+      "y": 103.5,
+      "z": -14.9
+    },
+    {
+      "hash": 2841792613,
+      "stage": "FireTemple",
+      "x": 41.9,
+      "y": 157,
+      "z": -10.5
+    },
+    {
+      "hash": 2778616495,
+      "stage": "ForestTemple",
+      "x": 41.3,
+      "y": 113.3,
+      "z": -38
+    },
+    {
+      "hash": 801358676,
+      "stage": "GerudoFortress",
+      "era": "adult",
+      "x": 56,
+      "y": 131.5,
+      "z": -80
+    },
+    {
+      "hash": 766797667,
+      "stage": "GerudoTrainingGround",
+      "x": 1.5,
+      "y": 106,
+      "z": -63.1
+    },
+    {
+      "hash": 461007500,
+      "stage": "LakeHylia",
+      "era": "adult",
+      "x": -106.1,
+      "y": 131.1,
+      "z": 472.4
+    },
+    {
+      "hash": 3141843730,
+      "stage": "LakeHylia",
+      "era": "adult",
+      "x": -211.7,
+      "y": 131.3,
+      "z": 529.6
+    },
+    {
+      "hash": 728903222,
+      "stage": "LakeHylia",
+      "era": "adult",
+      "x": -175.3,
+      "y": 146.7,
+      "z": 417.5
+    },
+    {
+      "hash": 1002171601,
+      "stage": "SacredForestMeadow",
+      "era": "adult",
+      "x": -11.1,
+      "y": 104.6,
+      "z": 48.1
+    },
+    {
+      "hash": 658088559,
+      "stage": "ShadowTemple",
+      "x": 106.3,
+      "y": 51.1,
+      "z": -45.9
+    },
+    {
+      "hash": 2717209566,
+      "stage": "ShadowTemple",
+      "x": -157.3,
+      "y": 52.5,
+      "z": -29.8
+    },
+    {
+      "hash": 2343074732,
+      "stage": "SpiritTemple",
+      "x": -17.8,
+      "y": 129.1,
+      "z": -67.4
+    },
+    {
+      "hash": 3946330389,
+      "stage": "WaterTemple",
+      "x": -19,
+      "y": 124.4,
+      "z": 11.3
+    },
+    {
+      "hash": 8997939,
+      "stage": "ZoraFountain",
+      "era": "adult",
+      "x": 28.8,
+      "y": 108.5,
+      "z": -0.5
+    }
+  ],
+  "grottos": [
+    {
+      "hash": 978003338,
+      "stage": "DeathMountainCrater",
+      "x": -17.4,
+      "y": 125,
+      "z": 52.6
+    },
+    {
+      "hash": 3828509388,
+      "stage": "DeathMountainCrater",
+      "x": -50.8,
+      "y": 117.3,
+      "z": -0.2
+    },
+    {
+      "hash": 812105097,
+      "stage": "DeathMountainTrail",
+      "x": -1.6,
+      "y": 120.2,
+      "z": -26.1
+    },
+    {
+      "hash": 1158660097,
+      "stage": "DeathMountainTrail",
+      "x": -13.4,
+      "y": 140.2,
+      "z": -6.8
+    },
+    {
+      "hash": 1048012773,
+      "stage": "DesertColossus",
+      "x": -115.5,
+      "y": 94,
+      "z": -26.7
+    },
+    {
+      "hash": 3782324224,
+      "stage": "GerudoFortress",
+      "era": "adult",
+      "x": 33.2,
+      "y": 112.6,
+      "z": -67.8
+    },
+    {
+      "hash": 472324546,
+      "stage": "GerudoValley",
+      "x": 11.5,
+      "y": 90.5,
+      "z": 36.5
+    },
+    {
+      "hash": 3970271899,
+      "stage": "GerudoValley",
+      "x": -45.3,
+      "y": 101.1,
+      "z": -29
+    },
+    {
+      "hash": 4197991014,
+      "stage": "GoronCity",
+      "x": -42.2,
+      "y": 112.7,
+      "z": 29.3
+    },
+    {
+      "hash": 3530549324,
+      "stage": "Graveyard",
+      "x": 21.4,
+      "y": 103,
+      "z": 23.2
+    },
+    {
+      "hash": 2840663379,
+      "stage": "Graveyard",
+      "x": 21.5,
+      "y": 102.9,
+      "z": 11.2
+    },
+    {
+      "hash": 557338836,
+      "stage": "Graveyard",
+      "x": 4,
+      "y": 101.4,
+      "z": 5.8
+    },
+    {
+      "hash": 425493397,
+      "stage": "Graveyard",
+      "era": "adult",
+      "x": -4,
+      "y": 102.9,
+      "z": -10.9
+    },
+    {
+      "hash": 3538062627,
+      "stage": "HyruleCastle",
+      "x": 35.9,
+      "y": 117.3,
+      "z": -106.2
+    },
+    {
+      "hash": 1028854640,
+      "stage": "HyruleField",
+      "x": 39.9,
+      "y": 148.3,
+      "z": 26.6
+    },
+    {
+      "hash": 3489218643,
+      "stage": "HyruleField",
+      "x": -98,
+      "y": 146.5,
+      "z": 17.1
+    },
+    {
+      "hash": 3906560511,
+      "stage": "HyruleField",
+      "x": -13.2,
+      "y": 149.7,
+      "z": 169.5
+    },
+    {
+      "hash": 3166745972,
+      "stage": "HyruleField",
+      "x": 163.3,
+      "y": 155.7,
+      "z": 27.4
+    },
+    {
+      "hash": 738331607,
+      "stage": "HyruleField",
+      "x": -258.3,
+      "y": 140.9,
+      "z": 137.9
+    },
+    {
+      "hash": 1602403242,
+      "stage": "HyruleField",
+      "x": -156.1,
+      "y": 144.2,
+      "z": 338.4
+    },
+    {
+      "hash": 564703352,
+      "stage": "HyruleField",
+      "x": 39.9,
+      "y": 144.7,
+      "z": 342.3
+    },
+    {
+      "hash": 510204008,
+      "stage": "HyruleField",
+      "x": 179.8,
+      "y": 156.6,
+      "z": 190.5
+    },
+    {
+      "hash": 4070037617,
+      "stage": "HyruleField",
+      "x": -204.7,
+      "y": 137.6,
+      "z": 455.5
+    },
+    {
+      "hash": 4009243187,
+      "stage": "HyruleField",
+      "era": "child",
+      "x": -36.4,
+      "y": 150.7,
+      "z": 290.7
+    },
+    {
+      "hash": 177228195,
+      "stage": "KakarikoVillage",
+      "x": -20,
+      "y": 102,
+      "z": 66
+    },
+    {
+      "hash": 3940174360,
+      "stage": "KakarikoVillage",
+      "x": -26.8,
+      "y": 100,
+      "z": 12.4
+    },
+    {
+      "hash": 2994027404,
+      "stage": "KokiriForest",
+      "x": -51.9,
+      "y": 121.6,
+      "z": -62.8
+    },
+    {
+      "hash": 1224950698,
+      "stage": "LostWood",
+      "x": 27.8,
+      "y": 100,
+      "z": -28.3
+    },
+    {
+      "hash": 3566012881,
+      "stage": "LostWood",
+      "x": 3.8,
+      "y": 99.3,
+      "z": -47.5
+    },
+    {
+      "hash": 3917320704,
+      "stage": "LostWood",
+      "x": 20.4,
+      "y": 100,
+      "z": -75.6
+    },
+    {
+      "hash": 3428386879,
+      "stage": "SacredForestMeadow",
+      "x": -1.6,
+      "y": 100,
+      "z": 51.2
+    },
+    {
+      "hash": 1124242407,
+      "stage": "SacredForestMeadow",
+      "x": -4.2,
+      "y": 100,
+      "z": 1.9
+    },
+    {
+      "hash": 4070389294,
+      "stage": "SacredForestMeadow",
+      "x": 1.3,
+      "y": 114.4,
+      "z": -85.5
+    },
+    {
+      "hash": 3383948080,
+      "stage": "ZoraDomain",
+      "x": 17,
+      "y": 100.2,
+      "z": -18.3
+    },
+    {
+      "hash": 1877287449,
+      "stage": "ZoraRiver",
+      "x": -15.7,
+      "y": 115.2,
+      "z": 14.8
+    },
+    {
+      "hash": 378479325,
+      "stage": "ZoraRiver",
+      "x": -78.1,
+      "y": 99.1,
+      "z": -16.8
+    },
+    {
+      "hash": 1970157648,
+      "stage": "ZoraRiver",
+      "x": 5.2,
+      "y": 114.2,
+      "z": -16.3
+    }
+  ]
+}

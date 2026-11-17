@@ -1,0 +1,85 @@
+# Third-party notices
+
+## Bundled libraries
+
+- **koffi** by Niels Martignène, MIT License (https://github.com/Koromix/koffi). Used to
+  read the running game's memory through Windows' `ReadProcessMemory` (read-only).
+- Electron, React and the build tools listed in `package.json`, under their own licenses.
+
+## Application and images
+
+The [Ocarina Atlas](https://github.com/antonioalvromero/Ocarina-Atlas) supplies Hyrule and dungeon maps,
+collectible coordinates, save-key mappings, location screenshots, and the map calibration, dungeon floor
+heights and player-position memory chain used to draw Link on the map (`src/core/position.ts`, `src/gamedata/player.ts`). Its MIT license is included in
+`docs/atlas-license.txt`. Ocarina Atlas credits the base atlas and gameplay imagery to Nintendúo.
+Enemy renders and region images were obtained from the
+[Mt. Wildwood Zelda Wiki](https://zelda.mtwildwood.net/en-gb/), with individual references in
+`src/renderer/reference-images.json`. Game imagery belongs to its respective rights holders.
+
+Inventory, collectible and HUD images were sourced from the
+[Zelda Wiki Switch 2 sprite gallery](https://zeldawiki.wiki/wiki/Category:Ocarina_of_Time_(Nintendo_Switch_2)_Sprites),
+its [model gallery](https://zeldawiki.wiki/wiki/Category:Ocarina_of_Time_(Nintendo_Switch_2)_Models),
+and [Mt. Wildwood Zelda Wiki](https://zelda.mtwildwood.net/en-gb/items/). Original image URLs
+are recorded in `src/renderer/item-images.json`. The tracker bundles resized WebP copies
+for offline use.
+
+## References
+
+No code from the projects below is included in this repository at this time. They were
+used as references, and their mapping facts (which key hash means what) may be reused
+in `data/save-mapping.json`, with credit there per entry.
+
+## OOT-SW2SE, by Traiver — MIT License
+https://github.com/Traiver/OOT-SW2SE
+Reference for the GameData format and key meanings. Its key-name schema was used only to
+cross-check the names this project derives from the user's own game files (1,817 shared
+names, 0 conflicts).
+
+## The Legend of Zelda: Ocarina of Time Switch 2 Save Editor, by dlr-developer — MIT License
+https://github.com/dlr-developer/the-legend-of-zelda-ocarina-of-time-switch-2-save-editor
+Reference for key hashes (wallets, capacity tiers, ammo, token and heart-piece counts,
+stones, medallions, songs, trade items).
+
+## Clawshot, by Kareem Albaba and the Clawshot contributors — MIT License
+https://github.com/hiKareeem/Clawshot
+Reference for the remake's logic in `data/logic.json`: which checks moved or need different
+items than in the original game, that the clock only starts once Link has met Zelda, and how the
+remake routes its dungeons. Facts only, rewritten in this project's own format; no code or data
+files copied. Its object ids (game facts) also give the save keys in `data/save-mapping.json`
+for Gold Skulltulas, loose heart pieces, boss heart containers and chest heart pieces (a chest's
+open state is the Bool `IsTreasureBoxOpen.<object id>`, as its notes record), credited per entry.
+
+## OoT Randomizer, by the OoTRandomizer contributors — MIT License
+https://github.com/OoTRandomizer/OoT-Randomizer
+The original game's requirements per check, as Clawshot translates them; the base the remake's
+changes above apply to.
+
+## Hookshot, by NotRexed — GPL-3.0
+https://github.com/NotRexed/Hookshot
+Save-folder discovery ideas only. No code copied (GPL-3.0 code would change this
+project's license).
+
+## Published guides (facts only, no text copied)
+- Zelda Central's Ocarina of Time remake guides (https://zeldacentral.com/games/ocarina-of-time-remake/):
+  the checklist's Gold Skulltula and heart piece numbering, and where each numbered one is.
+- Video Games Chronicle's per-dungeon Gold Skulltula lists and Nintendo Life's heart piece guide:
+  second sources for the dungeon Skulltulas and the Magic Bean heart pieces.
+
+The location descriptions in `data/descriptions.json` were written for this project from these
+facts; no guide text is reproduced.
+
+## Format write-ups for Tears of the Kingdom saves
+General GameData container background (Murmur3 keys, typed sections).
+
+---
+
+## Checklist
+
+`data/checklist.json` lists item names, numbers and areas only (game facts). Category
+totals were cross-checked against several public 100% guides; no guide text is included.
+
+---
+
+The Legend of Zelda and Ocarina of Time are trademarks of Nintendo. Hyrule Tracker is an independent
+fan project. The game executable, keys and player saves are supplied by the player's own installation.
+Optional readable key-name tables are built locally and stay in gitignored folders.

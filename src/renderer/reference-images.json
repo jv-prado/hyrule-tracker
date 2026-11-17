@@ -1,0 +1,572 @@
+{
+  "bosses:barinade": {
+    "file": "images/reference/bosses-barinade.webp",
+    "name": "Barinade",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/barinade/"
+  },
+  "bosses:big-octo": {
+    "file": "images/reference/bosses-big-octo.webp",
+    "name": "Big Octo",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/big-octo/"
+  },
+  "bosses:bongo-bongo": {
+    "file": "images/reference/bosses-bongo-bongo.webp",
+    "name": "Bongo Bongo",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/bongo-bongo/"
+  },
+  "bosses:dark-link": {
+    "file": "images/reference/bosses-dark-link.webp",
+    "name": "Dark Link",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/dark-link/"
+  },
+  "bosses:dead-hand": {
+    "file": "images/reference/bosses-dead-hand.webp",
+    "name": "Dead Hand",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/dead-hand/"
+  },
+  "bosses:dinolfos": {
+    "file": "images/reference/bosses-dinolfos.webp",
+    "name": "Dinolfos",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/dinolfos/"
+  },
+  "bosses:flare-dancer": {
+    "file": "images/reference/bosses-flare-dancer.webp",
+    "name": "Flare Dancer",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/flare-dancer/"
+  },
+  "bosses:ganon": {
+    "file": "images/reference/bosses-ganon.webp",
+    "name": "Ganon",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/ganon/"
+  },
+  "bosses:ganondorf": {
+    "file": "images/reference/bosses-ganondorf.webp",
+    "name": "Ganondorf",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/ganondorf/"
+  },
+  "bosses:gerudo-thief": {
+    "file": "images/reference/bosses-gerudo-thief.webp",
+    "name": "Gerudo Thief",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/gerudo-thief/"
+  },
+  "bosses:gohma": {
+    "file": "images/reference/bosses-gohma.webp",
+    "name": "Gohma",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/gohma/"
+  },
+  "bosses:iron-knuckle": {
+    "file": "images/reference/bosses-iron-knuckle.webp",
+    "name": "Iron Knuckle",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/iron-knuckle/"
+  },
+  "bosses:king-dodongo": {
+    "file": "images/reference/bosses-king-dodongo.webp",
+    "name": "King Dodongo",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/king-dodongo/"
+  },
+  "bosses:kotake": {
+    "file": "images/reference/bosses-kotake.webp",
+    "name": "Kotake",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/kotake/"
+  },
+  "bosses:koume": {
+    "file": "images/reference/bosses-koume.webp",
+    "name": "Koume",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/koume/"
+  },
+  "bosses:lizalfos": {
+    "file": "images/reference/bosses-lizalfos.webp",
+    "name": "Lizalfos",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/lizalfos/"
+  },
+  "bosses:meg-firstborn": {
+    "file": "images/reference/bosses-meg-firstborn.webp",
+    "name": "Meg, Firstborn",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/meg-firstborn/"
+  },
+  "bosses:morpha": {
+    "file": "images/reference/bosses-morpha.webp",
+    "name": "Morpha",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/morpha/"
+  },
+  "bosses:phantom-ganon": {
+    "file": "images/reference/bosses-phantom-ganon.webp",
+    "name": "Phantom Ganon",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/phantom-ganon/"
+  },
+  "bosses:twinrova": {
+    "file": "images/reference/bosses-twinrova.webp",
+    "name": "Twinrova",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/twinrova/"
+  },
+  "bosses:volvagia": {
+    "file": "images/reference/bosses-volvagia.webp",
+    "name": "Volvagia",
+    "source": "https://zelda.mtwildwood.net/en-gb/bosses/volvagia/"
+  },
+  "dungeons:bottom-of-the-well": {
+    "file": "images/reference/dungeons-bottom-of-the-well.webp",
+    "name": "Bottom of the Well",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/bottom-of-the-well/"
+  },
+  "dungeons:dodongo-cavern": {
+    "file": "images/reference/dungeons-dodongo-cavern.webp",
+    "name": "Dodongo Cavern",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/dodongo-cavern/"
+  },
+  "dungeons:fire-temple": {
+    "file": "images/reference/dungeons-fire-temple.webp",
+    "name": "Fire Temple",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/fire-temple/"
+  },
+  "dungeons:forest-temple": {
+    "file": "images/reference/dungeons-forest-temple.webp",
+    "name": "Forest Temple",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/forest-temple/"
+  },
+  "dungeons:gerudo-proving-grounds": {
+    "file": "images/reference/dungeons-gerudo-proving-grounds.webp",
+    "name": "Chest",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/gerudo-proving-grounds/"
+  },
+  "dungeons:great-deku-tree": {
+    "file": "images/reference/dungeons-great-deku-tree.webp",
+    "name": "Great Deku Tree",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/great-deku-tree/"
+  },
+  "dungeons:ice-cavern": {
+    "file": "images/reference/dungeons-ice-cavern.webp",
+    "name": "Ice Cavern",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/ice-cavern/"
+  },
+  "dungeons:inside-ganondorfs-castle": {
+    "file": "images/reference/dungeons-inside-ganondorfs-castle.webp",
+    "name": "Chest",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/inside-ganondorfs-castle/"
+  },
+  "dungeons:lord-jabu-jabus-belly": {
+    "file": "images/reference/dungeons-lord-jabu-jabus-belly.webp",
+    "name": "Lord Jabu-Jabu's Belly",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/lord-jabu-jabus-belly/"
+  },
+  "dungeons:shadow-temple": {
+    "file": "images/reference/dungeons-shadow-temple.webp",
+    "name": "Shadow Temple",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/shadow-temple/"
+  },
+  "dungeons:spirit-temple": {
+    "file": "images/reference/dungeons-spirit-temple.webp",
+    "name": "Spirit Temple",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/spirit-temple/"
+  },
+  "dungeons:water-temple": {
+    "file": "images/reference/dungeons-water-temple.webp",
+    "name": "Water Temple",
+    "source": "https://zelda.mtwildwood.net/en-gb/dungeons/water-temple/"
+  },
+  "enemies:amy-fourth-born": {
+    "file": "images/reference/enemies-amy-fourth-born.webp",
+    "name": "Amy, Fourth Born",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/amy-fourth-born/"
+  },
+  "enemies:anubis": {
+    "file": "images/reference/enemies-anubis.webp",
+    "name": "Anubis",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/anubis/"
+  },
+  "enemies:armos": {
+    "file": "images/reference/enemies-armos.webp",
+    "name": "Armos",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/armos/"
+  },
+  "enemies:baby-dodongo": {
+    "file": "images/reference/enemies-baby-dodongo.webp",
+    "name": "Baby Dodongo",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/baby-dodongo/"
+  },
+  "enemies:bari": {
+    "file": "images/reference/enemies-bari.webp",
+    "name": "Bari",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/bari/"
+  },
+  "enemies:beamos": {
+    "file": "images/reference/enemies-beamos.webp",
+    "name": "Beamos",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/beamos/"
+  },
+  "enemies:beth-third-born": {
+    "file": "images/reference/enemies-beth-third-born.webp",
+    "name": "Beth, Third Born",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/beth-third-born/"
+  },
+  "enemies:big-poe": {
+    "file": "images/reference/enemies-big-poe.webp",
+    "name": "Big Poe",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/big-poe/"
+  },
+  "enemies:biri": {
+    "file": "images/reference/enemies-biri.webp",
+    "name": "Biri",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/biri/"
+  },
+  "enemies:blue-bubble": {
+    "file": "images/reference/enemies-blue-bubble.webp",
+    "name": "Blue Bubble",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/blue-bubble/"
+  },
+  "enemies:blue-tektite": {
+    "file": "images/reference/enemies-blue-tektite.webp",
+    "name": "Blue Tektite",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/blue-tektite/"
+  },
+  "enemies:business-scrub": {
+    "file": "images/reference/enemies-business-scrub.webp",
+    "name": "Business Scrub",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/business-scrub/"
+  },
+  "enemies:deku-baba": {
+    "file": "images/reference/enemies-deku-baba.webp",
+    "name": "Deku Baba",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/deku-baba/"
+  },
+  "enemies:deku-scrub": {
+    "file": "images/reference/enemies-deku-scrub.webp",
+    "name": "Deku Scrub",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/deku-scrub/"
+  },
+  "enemies:dodongo": {
+    "file": "images/reference/enemies-dodongo.webp",
+    "name": "Dodongo",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/dodongo/"
+  },
+  "enemies:false-door": {
+    "file": "images/reference/enemies-false-door.webp",
+    "name": "False Door",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/false-door/"
+  },
+  "enemies:fire-keese": {
+    "file": "images/reference/enemies-fire-keese.webp",
+    "name": "Fire Keese",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/fire-keese/"
+  },
+  "enemies:flat-the-younger": {
+    "file": "images/reference/enemies-flat-the-younger.webp",
+    "name": "Flat the Younger",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/flat-the-younger/"
+  },
+  "enemies:floormaster": {
+    "file": "images/reference/enemies-floormaster.webp",
+    "name": "Floormaster",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/floormaster/"
+  },
+  "enemies:flying-pot": {
+    "file": "images/reference/enemies-flying-pot.webp",
+    "name": "Flying Pot",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/flying-pot/"
+  },
+  "enemies:flying-tile": {
+    "file": "images/reference/enemies-flying-tile.webp",
+    "name": "Flying Tile",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/flying-tile/"
+  },
+  "enemies:freezard": {
+    "file": "images/reference/enemies-freezard.webp",
+    "name": "Freezard",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/freezard/"
+  },
+  "enemies:gibdo": {
+    "file": "images/reference/enemies-gibdo.webp",
+    "name": "Gibdo",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/gibdo/"
+  },
+  "enemies:gohma-egg": {
+    "file": "images/reference/enemies-gohma-egg.webp",
+    "name": "Gohma Egg",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/gohma-egg/"
+  },
+  "enemies:gohma-larva": {
+    "file": "images/reference/enemies-gohma-larva.webp",
+    "name": "Gohma Larva",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/gohma-larva/"
+  },
+  "enemies:gold-skulltula": {
+    "file": "images/reference/enemies-gold-skulltula.webp",
+    "name": "Gold Skulltula",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/gold-skulltula/"
+  },
+  "enemies:great-moblin": {
+    "file": "images/reference/enemies-great-moblin.webp",
+    "name": "Great Moblin",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/great-moblin/"
+  },
+  "enemies:green-bubble": {
+    "file": "images/reference/enemies-green-bubble.webp",
+    "name": "Green Bubble",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/green-bubble/"
+  },
+  "enemies:guay": {
+    "file": "images/reference/enemies-guay.webp",
+    "name": "Guay",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/guay/"
+  },
+  "enemies:ice-keese": {
+    "file": "images/reference/enemies-ice-keese.webp",
+    "name": "Ice Keese",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/ice-keese/"
+  },
+  "enemies:jo-second-born": {
+    "file": "images/reference/enemies-jo-second-born.webp",
+    "name": "Jo, Second Born",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/jo-second-born/"
+  },
+  "enemies:keese": {
+    "file": "images/reference/enemies-keese.webp",
+    "name": "Keese",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/keese/"
+  },
+  "enemies:leever": {
+    "file": "images/reference/enemies-leever.webp",
+    "name": "Leever",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/leever/"
+  },
+  "enemies:like-like": {
+    "file": "images/reference/enemies-like-like.webp",
+    "name": "Like Like",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/like-like/"
+  },
+  "enemies:mad-scrub": {
+    "file": "images/reference/enemies-mad-scrub.webp",
+    "name": "Mad Scrub",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/mad-scrub/"
+  },
+  "enemies:moblin": {
+    "file": "images/reference/enemies-moblin.webp",
+    "name": "Moblin",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/moblin/"
+  },
+  "enemies:octorok": {
+    "file": "images/reference/enemies-octorok.webp",
+    "name": "Octorok",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/octorok/"
+  },
+  "enemies:peahat": {
+    "file": "images/reference/enemies-peahat.webp",
+    "name": "Peahat",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/peahat/"
+  },
+  "enemies:peahat-larva": {
+    "file": "images/reference/enemies-peahat-larva.webp",
+    "name": "Peahat Larva",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/peahat-larva/"
+  },
+  "enemies:poe": {
+    "file": "images/reference/enemies-poe.webp",
+    "name": "Poe",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/poe/"
+  },
+  "enemies:red-bubble": {
+    "file": "images/reference/enemies-red-bubble.webp",
+    "name": "Red Bubble",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/red-bubble/"
+  },
+  "enemies:red-tektite": {
+    "file": "images/reference/enemies-red-tektite.webp",
+    "name": "Red Tektite",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/red-tektite/"
+  },
+  "enemies:redead": {
+    "file": "images/reference/enemies-redead.webp",
+    "name": "ReDead",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/redead/"
+  },
+  "enemies:shabom": {
+    "file": "images/reference/enemies-shabom.webp",
+    "name": "Shabom",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/shabom/"
+  },
+  "enemies:sharp-the-elder": {
+    "file": "images/reference/enemies-sharp-the-elder.webp",
+    "name": "Sharp the Elder",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/sharp-the-elder/"
+  },
+  "enemies:shell-blade": {
+    "file": "images/reference/enemies-shell-blade.webp",
+    "name": "Shell Blade",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/shell-blade/"
+  },
+  "enemies:skull-kid": {
+    "file": "images/reference/enemies-skull-kid.webp",
+    "name": "Skull Kid",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/skull-kid/"
+  },
+  "enemies:skulltula": {
+    "file": "images/reference/enemies-skulltula.webp",
+    "name": "Skulltula",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/skulltula/"
+  },
+  "enemies:skullwalltula": {
+    "file": "images/reference/enemies-skullwalltula.webp",
+    "name": "Skullwalltula",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/skullwalltula/"
+  },
+  "enemies:spike": {
+    "file": "images/reference/enemies-spike.webp",
+    "name": "Spike",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/spike/"
+  },
+  "enemies:stalchild": {
+    "file": "images/reference/enemies-stalchild.webp",
+    "name": "Stalchild",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/stalchild/"
+  },
+  "enemies:stalfos": {
+    "file": "images/reference/enemies-stalfos.webp",
+    "name": "Stalfos",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/stalfos/"
+  },
+  "enemies:stinger": {
+    "file": "images/reference/enemies-stinger.webp",
+    "name": "Stinger",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/stinger/"
+  },
+  "enemies:tailpasaran": {
+    "file": "images/reference/enemies-tailpasaran.webp",
+    "name": "Tailpasaran",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/tailpasaran/"
+  },
+  "enemies:torch-slug": {
+    "file": "images/reference/enemies-torch-slug.webp",
+    "name": "Torch Slug",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/torch-slug/"
+  },
+  "enemies:wallmaster": {
+    "file": "images/reference/enemies-wallmaster.webp",
+    "name": "Wallmaster",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/wallmaster/"
+  },
+  "enemies:white-bubble": {
+    "file": "images/reference/enemies-white-bubble.webp",
+    "name": "White Bubble",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/white-bubble/"
+  },
+  "enemies:white-wolfos": {
+    "file": "images/reference/enemies-white-wolfos.webp",
+    "name": "White Wolfos",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/white-wolfos/"
+  },
+  "enemies:wolfos": {
+    "file": "images/reference/enemies-wolfos.webp",
+    "name": "Wolfos",
+    "source": "https://zelda.mtwildwood.net/en-gb/enemies/wolfos/"
+  },
+  "places:death-mountain-crater": {
+    "file": "images/reference/places-death-mountain-crater.webp",
+    "name": "Death Mountain Crater",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/death-mountain-crater/"
+  },
+  "places:death-mountain-trail": {
+    "file": "images/reference/places-death-mountain-trail.webp",
+    "name": "Death Mountain Trail",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/death-mountain-trail/"
+  },
+  "places:evil-desert-colossus": {
+    "file": "images/reference/places-evil-desert-colossus.webp",
+    "name": "Evil Desert Colossus",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/evil-desert-colossus/"
+  },
+  "places:gerudo-fortress": {
+    "file": "images/reference/places-gerudo-fortress.webp",
+    "name": "Gerudo Fortress",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/gerudo-fortress/"
+  },
+  "places:gerudo-valley": {
+    "file": "images/reference/places-gerudo-valley.webp",
+    "name": "Gerudo Valley",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/gerudo-valley/"
+  },
+  "places:goron-city": {
+    "file": "images/reference/places-goron-city.webp",
+    "name": "Goron City",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/goron-city/"
+  },
+  "places:graveyard": {
+    "file": "images/reference/places-graveyard.webp",
+    "name": "Graveyard",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/graveyard/"
+  },
+  "places:hall-of-fallen-foes": {
+    "file": "images/reference/places-hall-of-fallen-foes.webp",
+    "name": "Chest",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/hall-of-fallen-foes/"
+  },
+  "places:hyrule-castle": {
+    "file": "images/reference/places-hyrule-castle.webp",
+    "name": "Hyrule Castle",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/hyrule-castle/"
+  },
+  "places:hyrule-castle-town": {
+    "file": "images/reference/places-hyrule-castle-town.webp",
+    "name": "Hyrule Castle Town",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/hyrule-castle-town/"
+  },
+  "places:hyrule-field": {
+    "file": "images/reference/places-hyrule-field.webp",
+    "name": "Hyrule Field",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/hyrule-field/"
+  },
+  "places:kakariko-village": {
+    "file": "images/reference/places-kakariko-village.webp",
+    "name": "Kakariko Village",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/kakariko-village/"
+  },
+  "places:kokiri-forest": {
+    "file": "images/reference/places-kokiri-forest.webp",
+    "name": "Kokiri Forest",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/kokiri-forest/"
+  },
+  "places:lake-hylia": {
+    "file": "images/reference/places-lake-hylia.webp",
+    "name": "Lake Hylia",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/lake-hylia/"
+  },
+  "places:lon-lon-ranch": {
+    "file": "images/reference/places-lon-lon-ranch.webp",
+    "name": "Lon Lon Ranch",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/lon-lon-ranch/"
+  },
+  "places:lost-woods": {
+    "file": "images/reference/places-lost-woods.webp",
+    "name": "Lost Woods",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/lost-woods/"
+  },
+  "places:mirage-desert": {
+    "file": "images/reference/places-mirage-desert.webp",
+    "name": "Mirage Desert",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/mirage-desert/"
+  },
+  "places:sacred-grove": {
+    "file": "images/reference/places-sacred-grove.webp",
+    "name": "Sacred Grove",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/sacred-grove/"
+  },
+  "places:temple-of-time": {
+    "file": "images/reference/places-temple-of-time.webp",
+    "name": "Temple of Time",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/temple-of-time/"
+  },
+  "places:zora-domain": {
+    "file": "images/reference/places-zora-domain.webp",
+    "name": "Zora Domain",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/zora-domain/"
+  },
+  "places:zora-fountain": {
+    "file": "images/reference/places-zora-fountain.webp",
+    "name": "Zora Fountain",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/zora-fountain/"
+  },
+  "places:zora-river": {
+    "file": "images/reference/places-zora-river.webp",
+    "name": "Zora River",
+    "source": "https://zelda.mtwildwood.net/en-gb/places/zora-river/"
+  }
+}
