@@ -138,7 +138,7 @@ export class Controller {
 
   /** Live position while following the latest save and the game can be read; else the save's. */
   private currentPlayer(): PlayerState | undefined {
-    const live = this.settings.data.pinnedSlot ? undefined : this.live?.player();
+    const live = this.state.slotMode === 'manual' ? undefined : this.live?.player();
     if (live) {
       const stage = live.scene ?? this.live?.current()?.data.entries.get(STAGE_KEY)?.value;
       const p = this.locate(typeof stage === 'string' ? stage : undefined, live.pos, 'live');
@@ -234,7 +234,7 @@ export class Controller {
   async refreshNow() {
     if (this.userDir) await this.refresh(true, true);
     else await this.scanFolders();
-    if (!this.settings.data.pinnedSlot) await this.live?.refreshNow();
+    if (this.state.slotMode === 'recent') await this.live?.refreshNow();
   }
 
   // ---- live (read-only) progress from the running game
@@ -402,7 +402,7 @@ export class Controller {
 
     // Where you are only says which spot you just collected when it's read live.
     if (samePlaythrough && fromWatcher) this.collectIdentifications(prev!.data, cur.data, stageIsLive ? nearRegions : undefined);
-    const manual = this.manualFor(slot.name);
+    const manual = this.manualFor(slot.name, !!pinned);
     const { categories, summary } = this.tracker.evaluate(cur.data, manual, samePlaythrough ? prev!.data : undefined);
     // A place inside the stage has no age of its own: take the stage's (_Child/_Adult).
     const age = rawArea !== stage ? stage?.match(/_(Adult|Child)$/)?.[0] ?? '' : '';
@@ -647,8 +647,8 @@ export class Controller {
     await this.refresh(false);
   }
 
-  private manualKey(slot: string) { return `${this.userDir}|${this.settings.data.pinnedSlot ? slot : '@recent'}`; }
-  private manualFor(slot: string) { return this.settings.data.manual[this.manualKey(slot)] ?? {}; }
+  private manualKey(slot: string, pinned = this.state.slotMode === 'manual') { return `${this.userDir}|${pinned ? slot : '@recent'}`; }
+  private manualFor(slot: string, pinned?: boolean) { return this.settings.data.manual[this.manualKey(slot, pinned)] ?? {}; }
 
   async toggleManual(itemId: string) {
     const slot = this.state.activeSlot;
