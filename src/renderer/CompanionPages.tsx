@@ -19,7 +19,7 @@ import { qrPath, qrTarget } from './qr';
 import { listedRegion, regionCounts, type MapBadgeStatus } from './mapCounts';
 import { ZoomPan } from './ZoomPan';
 import { onIllustratedMap } from '../core/mapLand';
-import { locatePlacement, type AtlasPlace as PositionPlace, type PlayerFix } from '../core/position';
+import { inDesertSandstorm, locatePlacement, type AtlasPlace as PositionPlace, type PlayerFix } from '../core/position';
 import atlas from '../../data/atlas.json';
 import { Quiz, useStored } from './Recreation';
 import { useModalDialog } from './useModalDialog';
@@ -587,6 +587,7 @@ function LivePlayerPin({ state, placeId, mapId }: { state: AppState; placeId?: s
   if (!player) return null;
   if (placeId === undefined) return <PlayerPin at={player.world} yaw={player.yaw} live={player.source === 'live'} />;
   if (player.placeId !== placeId || player.mapId !== mapId || !player.at) return null;
+  if (placeId === 'desierto' && inDesertSandstorm(player.pos.x, player.pos.z)) return null;
   return <PlayerPin at={player.at} yaw={player.yaw} live={player.source === 'live'} />;
 }
 

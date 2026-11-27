@@ -505,8 +505,21 @@
         "x": 0.1554,
         "y": 0.3466
       },
-      "startMap": null,
-      "maps": []
+      "startMap": "principal",
+      "maps": [
+        {
+          "id": "principal",
+          "label": "Main",
+          "image": "images/atlas/2ff6301e7f292004.svg",
+          "aspect": 1.2837,
+          "vb": {
+            "vx": 0,
+            "vy": 0,
+            "vw": 647,
+            "vh": 504
+          }
+        }
+      ]
     },
     {
       "id": "coloso",
@@ -3109,7 +3122,11 @@
       "id": "desierto-gs-01",
       "place": "desierto",
       "cat": "gs",
-      "at": null,
+      "at": {
+        "map": "principal",
+        "x": 0.5289,
+        "y": 0.1747
+      },
       "name": "Inside the monument",
       "age": "adult",
       "night": false,

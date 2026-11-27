@@ -445,12 +445,12 @@ const SCENE_TO_PLACE: Record<
   HountedWasteland: {
     placeId: 'desierto',
     defaultAge: 'adult',
-    capture: { camX: 6.0, camY: 100.0, camZ: -52.0, height: 645.0 },
+    capture: { camX: 6.0, camY: 100.0, camZ: -52.0, height: 645.0, scaleX: 2.2, cx: 307, scaleZ: 2.2, cz: 307 },
   },
   HauntedWasteland: {
     placeId: 'desierto',
     defaultAge: 'adult',
-    capture: { camX: 6.0, camY: 100.0, camZ: -52.0, height: 645.0 },
+    capture: { camX: 6.0, camY: 100.0, camZ: -52.0, height: 645.0, scaleX: 2.2, cx: 307, scaleZ: 2.2, cz: 307 },
   },
   DesertColossus: {
     placeId: 'coloso',
@@ -840,6 +840,16 @@ export function locatePlayer(rawScene: string | null | undefined, pos: PlayerPos
     if (bestD < Infinity) at = best.at;
   }
   return { placeId: place.id, mapId, at, world: projectToWorldMap(place, at), yaw: ((pos.yaw % 360) + 360) % 360, age };
+}
+
+/** The three stood places, in the same sheet coordinates as the drawing. Everywhere else on this floor is the sandstorm. */
+const DESERT_CLEAR = [[341.1, 122.9, 62], [86.6, 184.2, 54], [481.5, 379.2, 86]] as const;
+
+/** True when Link is in the unwalked sand, and not on the building, the gate, or the Colossus door. */
+export function inDesertSandstorm(x: number, z: number): boolean {
+  const sx = 307 + 2.2 * x;
+  const sy = 307 + 2.2 * z;
+  return !DESERT_CLEAR.some(([cx, cy, r]) => (sx - cx) ** 2 + (sy - cy) ** 2 <= r * r);
 }
 
 /**

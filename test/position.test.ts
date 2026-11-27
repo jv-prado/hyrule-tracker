@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import atlas from '../data/atlas.json';
-import { locatePlayer, normalizeSceneName, resolveEffectiveScene, determineDungeonFloor, type AtlasPlace } from '../src/core/position';
+import { locatePlayer, normalizeSceneName, resolveEffectiveScene, determineDungeonFloor, inDesertSandstorm, type AtlasPlace } from '../src/core/position';
 import { PlayerReader, parsePlayerStruct, sceneFromBuffer, MAIN_MOD0_OFFSET } from '../src/gamedata/player';
 import { GUEST_BASE, type Mem } from '../src/gamedata/live';
 
@@ -21,6 +21,14 @@ describe('position projection', () => {
   it('picks dungeon floors from height', () => {
     expect(determineDungeonFloor('fuego', 100)).toBe('1F');
     expect(determineDungeonFloor('fuego', 190)).toBe('5F');
+  });
+
+  it('hides Link in the desert sandstorm and keeps the three stood places', () => {
+    expect(inDesertSandstorm(15.5, -83.7)).toBe(false);
+    expect(inDesertSandstorm(79.3, 32.83)).toBe(false);
+    expect(inDesertSandstorm(-100.2, -55.8)).toBe(false);
+    expect(inDesertSandstorm(-1.8, -35.6)).toBe(true);
+    expect(inDesertSandstorm(116, 54)).toBe(true);
   });
 
   it('places Link from a real save (Zora Fountain, child) inside the map', () => {
