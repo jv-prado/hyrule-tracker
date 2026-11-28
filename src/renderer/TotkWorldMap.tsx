@@ -284,7 +284,7 @@ export function TotkWorldMap({ text, progress, mapTarget, manual, entries: suppl
   const side = panelOpen ? <aside className="map-side" aria-label={panelTitle}>
     <div className="map-side-head">
       <button className="map-side-collapse" type="button" aria-expanded="true" onClick={() => setPanelOpen(false)}
-        aria-label={text(['Recolher painel', 'Collapse panel'])}><Icon name="map" size={14} /></button>
+        aria-label={text(['Recolher painel', 'Collapse panel'])} title={text(['Recolher painel', 'Collapse panel'])}><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M4.1 2.2 7.9 6 4.1 9.8" /></svg></button>
       <b>{panelTitle}</b>
     </div>
     {!inRegion && !island ? <div className="map-side-body">
@@ -323,8 +323,8 @@ export function TotkWorldMap({ text, progress, mapTarget, manual, entries: suppl
       {pins.length > limit && <button type="button" className="small-btn" onClick={() => setLimit(limit + 60)}>{text(['Mostrar mais', 'Show more'])}</button>}
       {!pins.length && <p className="quiet">{text(['Nenhum item para este filtro.', 'No items match this filter.'])}</p>}
     </div>}
-  </aside> : <button type="button" className="map-panel-show action" onClick={() => setPanelOpen(true)}>
-    {panelTitle}</button>;
+  </aside> : <button type="button" className="map-panel-show action" aria-expanded="false" onClick={() => setPanelOpen(true)}>
+    <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M7.9 2.2 4.1 6l3.8 3.8" /></svg>{panelTitle}</button>;
   // A pin opens a card beside it on the map, as on the Ocarina region maps. Phones and touch screens dock it to the map's edge.
   // Near the top it starts below the map's options bar, which floats over the map.
   const cardItem = pins.find(item => item.id === cardId);
